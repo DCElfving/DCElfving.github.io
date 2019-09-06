@@ -22,16 +22,22 @@ h1, h2, h3, h4, h5, h6 {
 .red {
 	color: #c91616;
 }
+
+.caption {
+	margin: auto;
+	text-align: center;
+	font-size: .85em;
+}
 	
 	
 article {
 	width: 79%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: .5em;
-    margin-bottom: 1em;
+	margin-top: 0;
+    margin-bottom: 2.5em;
 	font-size: 1em;
-	line-height: 1.5;
+	line-height: 1.5em;
 	background-color: #ececec;
 	padding-left: 2em;
     padding-right: 2em;
@@ -67,7 +73,7 @@ article {
 	margin: 10px;
 }
 	
-@media (min-width: 700px) {	
+@media (min-width: 800px) {	
 	article {
 		width: 66%;
 		}
@@ -76,7 +82,7 @@ article {
 		}
 	}
 	
-@media (min-width: 900px) {	
+@media (min-width: 1000px) {	
 	article {
 		width: 55%;
 		}

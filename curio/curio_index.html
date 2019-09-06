@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Curio Adaptive</title>
+<link rel="stylesheet" type="text/css" href="curio_test.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body onload="setWidth();setPad()" onresize="setWidth();setPad()">
+
+<!-- passage wrapper -->
+<div id="main">
+
+<!-- title box -->
+<div id="titlebox">
+<div class="title">This is an adaptive layout for Twine.</div>
+</div>
+<!-- end title box-->
+	
+	
+<!-- text box -->
+<div id="textbox">
+<p>And this is some text to experiment with. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+<p>And this is some text to experiment with. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+<p>And this is some text to experiment with. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<!-- end text box-->	
+
+
+</div>
+<!-- end passage wrapper -->
+
+</body>
+</html>	
+
+
+<!--scripts for maintaining aspect ratio of title box -->
+<script type="text/javascript">
+	function setWidth (){
+	let divWidth = document.getElementById('titlebox').offsetWidth;
+	let divHeight = divWidth * 0.666 + 'px';
+	document.getElementById('titlebox').style.height = divHeight;
+	}
+	
+	function setPad () {
+	let mainWidth = document.getElementById('main').offsetWidth;
+	let mainPad = mainWidth * 0.05 + 'px';
+	document.getElementById('main').style.paddingTop = mainPad;
+	}
+</script>
