@@ -1,6 +1,4 @@
-body {
-}
-
+/* Centering Block */
 .container {
   position: absolute;
   top: 50%;
@@ -11,6 +9,7 @@ body {
   overflow: hidden;
 }
 
+/* Initial Placement and State */
 .frame {
   position: absolute;
   left: 950px;
@@ -23,9 +22,10 @@ body {
   border-radius: 50%
 }
 
+/* First Photo */
 .morph {
   animation:
-    .5s ease-in forwards slide,
+   .5s ease-in forwards slide,
    .5s ease-in .5s forwards grow;
 }
 
@@ -41,6 +41,8 @@ body {
   to {left: 0px}
 }
 
+
+/* Second Photo */
 .morph2 {
   animation:
     .5s ease-in .5s forwards slide2,
@@ -51,6 +53,9 @@ body {
   to {left: 320px;}
 }
 
+
+
+/* Third Photo */
 .morph3 {
   animation:
     .5s ease-in 1s forwards slide3,
