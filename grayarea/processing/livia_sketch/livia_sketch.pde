@@ -17,9 +17,8 @@ void draw() {
   camera(0, 0, height * 1.2,
     0, 0, 0,
     0, -1, 0);
-    translate(-35, -70, 1080);
+    translate(-40, -70, 1080);
     
-  livia.rotateY(.01);
   for (int i = 0; i < childCount; ++i) {
     float n = i / float(childCount);
     children[i].translate(
