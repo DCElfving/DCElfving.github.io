@@ -11,7 +11,7 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="Curio" startnode="20" creator="Twine" creator-version="2.3.3" ifid="D518EC83-9F69-4B36-AE8B-916FB62DBFBF" zoom="0.6" format="Harlowe" format-version="3.0.2" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">body, tw-story, tw-passage {
+<tw-storydata name="Curio_Harlowe" startnode="20" creator="Twine" creator-version="2.3.3" ifid="D518EC83-9F69-4B36-AE8B-916FB62DBFBF" zoom="0.6" format="Harlowe" format-version="3.0.2" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">body, tw-story, tw-passage {
   background-color: #000;
   font-family: times, serif;
   color: #fff;
@@ -130,7 +130,7 @@ tw-collapsed {
   height: 100%;
   width: 100%;
 }
-  
+
 .opening {
   display: table-cell;
   width: 100%;
@@ -144,22 +144,22 @@ tw-collapsed {
 
 .opening tw-link {
   font-size: 9em;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript">(function ($) {	
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript">(function ($) {
 	$(document.createElement('script'))
 	  .attr({
 		 src  : '/setHeight.js',
 	})
-	.appendTo(document.head);	
-	
+	.appendTo(document.head);
+
 	$(document.createElement('meta'))
 	  .attr({
 		 name : 'viewport',
 		 content : 'width=device-width, initial-scale=1',
 	})
-	.appendTo(document.head);	
+	.appendTo(document.head);
 
   $(document.body).attr('onload', 'setHeight();');
-	$(document.body).attr('onresize', 'setHeight();');	
+	$(document.body).attr('onresize', 'setHeight();');
 })(jQuery);</script><tw-passagedata pid="1" name="The Vent" tags="hide_footer" position="1000,777" size="200,100">{
 &lt;!-- Box --&gt;
 (set: $box_top to (a:))
@@ -299,7 +299,7 @@ A beautiful, mysterious box of teak inlaid with silver. Lia&#39;s mismatched Chu
 &lt;!-- END SECOND OPEN 1 --&gt;
 
 &lt;!-- EVERGREEN --&gt;
-&lt;p&gt;(if: $dw1_count is &gt;= 2 and $dw1_things&#39;s length is &lt; 4)[&lt;span class=&quot;cap&quot;&gt;T&lt;/span&gt;](else:)[T]he drawer is lined throughout with a pale blue nautical map. A blue-black feather is affixed to the bottom with the typewritten lable: &lt;span class=&quot;type&quot;&gt;Cyanocitta Stelleri&lt;/span&gt;.&lt;p&gt; 
+&lt;p&gt;(if: $dw1_count is &gt;= 2 and $dw1_things&#39;s length is &lt; 4)[&lt;span class=&quot;cap&quot;&gt;T&lt;/span&gt;](else:)[T]he drawer is lined throughout with a pale blue nautical map. A blue-black feather is affixed to the bottom with the typewritten lable: &lt;span class=&quot;type&quot;&gt;Cyanocitta Stelleri&lt;/span&gt;.&lt;p&gt;
 
 &lt;p&gt;Beneath it, in expertly crafted compartments you see:&lt;/p&gt;
 
@@ -441,7 +441,7 @@ A first person view of the stone, held aloft.
 (if: $item is $stone and $stone_box is 1)[
 &lt;p&gt;The sound of the restaurant grows louder. You can&#39;t discern the language you hear, but it seems Scandinavian.&lt;/p&gt;
 
-&lt;p&gt;Dim figures flicker into view, projected by the strange box. You see a man and a woman, seated at an elegant table.&lt;/p&gt; 
+&lt;p&gt;Dim figures flicker into view, projected by the strange box. You see a man and a woman, seated at an elegant table.&lt;/p&gt;
 
 &lt;p&gt;A server delivers a trey of oysters artfully aranged on polished river stones. To his embarassment, a stone tumbles to the table.&lt;/p&gt;
 
@@ -486,7 +486,7 @@ As the scene dissapates, the stone hangs in the air spinning. After a moment, it
 
 &lt;p&gt;&amp;#8618;(link: &quot;Return to the drawer.&quot;)[
 	(set: $item to &quot;&quot;)
-	(goto: $last_passage)]&lt;/p&gt; 
+	(goto: $last_passage)]&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -496,7 +496,7 @@ As the scene dissapates, the stone hangs in the air spinning. After a moment, it
 &lt;!--Titlebox--&gt;
 &lt;div id=&quot;titlebox&quot;&gt;
 &lt;div id=&quot;title&quot;&gt;
-A top down view of the box and the items placed on it. 
+A top down view of the box and the items placed on it.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;!--End Titlebox--&gt;
@@ -600,7 +600,7 @@ A first person view of the poker chip, held aloft.
 function setHeight() {
 	let divWidth = document.getElementById(&#39;titlebox&#39;).offsetWidth;
   let divHeight = divWidth * 0.666 + &#39;px&#39;;
-  document.getElementById(&#39;titlebox&#39;).style.height = divHeight;	
+  document.getElementById(&#39;titlebox&#39;).style.height = divHeight;
 }
 
 window.onload = &quot;setHeight()&quot;;
@@ -676,7 +676,7 @@ A first person view of the jade hook, held aloft.
 
 &lt;p&gt;You hear the winches and cables of the boat as it tacks, the boom swinging to catch the wind. It&#39;s as if you&#39;re &lt;i&gt;on&lt;/i&gt; the boat. Lia hears it too.&lt;p&gt;
 
-&lt;p&gt;&lt;q&gt;&quot;Can I see it?&quot;&lt;/q&gt; Lia peers closely at the sailboat as you hold it up.&lt;/p&gt; 
+&lt;p&gt;&lt;q&gt;&quot;Can I see it?&quot;&lt;/q&gt; Lia peers closely at the sailboat as you hold it up.&lt;/p&gt;
 
 &lt;p&gt;&quot;I didn&#39;t go to my grandmother&#39;s funeral. But my parents brought this back for me. They said she wanted me to have it.&lt;br/&gt;&lt;br/&gt;
 
@@ -728,7 +728,7 @@ A first person view of the brass sailboat, held aloft.
 &lt;div id=&quot;textbox&quot;&gt;
 &lt;div id=&quot;text&quot;&gt;
 
-&lt;p&gt;&lt;span class=&quot;cap&quot;&gt;A&lt;/span&gt;s you attempt to set the $item beside the other items, the box seems to fade away and dissapate. Apparently it&#39;s only possible to set two items down at a time.&lt;/p&gt; 
+&lt;p&gt;&lt;span class=&quot;cap&quot;&gt;A&lt;/span&gt;s you attempt to set the $item beside the other items, the box seems to fade away and dissapate. Apparently it&#39;s only possible to set two items down at a time.&lt;/p&gt;
 
 &lt;p&gt;&lt;q&gt;Two circles, two things. Gotcha.&lt;/q&gt; mutters Lia.&lt;/p&gt;
 
@@ -760,7 +760,7 @@ The box fading away as it resists a thrid item.
 
 &lt;p&gt;&lt;span class=&quot;cap&quot;&gt;A&lt;/span&gt;n incredibly interesting and revealing scene plays out. Beside you, Lia stares agog at what transpires. As the figures flicker out, she turns to you and asks &lt;q&gt;Do you know them?&lt;/q&gt;&lt;/p&gt;
 
-&lt;p&gt;Seeing your puzzled expression, she answers herself.&lt;/p&gt; 
+&lt;p&gt;Seeing your puzzled expression, she answers herself.&lt;/p&gt;
 
 &lt;p&gt;&lt;q&gt;I guess not.&lt;/q&gt;&lt;/p&gt;
 
@@ -770,7 +770,7 @@ The box fading away as it resists a thrid item.
 (link: &quot;&lt;q&gt;Hey...check &lt;i&gt;that&lt;/i&gt; out&lt;/q&gt;.&quot;)[
 	(set: $item to &quot;&quot;)
 	(goto: &quot;Top&quot;)
-]&lt;/p&gt; 
+]&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -799,7 +799,7 @@ Characters standing in space. The box visble in the background.
 
 &lt;!-- Left Text Box --&gt;
 &lt;div id=&quot;textbox&quot;&gt;
-&lt;p&gt;&lt;span class=&quot;cap&quot;&gt;A&lt;/span&gt;n antique heating vent appears on the floor, baroque coils of tarnished iron.&lt;/p&gt; 
+&lt;p&gt;&lt;span class=&quot;cap&quot;&gt;A&lt;/span&gt;n antique heating vent appears on the floor, baroque coils of tarnished iron.&lt;/p&gt;
 
 &lt;p&gt;Beside it kneels a young woman, spectral and flickering. She doesn&#39;t appear to be entirely...there. &lt;/p&gt;
 
@@ -807,7 +807,7 @@ Characters standing in space. The box visble in the background.
 
 &lt;p&gt;She stands as you approach, aware she&#39;s an unexpected visitor in your home.&lt;/p&gt;
 
-&lt;p&gt;&lt;q&gt;Hey! I don&#39;t mean to freak you out. I&#39;m...Lia. I used to live here.&lt;/q&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;q&gt;Hey! I don&#39;t mean to freak you out. I&#39;m...Lia. I used to live here.&lt;/q&gt;&lt;/p&gt;
 
 &lt;p&gt;She wipes her hands on her dress, oblivious to the dusty streaks left behind, and offers her hand in greeting.&lt;/p&gt;
 
@@ -821,7 +821,7 @@ Characters standing in space. The box visble in the background.
 
 &lt;p&gt;Over a pleated white dress, she wears a denim jacket &lt;i&gt;saturated&lt;/i&gt; with patches, commemorating everything from obscure metal bands to national parks. On her feet, mismatched Converse All Stars: one green, the other blue plaid.&lt;/p&gt;
 
-&lt;p&gt;As she bats a lock of dark hair away from piercing blue eyes, you notice a wrist laden with friendship bracelets.&lt;/p&gt; 
+&lt;p&gt;As she bats a lock of dark hair away from piercing blue eyes, you notice a wrist laden with friendship bracelets.&lt;/p&gt;
 
 &lt;p&gt;Returning to the vent, Lia is &lt;i&gt;almost&lt;/i&gt; able to open it, only for it to slip through her fingers yet again. She looks at her hands, then at you.&lt;/p&gt;
 
