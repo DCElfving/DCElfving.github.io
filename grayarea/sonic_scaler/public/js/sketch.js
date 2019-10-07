@@ -2,7 +2,7 @@
 // 02-knob
 // --------------------------------------------------------
 let socket;
-let diameter       = 1;
+let diameter       = 0;
 let lerpDiameter   = 0;
 // let pointSizeX      = 150;
 // let pointSizeY      = 150;

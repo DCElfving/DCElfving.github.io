@@ -21,7 +21,7 @@ void loop() {
   if (distance != 0) {
       Serial.println(distance);
   }
-  
-  
+
+
   //Serial.println("cm");
 }
