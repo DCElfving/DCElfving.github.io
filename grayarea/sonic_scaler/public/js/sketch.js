@@ -4,14 +4,16 @@
 let socket;
 let diameter       = 0;
 let lerpDiameter   = 0;
-// let pointSizeX      = 150;
-// let pointSizeY      = 150;
+let x;
+let y;
+let hue;
 
 
 function setup() {
   createCanvas(window.innerWidth, window.innerHeight);
-  startingX = window.innerWidth / 5;
-  startingY = window.innerHeight / 5;
+  x = window.innerWidth / 2;
+  y = window.innerHeight / 2;
+  hue = color(255, 204, 0);
 
   // this works if you're running your server on the same port
   // if you're running from a separate server on a different port
@@ -21,14 +23,56 @@ function setup() {
   // we listen for message on the socket server called 'data'
   socket.on('data',
     (data) => {
-      console.log('sonic data: ', data.sonicData);
-      if (parseInt(data.sonicData) != diameter) {
-        diameter = map(parseInt(data.sonicData), 1, 50, 0.0, window.innerWidth);
+      arduinoInput = data.arduinoData;
+      console.log('arduino data: ', arduinoInput);
+      splitArduinoInput = JSON.parse(arduinoInput);
+
+      if (splitArduinoInput[0] != diameter) {
+        diameter = map(splitArduinoInput[0], 1, 50, 0.0, window.innerWidth);
+      }
+
+      if (splitArduinoInput[1] == 0) {
+        hue = color('red');
+      }
+
+      else {
+        hue = color(244, 204, 0);
+      }
+
+      x = map(splitArduinoInput[2], 0, 1023, 0.0, window.innerWidth);
+      y = map(splitArduinoInput[3], 0, 1023, 0.0, window.innerHeight);
+
         // background(0, 0, 0, 5);
       }
-    }
   );
 }
+
+
+// socket.on('data',
+//     (data) => {
+//       arduinoInput = data.arduinoData;
+//       console.log('arduino data: ', arduinoInput);
+// ​
+//       splitArduinoInput = split(arduinoInput, ' ');
+// ​
+//       if (splitArduinoInput[0] == 'b1') {
+//         buttonPressed = true;
+//       } else {
+//         buttonPressed = false;
+//       }
+// ​
+//       potValue = splitArduinoInput[1].substring(1);
+//       if ((Math.abs(potValue - prevPotValue)) >= 2  )   {
+//         bPotChanged = true;
+//       } else {
+//         bPotChanged = false;
+//       }
+//       prevPotValue = potValue;
+// ​
+//     }
+//   );
+// }
+
 
 // --------------------------------------------------------
 function windowResized() {
@@ -38,7 +82,7 @@ function windowResized() {
 // --------------------------------------------------------
 function draw() {
   lerpDiameter = lerp(lerpDiameter, diameter, 0.10);
-  background(255);
-  fill(255, 204, 0);
-  ellipse(width / 2, height /2, lerpDiameter);
+  background (255);
+  fill (hue);
+  ellipse(x, y, lerpDiameter);
 }

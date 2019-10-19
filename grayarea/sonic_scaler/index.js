@@ -27,7 +27,7 @@ sPort.on("open", () => {
 // Our parser streams the incoming serial data
 parser.on('data', function(data) {
   console.log(data);
-  io.emit('data', { sonicData : data });
+  io.emit('data', { arduinoData : data });
 });
 
 
