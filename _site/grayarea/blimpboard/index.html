@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>BlimpBoard Parallax Text</title>
+<link rel="stylesheet" type="text/css" href="bboard.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+
+<div id="scene" class="scene">
+  <div data-depth="0" class="sky"></div>
+  <div data-depth="0.2"><img src="images/cloud1.png"></div>
+  <div data-depth="0.4"><img src="images/cloud2.png"></div>
+  <div data-depth="0.7"><img src="images/blimp.png"></div>
+  <div data-depth="0.2"><img src="images/skyline.png"></div>
+  <div data-depth="0"><img src="images/hills.png"></div>
+</div>
+
+
+</body>
+</html>
+
+<script>
+let scene = document.getElementById('scene');
+let parallaxInstance = new Parallax(scene, {
+  hoverOnly: false
+});
+</script>
