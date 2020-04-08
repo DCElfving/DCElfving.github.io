@@ -1,0 +1,197 @@
+<html>
+<head>
+<title>Office Quotes!</title>
+<link rel="stylesheet" type="text/css" href="quotes.css"/>
+</head>
+<body>
+
+  <div class="container">
+
+  <div class="image" id="photo"></div>
+
+  <div class="quote-container">
+  <blockquote>
+  <p class="quote-text" id="quote">Click the button below to generate a random quote.</p>
+  <p id="quote-author" class="quote-author"></p>
+  </blockquote>
+  </div>
+
+  <div class="button-container">
+  <button class="button button_quote" id="quote-button">Another Quote!</button>
+  </div>
+  </div>
+
+</body>
+</html>
+
+<script>
+//qarray of Offic quotes and authors
+let quoteArray = [
+  {content: "Sometimes I’ll start a sentence and I don’t even know where it’s going. I just hope I find it along the way.",
+  author: "Michael Scott",
+  image: "images/michael.png",
+  },
+
+  {content: "I talk a lot, so I’ve learned to tune myself out.",
+  author: "Kelly Kapoor",
+  image: "images/kelly.png",
+  },
+
+  {content: "Would I rather be feared or loved? Easy. Both. I want people to be afraid of how much they love me.",
+  author: "Michael Scott",
+  image: "images/michael.png",
+  },
+
+  {content: "If I don’t have some cake soon, I might die.",
+  author: "Stanley Hudson",
+  image: "images/stanley.png",
+  },
+
+  {content: "The worst thing about prison was the dementors.",
+  author: "Prison Mike",
+  image: "images/prisonmike.png",
+  },
+
+  {content: "Today, smoking is going to save lives.",
+  author: "Dwight Schrute",
+  image: "images/dwight.png",
+  },
+
+  {content: "I am running away from my responsibilities. And it feels good.",
+  author: "Michael Scott",
+  image: "images/michael.png",
+  },
+
+  {content: "I just want to lie on the beach and eat hot dogs. That’s all I’ve ever wanted.",
+  author: "Kevin Malone",
+  image: "images/kevin.png",
+  },
+
+  {content: "Sometimes the clothes at Gap Kids are too flashy, so I’m forced to go to the American Girl store and order clothes for large colonial dolls.",
+  author: "Angela Martin",
+  image: "images/angela.png",
+  },
+
+  {content: "There’s a lot of beauty in ordinary things. Isn’t that kind of the point?",
+  author: "Pam Beesley",
+  image: "images/pam.png",
+  },
+
+  {content: "If we come across somebody with no arms or legs, do we bother resuscitating them?",
+  author: "Michael Scott",
+  image: "images/michael.png",
+  },
+
+  {content: "Oh, it is on. Like a prawn who yawns at dawn.",
+  author: "Andy Bernard",
+  image: "images/andy.png",
+  },
+
+  {content: "Oh, you're paying way too much for worms. Who's your worm guy?",
+  author: "Creed Bratton",
+  image: "images/creed.png",
+  },
+
+  {content: "I’ve been involved in a number of cults, both a leader and a follower. You have more fun as a follower, but you make more money as a leader.",
+  author: "Creed Bratton",
+  image: "images/creed.png",
+  },
+
+  {content: "Just pretend like we're talking until the cops leave.",
+  author: "Creed Bratton",
+  image: "images/creed.png",
+  },
+
+  {content: "You ever notice you can only ooze two things? Sexuality and puss. Man, I tell ya.",
+  author: "Creed Bratton",
+  image: "images/creed.png",
+  },
+
+  {content: "You don't even know my real name. I'm the fucking Lizard King",
+  author: "Robert California",
+  image: "images/robert.png",
+  },
+
+  {content: "I will not be blackmailed by some ineffectual, privileged, effete, soft-penis debutante. You wanna start a street fight with me, bring it on, but you're gonna be surprised by how ugly it gets.",
+  author: "Robert California",
+  image: "images/robert.png",
+  },
+
+  {content: "Sexuality is a spectrum. It's a paradox to think of any sexual activity as normal. It gets better but it also gets a vastly more complicated.",
+  author: "Robert California",
+  image: "images/robert.png",
+  },
+
+  {content: "I'm petrified of nipple chafing. One it starts, it's a vicious circle.",
+  author: "Andy Bernard",
+  image: "images/andy.png",
+  },
+
+  {content: "Andy Bernard does not lose contests. He wins them. Or he quits them. Because they're unfair.",
+  author: "Andy Bernard",
+  image: "images/andy.png",
+  },
+
+  {content: "Women cannot resist a man singing show tunes. It's so powerful, even a lot of men can't resist a man singing show tunes.",
+  author: "Andy Bernard",
+  image: "images/andy.png",
+  },
+
+  {content: "I want to be wined and dined and sixty-nined.",
+  author: "Kevin Malone",
+  image: "images/kevin.png",
+  },
+
+  {content: "Cronkite was hot. If I could go back in time, I'd take that moustache ride.",
+  author: "Meridith Palmer",
+  image: "images/meredith.png",
+  },
+
+  {content: "You should stay. I have Vienna sausages...and napkins.",
+  author: "Meridith Palmer",
+  image: "images/meredith.png",
+  },
+
+  {content: "All morning I look forward to my afternoon cigar and I'm not stopping for anybody.",
+  author: "Meridith Palmer",
+  image: "images/meredith.png",
+  },
+];
+
+
+//array for tracking quotes
+let noDupes = [];
+
+//get html elements for quote display
+let button = document.getElementById('quote-button');
+let quote = document.getElementById('quote');
+let author = document.getElementById('quote-author');
+let image = document.getElementById('photo');
+
+//select a random quote
+function randomQuote() {
+  random = Math.floor(Math.random() * quoteArray.length);
+
+    //if quote wasn't displayed previously
+    if (!noDupes.includes(random)) {
+
+    //remove previous quote tracking and update
+    noDupes.pop();
+    noDupes.push(random);
+
+    //and render the quote on the page
+    photo.innerHTML = '<img src="' + quoteArray[random].image + '">';
+    quote.innerHTML = quoteArray[random].content;
+    author.innerHTML = '&mdash; ' + quoteArray[random].author;
+   }
+
+   //if quote was displayed previously, run function again
+   else if (noDupes.includes(random)) {
+   randomQuote();
+   }
+}
+
+//Generate Quotes on load and button click
+window.onload = randomQuote;
+button.addEventListener('click', randomQuote);
+</script>
