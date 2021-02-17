@@ -1,0 +1,52 @@
+/* Centering Block */
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  height: 400px;
+  overflow: hidden;
+}
+
+/* School */
+.school {
+  position: absolute;
+  left: 25px;
+  top: -186px;
+  transform: translateY(-60px);
+  overflow: hidden;
+  width: 265px;
+  height: 186px;
+}
+
+.drop {
+  animation:
+   .5s ease-in forwards slide;
+}
+
+@keyframes slide {
+  to {top: 214px}
+}
+
+
+/* Woman */
+.woman {
+  position: absolute;
+  z-index: -2;
+  left: 200px;
+  top: -388px;
+  transform: translateY(-388px);
+  overflow: hidden;
+  width: 259px;
+  height: 388px;
+}
+
+.drop1 {
+  animation:
+   1s ease-in forwards slide1;
+}
+
+@keyframes slide1 {
+  to {top: 400px}
+}
