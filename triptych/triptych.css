@@ -41,11 +41,10 @@
   to {left: 0px}
 }
 
-
 /* Second Photo */
 .morph2 {
   animation:
-    .5s ease-in .5s forwards slide2,
+   .5s ease-in .5s forwards slide2,
    .5s ease-in 1s forwards grow;
 }
 
@@ -54,11 +53,10 @@
 }
 
 
-
 /* Third Photo */
 .morph3 {
   animation:
-    .5s ease-in 1s forwards slide3,
+   .5s ease-in 1s forwards slide3,
    .5s ease-in 1.5s forwards grow;
 }
 
