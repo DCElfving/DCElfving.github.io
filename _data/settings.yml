@@ -8,8 +8,8 @@ header_settings:
 
 menu_settings:
   menu_items:
-    # - title: 'Projects'
-    #   url: '/'
+     - title: 'Projects'
+       url: '/'
     # - title: 'About'
     #   url: '/about'
     # - title: 'Contact'
