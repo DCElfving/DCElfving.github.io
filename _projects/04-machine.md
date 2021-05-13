@@ -1,5 +1,5 @@
 ---
-title: 'Machine Drawings'
+title: 'Image Drawings'
 subtitle: 'Generative drawing with photographs.'
 #date: 2021-05-10
 description: Exploring the relationship between generative art and images.
