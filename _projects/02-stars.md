@@ -1,6 +1,6 @@
 ---
 title: 'Stars'
-subtitle: 'Portraits experienced in AR.'
+subtitle: 'Portraits in Augmented Reality.'
 #date: 2020-03-07 00:00:00
 description: An article about the creation of an AR experience with 3D scans of faces and Apple's ARKit.
 featured_image: '/images/stars/stars_hero.png'

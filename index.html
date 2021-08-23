@@ -20,7 +20,7 @@ description: A collection of thoughts, projects, and ideas.
 
 	<div class="content-wrap portfolio-wrap">
 
-		{% for project in site.projects reversed %}
+		{% for project in site.projects %}
 
 		<div class="portfolio-item">
 			<a class="portfolio-item__link" href="{{ project.url | relative_url }}">

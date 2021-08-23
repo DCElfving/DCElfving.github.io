@@ -1,6 +1,6 @@
 ---
 title: 'Averaged'
-subtitle: 'Stacked images: Out of many, one.'
+subtitle: 'Stacked images of everyday things.'
 #date: 2021-05-11
 description: Composite images created with image stacking software.
 featured_image: '/images/averaged/averaged_hero.png'
