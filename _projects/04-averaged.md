@@ -2,11 +2,13 @@
 title: 'Averaged'
 subtitle: 'Stacked images of everyday things.'
 #date: 2021-05-11
-description: Composite images created with image stacking software.
+#description: Composite images created with image stacking software.
 featured_image: '/images/averaged/averaged_hero.png'
 ---
 
 Usually the purview of astronomers, these images were created by "stacking" a number of photos. An application designed to stitch landscapes into a panorama was tricked into to layering multiple images of the same subject.
+
+Mostly as a learning experience, I've made several of these available as inexpensive NFC works on <a href ="https://www.hicetnunc.xyz/DCE/creations">Hic et Nunc</a>.
 
 <img src ="/images/averaged/yellow_car.png"/>
 
