@@ -14,7 +14,7 @@ I'm interested in the discrepancy between how we apprehend each other as humans,
 
 <img src ="/images/portraits/portraits_head.jpg"/>
 
-As found portraits come in and out of focus, a face detection visualization increases and decreases in accuracy. These loops with were created with <a href ="https://processing.org/">Processing</a> and face landmark data captured with <a href = "https://runwayml.com/">Runway ML</a>.
+As found portraits come in and out of focus, a face detection visualization increases and decreases in accuracy. These video loops were created with <a href ="https://processing.org/">Processing</a> and face landmark data was captured with <a href = "https://runwayml.com/">Runway ML</a>.
 
 <img src ="/images/portraits/portraits_ga.jpg"/>
 
