@@ -12,6 +12,7 @@ A video installation created with century old glass-plate negatives, face detect
 
 I'm interested in the discrepancy between how we apprehend each other as humans, and how Machine Learning algorithms allow computers to "see" and recognize us.
 
+<img src ="/images/portraits/portraits_head.jpg"/>
 <img src ="/images/portraits/portraits_ga.jpg"/>
 
 <div class="gallery" data-columns="3">
