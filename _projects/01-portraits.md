@@ -4,6 +4,7 @@ subtitle: 'Old negatives and Machine Learning.'
 #date: 2021-05-10
 #description:
 featured_image: '/images/portraits/portraits_hero.jpg'
+header-img: 'images/portraits/portraits_hero.jpg'
 ---
 A video installation created with century old glass-plate negatives, face detection data gathered by Machine Learning, and unique sculptures.
 
