@@ -15,18 +15,15 @@ These are three dimensional portraits captured with the depth sensor of an iPhon
 	<img src ="/images/stars/stars_2.png"/>
 </div>
 
+<em>Give me my Romeo; and, when he shall die,<br>
+Take him and cut him out in little stars,<br>
+And he will make the face of heaven so fine<br>
+That all the world will be in love with night<br>
+And pay no worship to the garish sun.<br>
+<strong>– Shakespeare, Romeo and Juliet</strong></em>
+
 <h3>Beginner’s Mind</h3>
-The delightful uncertainty and curiosity of learning. It's a reassuring concept for someone with little experience creating in augmented reality.
-
-As I worked through tutorials and inscrutable documentation, I realized I’m not alone with this uncertainty. Everyone creating in this nascent medium – from artsy tinkerers to massive corporations – is a beginner. There are no models to follow, we’re making up these experiences as we go along.
-
-My early sketches were far more complex than the finished piece. Fortunately, a deadline is a powerful muse for clarity and focus. Three ideals emerged as I simplified the concept:
-
-* Make it seamless: don’t break the illusion with abstract QR codes or wandering 3D models.
-* Scale the Experience: the piece should intrigue from afar and reward close inspection.
-* Keep it grounded: unify the physical and digital, don’t use one as a canvas for the other.
-
-I didn’t have these concepts at the time, but I knew how I wanted the piece to feel. I could ditch animations and interactivity, but couldn’t budge on these basics.
+The delightful uncertainty and curiosity of learning. It's a reassuring concept for creating in augmented reality.
 
 <h3>The Beauty of Point Clouds</h3>
 
@@ -38,9 +35,7 @@ Products like the iPhone X and Microsoft Kinect are able to model the environmen
 
 <img src ="/images/stars/stars_3.png"/>
 
-There are several apps and third party sensors that make it easy to scan things this way (I used Capture for iPhone). The journey from point cloud to usable model, however, is a saga of file conversion and application switching.
-
-When I asked an experienced friend if there were more efficient ways to work, she just smiled knowingly. This is the world of 3D asset creation.
+There are several apps and third party sensors that make it easy to scan things this way (I used Capture for iPhone). 
 
 <h3>An Unexpected Collaborator</h3>
 The most challenging aspect of this project wasn’t technical, it was optical.
@@ -69,10 +64,3 @@ Seen side by side, it seems obvious that greater contrast and simpler patterns w
 This is a proof of concept. It'd be fascinating to develop a room scale experience and bring it to life with short animations – a laugh or a smile – rather than static models. I’m also deeply curious how the experience will eventually feel in AR headsets.
 
 More than anything, this was a profound learning experience. I’m not at all certain where these rapidly evolving technologies will lead. Could there be a better time to create with them?
-
-<em>Give me my Romeo; and, when he shall die,<br>
-Take him and cut him out in little stars,<br>
-And he will make the face of heaven so fine<br>
-That all the world will be in love with night<br>
-And pay no worship to the garish sun.<br>
-<strong>– Shakespeare, Romeo and Juliet</strong></em>

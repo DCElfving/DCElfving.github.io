@@ -17,9 +17,13 @@ I'm interested in the discrepancy between how we apprehend each other as humans,
   <img src ="/images/portraits/portraits_3.jpg"/>
 </div>
 
-<img src ="/images/portraits/portraits_12.jpg"/>
-
 As found portraits come in and out of focus, a face detection visualization increases and decreases in accuracy. These loops with were created with <a href ="https://processing.org/">Processing</a> and face landmark data captured with <a href = "https://runwayml.com/">Runway ML</a>.
+
+<div class="gallery" data-columns="2">
+<img src ="/images/portraits/portraits_12a.jpg"/>
+<img src ="/images/portraits/portraits_12.jpg"/>
+</div>
+
 
 <img src ="/images/portraits/portraits_6.jpg"/>
 

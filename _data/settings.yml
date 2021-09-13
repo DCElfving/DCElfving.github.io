@@ -10,24 +10,24 @@ menu_settings:
   menu_items:
      - title: 'Projects'
        url: '/'
-    # - title: 'About'
-    #   url: '/about'
-    # - title: 'Contact'
-    #   url: '/contact'
+     - title: 'About'
+       url: '/about'
+     - title: 'Contact'
+       url: '/contact'
 
 footer_settings:
   logo_image:
   logo_width:
-  footer_tagline: A collection of thoughts and ideas.
+  footer_tagline:
 
 grid_settings:
   overlay_opacity: 1
   grid_spacing: 30
 
 contact_settings:
-  form_action: ''
-  confirmation_url: '/thanks'
-  email_subject: 'Contact form submission'
+  form_action: 'https://formspree.io/f/xvodlonn'
+  confirmation_url: ''
+  email_subject: ''
   send_button_text: 'Send Message'
 
 social_settings:
