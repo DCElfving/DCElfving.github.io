@@ -24,8 +24,6 @@ As found portraits come in and out of focus, a face detection visualization incr
   <img src ="/images/portraits/portraits_3.jpg"/>
 </div>
 
-As found portraits come in and out of focus, a face detection visualization increases and decreases in accuracy. These loops with were created with <a href ="https://processing.org/">Processing</a> and face landmark data captured with <a href = "https://runwayml.com/">Runway ML</a>.
-
 <div class="gallery" data-columns="2">
 <img src ="/images/portraits/portraits_12a.jpg"/>
 <img src ="/images/portraits/portraits_12.jpg"/>
