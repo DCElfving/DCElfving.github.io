@@ -9,9 +9,9 @@ subtitle: A portfolio site
 
   <img src = "images/self.jpg" style = "float:left; width: 40%; margin-top: 25px; margin-right: 15px;"/>
 
-  <p><b>This is the portfolio site of Dave Elfving.</b> I'm an artist and arts advocate living in San Francisco.</p>
+  <p><b>This is the portfolio site of Dave Elfving.</b> I'm a teacher, artist and Experience Designer living in San Francisco.</p>
 
-  <p>My work explores the relationship between human perception and that of Machine Learning and AI systems. In short: I love mashing up data with traditional darkroom photography.</p>
+  <p>My work explores the relationship between human perception and that of Machine Learning and AI systems. In short: I love mashing up data and traditional darkroom photography.</p>
 
   <p>I'm also a volunteer and mentor, actively seeking teaching opportunities to empower others with tools for creativity.</p>
 

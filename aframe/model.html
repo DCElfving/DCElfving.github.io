@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Hello, WebVR! • A-Frame</title>
+    <meta name="description" content="Hello, WebVR! • A-Frame">
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.3.1/dist/aframe-environment-component.min.js">
+    </script>
+
+</head>
+
+<body>
+    <a-scene background="color: #FAFAFA">
+
+
+        <a-assets>
+            <img id="sky" src="assets/img/env.jpg">
+            <a-asset-item id="wipes" src="assets/models/wipes.gltf"></a-asset-item>
+            <a-asset-item id="meter" src="assets/models/meter.gltf"></a-asset-item>
+            <a-asset-item id="lift" src="assets/models/lift.gltf"></a-asset-item>
+        </a-assets>
+
+        <a-sky src="#sky"></a-sky>
+        <a-entity gltf-model="#wipes" position="3 2.8 -5"></a-entity>
+        <a-entity gltf-model="#meter" position="3 2.8 3"></a-entity>
+        <a-entity gltf-model="#lift" position="3 2.8 20"></a-entity>
+    </a-scene>
+</body>
+
+</html>
