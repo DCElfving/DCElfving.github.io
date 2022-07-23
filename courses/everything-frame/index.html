@@ -1,0 +1,538 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<link rel="stylesheet" href="../dist/reset.css">
+<link rel="stylesheet" href="../dist/reveal.css">
+<link rel="stylesheet" href="../dist/theme/league.css">
+<link rel="stylesheet" href="../plugin/highlight/monokai.css">
+
+<title>The Everything Frame</title>
+</head>
+<body>
+
+<div class="reveal">
+<div class="slides">
+
+
+
+<!-- BEGIN PRESENTATION -->
+<!-- Main Title -->
+<section><h1>The Everything Frame!</h1></section>
+
+<!-- Link to presentation -->
+<section>
+<h2 align="left">Presentation Link:</h2>
+<p align="left"><strong><a href="https://www.aught.io/courses/everything-frame">https://www.aught.io/courses/everything-frame</a></strong></p>
+</section>
+
+<!-- Content the frame can display -->
+<section>
+<table class ="r-stretch">
+<tr>
+<td align="center"><img src="images/portrait.png"/></td>
+<td align="center"><img src="images/iss.png"/></td>
+<td align="center"><img src="images/steph.png"/></td>
+</tr>
+<tr>
+<td align="center">Gallery</td>
+<td align="center">Live Streams</td>
+<td align="center">Video</td>
+</tr>
+</table>
+</section>
+
+<!-- Demo video of completed frame -->
+<section data-background-video="images/frame.mp4"></section>
+
+<!-- Demo Images -->
+<section data-background-image="images/small_frames.jpeg"></section>
+
+<!-- A workshop in 4 parts  -->
+<section>
+<h2>A Workshop in Five Parts:</h2>
+<ol>
+<li>What is a Raspberry Pi?</li>
+<li>Kit Components</li>
+<li>OS Installation</li>
+<li>Assembly</li>
+<li>Software & Scripting</li>
+</ol>
+</section>
+
+<!-- SECTION 1: What is a Raspberry Pi? -->
+<section data-background-image="images/question.gif">
+<h2>1: What's a Pi?</h2>
+</section>
+
+<!-- What is Pi YouTube video -->
+<section>
+<iframe class="r-stretch" src="https://www.youtube.com/embed/3ty-ivSZpp8"></iframe>
+</section>
+
+<!-- Raspberry Pi in brief -->
+<section>
+<h3 align="left">In brief, The Raspberry Pi is a:</h3>
+<li align="left">tiny, full-featured computer.</li>
+<li align="left">platform for creating with code and electronics.</li>
+<li align="left">"System on a Chip" ideal for embedded systems.</li>
+</section>
+
+<!-- Eben Upton quote -->
+<section>
+<blockquote><p>To build an art installation, measure rainfall, make a light-up dress – none of those things sound like computer science but they’re all things that computers can help you do – that’s the message we’re really trying to get across.</p><em>- Eben Upton</em></blockquote>
+<small>Source: <a href="https://simpleweb.co.uk/10-years-of-raspberry-pi-an-interview-with-creator-eben-upton/">https://simpleweb.co.uk/10-years-of-raspberry-pi-an-interview-with-creator-eben-upton/</a></small>
+</section>
+
+<!-- Supply can't meet demand -->
+<section>
+<table>
+<tr><td width=50%><h3>Unable to Meet Demand</h3><p>Between commercial clients, educators and makers, there aren't enough for everyone.</p></td>
+<td width=50%><img src="images/supply_screen.png"></td></tr>
+</table>
+</section>
+
+<!-- High Prices, long shipping -->
+<section>
+<h3 align="left">The retail price is $45</h3>
+<img src="images/prices_screen.png" align="left">
+</section>
+
+<!-- Upton Quote in response to shortage -->
+<section>
+<blockquote width="100%"><p>Right now we feel the right thing to do is to prioritise commercial and industrial customers – the people who need Raspberry Pis to run their businesses – we’re acutely aware that people’s livelihoods are at stake.</p> <em>- Eben Upton</em></blockquote>
+<small>Source: <a href="https://www.raspberrypi.com/news/production-and-supply-chain-update/">https://www.raspberrypi.com/news/production-and-supply-chain-update/</a></small>
+</section>
+
+<!-- SECTION 2: Kit Components -->
+<section data-background-image="images/open.gif">
+<h2>2: Kit Components</h2></section>
+
+<!-- Raspberry Pi 3A+ -->
+<section>
+<table class="r-stretch"/>
+<tr><td width=50%><h3>Raspberry Pi 3A+</h3>
+<p>The heart of it all. Smaller than the Pi 4, it has a 64-bit processor, wi-fi and Bluetooth.<p>
+<p>And, of course, HDMI out.</p>
+</td>
+<td width=50%><img src="images/pi.png"/></td></tr>
+</table>
+</section>
+
+<!-- Display Panel -->
+<section>
+<table class="r-stretch"/>
+<tr><td width=50%><h3>10.1 inch IPS Display</h3>
+<p>Designed for the Pi, this includes an HDMI connector, speakers, and a little stand.<p>
+<p>It's also a touch screen!</p>
+</td>
+<td width=50%><img src="images/screen.png"/></td></tr>
+</table>
+</section>
+
+<!-- SD Card -->
+<section>
+<table class="r-stretch"/>
+<tr><td width=50%><h3>SD Card</h3>
+<p>This will contain the operating system, applications, and all the media on our frames.<p>
+</td>
+<td width=50%><img src="images/card.png"/></td></tr>
+</table>
+</section>
+
+<!-- Power Supply -->
+<section>
+<table class="r-stretch"/>
+<tr><td width=50%><h3>5V 2.5A Power Supply</h3>
+<p>Just what it sounds like.<p>
+<p>The Raspberry Pi 3A+ can also be powered by a micro USB cable connected to a computer or USB wall adapter.<p>
+</td>
+<td width=50%><img src="images/power.png"/></td></tr>
+</table>
+</section>
+
+<!-- Optional Battery -->
+<!-- Optional Frame & mat -->
+
+<!-- SECTION 3: OS Installation -->
+<section data-background-image="images/install.gif">
+<h2>3: OS Install</h2>
+</section>
+
+<!-- Download Raspberry Pi Imager -->
+<section>
+<table class="r-stretch"/>
+<tr><td width=33%><h3>Download the Imager</h3>
+<p><a href="https://wwwraspberrypi.com/software/">www.raspberrypi.com/<br/>software/</a></p>
+</td>
+<td width=66%><img src="images/imager1.jpg"/></td></tr>
+</table>
+</section>
+
+<!-- Imager Step 1 -->
+<section>
+<table class="r-stretch"/>
+<tr><td width=33%><h3>Choose an OS</h3>
+<p><strong>Select:</strong><br/>
+Raspberry Pi OS (other)</p>
+<p></p>
+<p><strong>Then select:</strong><br/>
+Raspberry Pi OS Lite (Legacy)</p>
+</td>
+<td width=66%><img src="images/imager2.jpg"/></td></tr>
+</table>
+</section>
+
+<!-- Imager Step 2 -->
+<section>
+<table class="r-stretch"/>
+<tr><td width=33%><h3>Select SD Card</h3>
+<p>Look for your SD card in the pop-up window. It may have a generic name.</p>
+</td>
+<td width=66%><img src="images/imager4.jpg"/></td></tr>
+</table>
+</section>
+
+<!-- Imager Step 3 -->
+<section>
+<table class="r-stretch"/>
+<tr><td width=33%><h3>Name your Pi & create a user</h3>
+<p>Click on the gear icon. Create a hostname, a username, and add WiFi and locale information.</p>
+</td>
+<td width=66%><img src="images/imager6.jpg"/></td></tr>
+</table>
+</section>
+
+<!-- Imager Step 4 -->
+<section>
+<table class="r-stretch"/>
+<tr><td width=33%><h3>Write the OS</h3>
+<p>Hit the write button. Once complete, eject the SD card and insert it into your Pi.
+<p></p>
+<p>Plug it in and turn it on – it's alive!</p>
+</td>
+<td width=66%><img src="images/imager3.jpg"/></td></tr>
+</table>
+</section>
+
+<!-- Final Imager -->
+<section>
+<table class="r-stretch"/>
+<tr><td width=50%><h3 align="center">SD Card</h3>
+<img src="images/sd_close.jpg"/>
+</td>
+<td width=50%><h3 align="center">Happy Lights!</h3>
+<img src="images/lights.jpg"/></td></tr>
+</table>
+</section>
+
+<!-- Intro to terminal -->
+<section>
+<table class="r-stretch"/>
+<tr><td width=50%><h3>Meet the Terminal</h3>
+<p>Mac: press command space, type "terminal"<p>
+<p>Windows: click the search icon, type "terminal"<p>
+</td>
+<td width=50%><img src="images/terminal.png"/></td></tr>
+</table>
+</section>
+
+<!-- Terminal screenshot -->
+<section>
+<h3 align="left">It will look somewhat like this:</h3>
+<img src="images/terminal.jpg" width="800"/>
+</section>
+
+<!-- First terminal commands -->
+<section>
+<h3 align="left">In the terminal:</h3>
+<div align="left"><span style="font-family:monospace; font-size:1em;">
+% ssh frame@frame.lan</span>
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:1em;">$ sudo raspi-config</span></div>
+</section>
+
+<!-- Config screenshot -->
+<section>
+<h3 align="left">Raspberry Pi configuration:</h3>
+<img src="images/config1.jpg" width="800"/>
+</section>
+
+<!-- Imager Step 4 -->
+<section>
+<table class="r-stretch"/>
+<tr><td width=33%><h3>Expand the filesystem:</h3>
+<p>Tap down to open "Advanced Options" then select "Expand Filesystem" from the menu.</p>
+<p></p>
+<p>Select "Finish" and reboot.</p>
+</td>
+<td width=66%><img src="images/config2.jpg"/></td></tr>
+</table>
+</section>
+
+<!-- SECTION 4: Assembly -->
+<section data-background-image="images/assembly.gif">
+<h1>4: Assembly!</h1>
+</section>
+
+<!-- Overview Images -->
+<section>
+<table class="r-stretch"/>
+<tr><td width=50% align=center><h3 align="center">Front</h3>
+<img src="images/front.jpg" height="500"/></td>
+<td width=50% align=center><h3 align="center">Back</h3>
+<img src="images/back.jpg" height="500"/></td></tr>
+</table>
+</section>
+
+<!-- Assembly 1 -->
+<section>
+<table class="r-stretch"/>
+<tr><td width=50%><h3 align="center">1: This Bag</h3>
+<img src="images/connector.jpg"/>
+</td>
+<td width=50%><h3 align="center">2: HDMI Connector</h3>
+<img src="images/connector2.jpg"/></td></tr>
+</table>
+</section>
+
+<!-- Assembly 2 -->
+<section>
+<table class="r-stretch"/>
+<tr><td width=50%><h3 align="center">3: Standoffs</h3>
+<img src="images/standoffs.jpg"/>
+</td>
+<td width=50%><h3 align="center">4: Connect Pi</h3>
+<img src="images/piattach.jpg"/></td></tr>
+</table>
+</section>
+
+<!-- Assembly 3 -->
+<section>
+<table class="r-stretch"/>
+<tr><td width=50%><h3 align="center">5: Little Screws</h3>
+<img src="images/screws.jpg"/>
+</td>
+<td width=50%><h3 align="center">6: This Cable</h3>
+<img src="images/cable.jpg"/></td></tr>
+</table>
+</section>
+
+<!-- Assembly 4 -->
+<section>
+<table class="r-stretch"/>
+<tr><td width=50%><h3 align="center">7: Connect Cable</h3>
+<img src="images/cable_connect.jpg"/>
+</td>
+<td width=50%><h3 align="center">8: Speakers</h3>
+<img src="images/speaker.jpg"/></td></tr>
+</table>
+</section>
+
+<!-- Assembly 5 -->
+<section>
+<table class="r-stretch"/>
+<tr><td width=50%><h3 align="center">9: Adapter</h3>
+<img src="images/adapter.jpg"/>
+</td>
+<td width=50%><h3 align="center">10: Power In</h3>
+<img src="images/power_in.jpg"/></td></tr>
+</table>
+</section>
+
+<!-- SECTION 5: Software -->
+<section data-background-image="images/software.gif">
+<h1>5: Software!</h1>
+</section>
+
+<!-- Linux in 100 Seconds -->
+<section>
+<iframe class="r-stretch" src="https://www.youtube.com/embed/rrB13utjYV4"></iframe>
+</section>
+
+<!-- Install OMXPlayer and Streamlink -->
+<section>
+<h3 align="left">Again to the terminal:</h3>
+<div align="left"><span style="font-family:monospace; font-size:1em;">
+% ssh frame@frame.lan</span>
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:1em;">$ sudo apt-get install omxplayer</span></div>
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:1em;">$ sudo apt-get install streamlink</span></div>
+</section>
+
+<!-- Vertical Frame? -->
+<section>
+<h3 align="left">Are you creating a vertical frame?</h3>
+<div align="left"><span style="font-family:monospace; font-size:1em;">
+$ sudo nano /boot/config.txt</span>
+</section>
+
+<!-- config.txt screenshot -->
+<section>
+<h3 align="left">config.txt</h3>
+<img src="images/nano_config.jpg" width="800"/>
+</section>
+
+<!-- Vertical Frame? -->
+<section>
+<h3 align="left">At the end of the file, add this:</h3>
+<div align="left"><span style="font-family:monospace; font-size:1em;">
+display_hdmi_rotate=3</span>
+</section>
+
+<!-- Launching Streamling & OMXPLayer -->
+<section>
+<h3 align="left">Let's try it!</h3>
+<p style="font-family:monospace; font-size:.66em;" align="left">streamlink --player-continuous-http --player omxplayer --fifo --player-args "--live --win \"0 0 1280 720\" {filename}" http://www.ustream.tv/channel/17074538 480p</p>
+<br/>
+<h3 align="left">Let's try it vertical!</h3>
+<p style="font-family:monospace; font-size:.66em;" align="left">streamlink --player-continuous-http --player omxplayer --fifo --player-args "--live --orientation 90 --win \"0 0 720 1280\" {filename}" http://www.ustream.tv/channel/17074538 480p</p>
+</section>
+
+<!-- Demo video of iss-stream -->
+<section data-background-video="images/iss-stream.mp4"></section>
+
+<!-- Let's make a script -->
+<section>
+<h3 align="left">Let's make a script for this:</h3>
+<div align="left"><span style="font-family:monospace; font-size:1em;">
+$ ls</span>
+<div class="fragment"align="left"><span style="font-family:monospace; font-size:1em;">
+$ touch iss-stream</span>
+<div class="fragment"align="left"><span style="font-family:monospace; font-size:1em;">
+$ ls</span>
+<div class="fragment"align="left"><span style="font-family:monospace; font-size:1em;">
+$ sudo nano iss-stream</span>
+</section>
+
+<!-- empty nano file -->
+<section>
+<h3 align="left">Empty...for now</h3>
+<img src="images/empty-iss.jpg" width="800"/>
+</section>
+
+<!-- copy this script -->
+<section>
+<h3 align="left">Copy this:</h3>
+<p style="font-family:monospace; font-size:.66em;" align="left">
+	#!/bin/bash<br/>
+	while true<br/>
+	do<br/><br/>
+
+	streamlink\<br/>
+	  --player-continuous-http\<br/>
+	  --player omxplayer\<br/>
+	  --fifo\<br/>
+	  --player-args "--live --orientation 90 --win \"0 0 720 1280\" {filename}"\<br/>
+	  http://www.ustream.tv/channel/17074538\<br/>
+	  480p<br/><br/>
+
+	done
+</p>
+</section>
+
+<!-- iss-stream screenshot -->
+<section>
+<h3 align="left">iss-stream in nano</h3>
+<img src="images/iss-script.jpg" width="800"/>
+</section>
+
+<!-- Make script executable -->
+<section>
+<h3 align="left">Make it executable:</h3>
+<div align="left"><span style="font-family:monospace; font-size:1em;">
+$ sudo chmod u+x iss-stream</span>
+<div class="fragment"align="left"><span style="font-family:monospace; font-size:1em;">
+$ ls</span>
+<div class="fragment"align="left"><span style="font-family:monospace; font-size:1em;">
+$ ./iss-stream</span>
+</section>
+
+<section>
+<h3 align="left">Let's upload content to the Pi:</h3>
+<div align="left"><span style="font-family:monospace; font-size:1em;">
+% scp "path to file.mp4" frame@frame.lan:</span>
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:1em;">$ omxplayer file.mp4</span></div>
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:1em;">$ omxplayer --loop file.mp4</span></div>
+</section>
+
+<!-- what scp and scp -r look like -->
+<!-- create Pictures and transfer files
+<!-- play and loop a video -->
+
+<!-- copy this script -->
+<section>
+<h3 align="left">We can script this too!</h3>
+<p style="font-family:monospace; font-size:.66em;" align="left">
+	#!/bin/bash<br/>
+	while true<br/>
+	do<br/><br/>
+
+	omxplayer --loop ~/file.mp4<br/><br/>
+
+	done
+</section>
+
+<!-- Dualframe Demo – essentially this -->
+
+<!-- installing prequsites and picframe -->
+<section>
+sudo apt-get install
+  python3-pip
+
+$ sudo apt-get install
+  python3-numpy
+
+$ sudo pip3 install picframe
+apt-get install libjpeg-dev zlib1g-dev
+
+$ picframe -i .
+</section>
+
+<!-- installing FBpyGIF -->
+<section>
+One more thing!
+sudo pip3 install fbpygif
+</section>
+
+<!-- launching on startup -->
+<section>
+	
+</section>
+
+<!-- set up for your network at home -->
+<section>
+	cd /etc
+	cd wpa_supplicant
+	sudo nano wpa_supplicant
+</section>
+
+<!-- The end! -->
+
+<!-- sources and resources -->
+
+<!-- END PRESENTATION -->
+
+
+
+</div>
+</div>
+
+<script src="../dist/reveal.js"></script>
+<script src="../plugin/notes/notes.js"></script>
+<script src="../plugin/markdown/markdown.js"></script>
+<script src="../plugin/highlight/highlight.js"></script>
+<script>
+// More info about initialization & config:
+// - https://revealjs.com/initialization/
+// - https://revealjs.com/config/
+Reveal.initialize({
+	hash: true,
+
+	// Learn about plugins: https://revealjs.com/plugins/
+	plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+});
+</script>
+</body>
+</html>
