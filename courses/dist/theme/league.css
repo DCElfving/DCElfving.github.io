@@ -22,7 +22,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
   --r-main-font-size: 40px;
   --r-main-color: #eee;
   --r-block-margin: 0px;
-  --r-heading-margin: 0 0 20px 0;
+  --r-heading-margin: 0 0 25px 0;
   --r-heading-font: Lobster, Impact, sans-serif;
   --r-heading-color: #f7bf07;
   --r-heading-line-height: 1.2;
@@ -31,7 +31,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
   --r-heading-text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
   --r-heading-font-weight: normal;
   --r-heading1-text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15);
-  --r-heading1-size: 3.77em;
+  --r-heading1-size: 3em;
   --r-heading2-size: 2.11em;
   --r-heading3-size: 1.55em;
   --r-heading4-size: 1em;
@@ -103,7 +103,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
   font-size: var(--r-main-font-size);
   margin: var(--r-heading-margin);
   color: var(--r-heading-color);
-  font-weight: bold;
+  font-weight: 400;
   }
 
 .reveal h1 {
@@ -166,7 +166,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
   text-align: left;
   margin: 0 0 0 0;
   line-height: 1.5em;
-  font-weight: bold;
+  font-weight: 300;
   width: 85%;
 }
 
@@ -210,6 +210,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
   padding: 25px;
   font-style: normal;
   text-align: left;
+  font-size: 50px;
   background: rgba(255, 255, 255, 0.05);
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
 }
@@ -273,6 +274,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
   vertical-align: top;
   text-align: left;
   padding: 0.2em 0.5em 0.2em 0.5em;
+  font-weight: 300;
 }
 
 .reveal table th[align=center],

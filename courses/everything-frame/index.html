@@ -17,8 +17,6 @@
 <div class="reveal">
 <div class="slides">
 
-
-
 <!-- BEGIN PRESENTATION -->
 <!-- Main Title -->
 <section><h1>The Everything Frame!</h1></section>
@@ -51,7 +49,7 @@
 <!-- Demo Images -->
 <section data-background-image="images/small_frames.jpeg"></section>
 
-<!-- A workshop in 4 parts  -->
+<!-- A workshop in 5 parts  -->
 <section>
 <h2>A Workshop in Five Parts:</h2>
 <ol>
@@ -65,7 +63,7 @@
 
 <!-- SECTION 1: What is a Raspberry Pi? -->
 <section data-background-image="images/question.gif">
-<h2>1: What's a Pi?</h2>
+<h2 style="color:#000">Part 1: What is a Pi?</h2>
 </section>
 
 <!-- What is Pi YouTube video -->
@@ -76,9 +74,11 @@
 <!-- Raspberry Pi in brief -->
 <section>
 <h3 align="left">In brief, The Raspberry Pi is a:</h3>
+<ul>
 <li align="left">tiny, full-featured computer.</li>
 <li align="left">platform for creating with code and electronics.</li>
 <li align="left">"System on a Chip" ideal for embedded systems.</li>
+</ul>
 </section>
 
 <!-- Eben Upton quote -->
@@ -107,9 +107,9 @@
 <small>Source: <a href="https://www.raspberrypi.com/news/production-and-supply-chain-update/">https://www.raspberrypi.com/news/production-and-supply-chain-update/</a></small>
 </section>
 
-<!-- SECTION 2: Kit Components -->
+<!-- SECTION Part 2: Kit Components -->
 <section data-background-image="images/open.gif">
-<h2>2: Kit Components</h2></section>
+<h2 style="color:#FFF">Part 2: Kit Components</h2></section>
 
 <!-- Raspberry Pi 3A+ -->
 <section>
@@ -154,19 +154,26 @@
 </table>
 </section>
 
-<!-- Optional Battery -->
-<!-- Optional Frame & mat -->
+<!-- optional battery -->
+<section>
+ + optional battery
+</section>
+
+<!-- optional frame -->
+<section>
+ + optional frame and mat dimentions
+</section>
 
 <!-- SECTION 3: OS Installation -->
 <section data-background-image="images/install.gif">
-<h2>3: OS Install</h2>
+<h2 style="color:#FFF">Part 3: OS Install</h2>
 </section>
 
 <!-- Download Raspberry Pi Imager -->
 <section>
 <table class="r-stretch"/>
 <tr><td width=33%><h3>Download the Imager</h3>
-<p><a href="https://wwwraspberrypi.com/software/">www.raspberrypi.com/<br/>software/</a></p>
+<p><a href="https://www.raspberrypi.com/software/" target="blank">www.raspberrypi.com/<br/>software/</a></p>
 </td>
 <td width=66%><img src="images/imager1.jpg"/></td></tr>
 </table>
@@ -249,9 +256,10 @@ Raspberry Pi OS Lite (Legacy)</p>
 <!-- First terminal commands -->
 <section>
 <h3 align="left">In the terminal:</h3>
-<div align="left"><span style="font-family:monospace; font-size:1em;">
+<div align="left"><span style="font-family:monospace; font-size:.85em;">
 % ssh frame@frame.lan</span>
-<div class="fragment" align="left"><span style="font-family:monospace; font-size:1em;">$ sudo raspi-config</span></div>
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ sudo raspi-config</span></div>
+<p><br/><em>Note! Replace "frame@frame.lan" with your username and hostname.</em></p>
 </section>
 
 <!-- Config screenshot -->
@@ -272,9 +280,21 @@ Raspberry Pi OS Lite (Legacy)</p>
 </table>
 </section>
 
+<!-- First terminal commands -->
+<section>
+<h3 align="left">Back to the terminal!</h3>
+<div align="left"><span style="font-family:monospace; font-size:.85em;">
+% ssh frame@frame.lan</span>
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ sudo apt update</span></div>
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ sudo apt-get full-upgrade</span></div>
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ sudo shutdown now</span></div>
+<p><br/><em>Note! Replace "frame@frame.lan" with your username and hostname.</em></p>
+</section>
+</section>
+
 <!-- SECTION 4: Assembly -->
 <section data-background-image="images/assembly.gif">
-<h1>4: Assembly!</h1>
+<h1 style="color:#FFF">Part 4: Assembly!</h1>
 </section>
 
 <!-- Overview Images -->
@@ -344,7 +364,7 @@ Raspberry Pi OS Lite (Legacy)</p>
 
 <!-- SECTION 5: Software -->
 <section data-background-image="images/software.gif">
-<h1>5: Software!</h1>
+<h1 style="color:#000">Part 5: Software!</h1>
 </section>
 
 <!-- Linux in 100 Seconds -->
@@ -355,16 +375,18 @@ Raspberry Pi OS Lite (Legacy)</p>
 <!-- Install OMXPlayer and Streamlink -->
 <section>
 <h3 align="left">Again to the terminal:</h3>
-<div align="left"><span style="font-family:monospace; font-size:1em;">
+<div align="left"><span style="font-family:monospace; font-size:.85em;">
 % ssh frame@frame.lan</span>
-<div class="fragment" align="left"><span style="font-family:monospace; font-size:1em;">$ sudo apt-get install omxplayer</span></div>
-<div class="fragment" align="left"><span style="font-family:monospace; font-size:1em;">$ sudo apt-get install streamlink</span></div>
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ sudo apt-get install omxplayer</span></div>
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ sudo apt-get install streamlink</span></div>
+<p><br/><em>Note! Replace "frame@frame.lan" with your username and hostname.</em></p>
+</section>
 </section>
 
 <!-- Vertical Frame? -->
 <section>
 <h3 align="left">Are you creating a vertical frame?</h3>
-<div align="left"><span style="font-family:monospace; font-size:1em;">
+<div align="left"><span style="font-family:monospace; font-size:.85em;">
 $ sudo nano /boot/config.txt</span>
 </section>
 
@@ -377,8 +399,32 @@ $ sudo nano /boot/config.txt</span>
 <!-- Vertical Frame? -->
 <section>
 <h3 align="left">At the end of the file, add this:</h3>
-<div align="left"><span style="font-family:monospace; font-size:1em;">
+<div align="left"><span style="font-family:monospace; font-size:.85em;">
 display_hdmi_rotate=3</span>
+</section>
+
+<!-- One more config -->
+<section>
+<h3 align="left">Once more, into raspi config</h3>
+<div align="left"><span style="font-family:monospace; font-size:.85em;">
+$ sudo raspi-config</span>
+</section>
+
+<!-- Display Settings -->
+<section>
+<table class="r-stretch"/>
+<tr><td width=33%><h3>Change screen resolution:</h3>
+<p>Tap down to open "Display Options" then select "Resolution" from the menu.</p>
+<p></p>
+<p>Choose DMT 85, then exit and reboot.</p>
+</td>
+<td width=66%><img src="images/config1.jpg"/></td></tr>
+</table>
+</section>
+
+<!-- resolution setiings screenshot -->
+<section>
+	+ resolution settings screen
 </section>
 
 <!-- Launching Streamling & OMXPLayer -->
@@ -386,7 +432,7 @@ display_hdmi_rotate=3</span>
 <h3 align="left">Let's try it!</h3>
 <p style="font-family:monospace; font-size:.66em;" align="left">streamlink --player-continuous-http --player omxplayer --fifo --player-args "--live --win \"0 0 1280 720\" {filename}" http://www.ustream.tv/channel/17074538 480p</p>
 <br/>
-<h3 align="left">Let's try it vertical!</h3>
+<h3 align="left">Let's try it (vertical)!</h3>
 <p style="font-family:monospace; font-size:.66em;" align="left">streamlink --player-continuous-http --player omxplayer --fifo --player-args "--live --orientation 90 --win \"0 0 720 1280\" {filename}" http://www.ustream.tv/channel/17074538 480p</p>
 </section>
 
@@ -396,13 +442,13 @@ display_hdmi_rotate=3</span>
 <!-- Let's make a script -->
 <section>
 <h3 align="left">Let's make a script for this:</h3>
-<div align="left"><span style="font-family:monospace; font-size:1em;">
+<div align="left"><span style="font-family:monospace; font-size:.85em;">
 $ ls</span>
-<div class="fragment"align="left"><span style="font-family:monospace; font-size:1em;">
+<div class="fragment"align="left"><span style="font-family:monospace; font-size:.85em;">
 $ touch iss-stream</span>
-<div class="fragment"align="left"><span style="font-family:monospace; font-size:1em;">
+<div class="fragment"align="left"><span style="font-family:monospace; font-size:.85em;">
 $ ls</span>
-<div class="fragment"align="left"><span style="font-family:monospace; font-size:1em;">
+<div class="fragment"align="left"><span style="font-family:monospace; font-size:.85em;">
 $ sudo nano iss-stream</span>
 </section>
 
@@ -420,46 +466,48 @@ $ sudo nano iss-stream</span>
 	while true<br/>
 	do<br/><br/>
 
-	streamlink\<br/>
-	  --player-continuous-http\<br/>
-	  --player omxplayer\<br/>
-	  --fifo\<br/>
-	  --player-args "--live --orientation 90 --win \"0 0 720 1280\" {filename}"\<br/>
-	  http://www.ustream.tv/channel/17074538\<br/>
-	  480p<br/><br/>
+	streamlink --player-continuous-http --player omxplayer --fifo --player-args "--live --orientation 90 --win \"0 0 720 1280\" {filename}" http://www.ustream.tv/channel/17074538 480p<br/><br/>
 
 	done
-</p>
+ </p>
 </section>
 
-<!-- iss-stream screenshot -->
+<!-- iss-stream script screenshot -->
 <section>
-<h3 align="left">iss-stream in nano</h3>
-<img src="images/iss-script.jpg" width="800"/>
+ + screensnot of script in terminal
 </section>
 
 <!-- Make script executable -->
 <section>
 <h3 align="left">Make it executable:</h3>
-<div align="left"><span style="font-family:monospace; font-size:1em;">
+<div align="left"><span style="font-family:monospace; font-size:.85em;">
 $ sudo chmod u+x iss-stream</span>
-<div class="fragment"align="left"><span style="font-family:monospace; font-size:1em;">
+<div class="fragment"align="left"><span style="font-family:monospace; font-size:.85em;">
 $ ls</span>
-<div class="fragment"align="left"><span style="font-family:monospace; font-size:1em;">
+<div class="fragment"align="left"><span style="font-family:monospace; font-size:.85em;">
 $ ./iss-stream</span>
 </section>
 
+<!-- upload content with scp -->
 <section>
-<h3 align="left">Let's upload content to the Pi:</h3>
-<div align="left"><span style="font-family:monospace; font-size:1em;">
+<h3 align="left">Let's upload a video to the Pi:</h3>
+<div align="left"><span style="font-family:monospace; font-size:.85em;">
 % scp "path to file.mp4" frame@frame.lan:</span>
-<div class="fragment" align="left"><span style="font-family:monospace; font-size:1em;">$ omxplayer file.mp4</span></div>
-<div class="fragment" align="left"><span style="font-family:monospace; font-size:1em;">$ omxplayer --loop file.mp4</span></div>
+<p><br/><em>Note! Run this command on your computer, not the Pi. Drag and drop files to the terminal.</em></p>
 </section>
 
-<!-- what scp and scp -r look like -->
-<!-- create Pictures and transfer files
-<!-- play and loop a video -->
+<!-- scp screenshot -->
+<section>
+	+ scp terminal screenshot
+</section>
+
+<!-- loop video -->
+<section>
+<h3 align="left">Play & Loop video with Omxplayer:</h3>
+<div align="left"><span style="font-family:monospace; font-size:.85em;">$ omxplayer file.mp4</span></div>
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ omxplayer --loop file.mp4</span></div>
+</section>
+
 
 <!-- copy this script -->
 <section>
@@ -471,54 +519,129 @@ $ ./iss-stream</span>
 
 	omxplayer --loop ~/file.mp4<br/><br/>
 
-	done
+	done</p>
+	<p align="left"><br/><em>Note! You'll need to create the script file with "touch".</em></p>
 </section>
 
-<!-- Dualframe Demo – essentially this -->
-
-<!-- installing prequsites and picframe -->
+<!-- upload a folder with scp -r -->
 <section>
-sudo apt-get install
-  python3-pip
-
-$ sudo apt-get install
-  python3-numpy
-
-$ sudo pip3 install picframe
-apt-get install libjpeg-dev zlib1g-dev
-
-$ picframe -i .
+<h3 align="left">Let's upload a Pictures directory:</h3>
+<div align="left"><span style="font-family:monospace; font-size:.85em;">
+% scp -r "path to Pictures" frame@frame.lan:</span>
+<p><br/><em>Note! Run this command on your computer. We're sending files from your laptop to the pi.</em></p>
 </section>
 
-<!-- installing FBpyGIF -->
+<!-- scp -r screenshot -->
 <section>
-One more thing!
-sudo pip3 install fbpygif
+	+ scp -r terminal screenshot
+</section>
+
+<!-- installing dependancies and picframe -->
+<section>
+<h3 align="left">Installing Picframe</h3>
+<div align="left"><span style="font-family:monospace; font-size:.85em;">
+$ sudo apt-get install python3-pip</span></div>
+
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ sudo apt-get install python3-numpy</span></div>
+
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ sudo apt-get install libjpeg-dev zlib1g-dev</span></div>
+
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ sudo pip3 install picframe</span></div>
+
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ picframe -i .</span></div>
+
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ picframe</span></div>
+</section>
+
+<!-- image of picframe working -->
+<section>
+	+ picframe success image
+</section>
+
+<!-- tweaking Picframe configuration.yaml -->
+<section>
+<h3 align="left">What's with the mats? Picframe configuration:</h3>
+<div align="left"><span style="font-family:monospace; font-size:.85em;">
+$ cd picframe-data/config</span></div>
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">
+$ sudo nano configuration.yaml</span></div>
+</section>
+
+<!-- configuiration screenshot -->
+<section>
+	+ configuration.yaml screenshot
+</section>
+
+<!-- image of picframe working -->
+<section>
+	+ picframe configuration success image
 </section>
 
 <!-- launching on startup -->
 <section>
-	
+	<h3 align="left">Launch on Startup</h3>
+	<div align="left"><span style="font-family:monospace; font-size:.85em;">
+	$ cd /etc</span></div>
+	<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">
+	$ sudo nano rc.local</span></div>
 </section>
+
+<!-- image of picframe working -->
+<section>
+	+ rc.local screenshot
+</section>
+
+<!-- rc.local edits -->
+<section>
+<h3 align="left">At the bottom of the rc.local add:</h3>
+<p style="font-family:monospace; font-size:.66em;" align="left">
+	# start the ISS video stream<br/>
+	# sudo -u frame /home/frame/iss/iss-stream &<br/><br/>
+
+	#start picframe<br/>
+	#sudo -u frame picframe &<br/><br/>
+
+	#loop a video<br/>
+	#sudo -u frame /home/frame/iss/loop &
+</section>
+
+<!-- image of picframe working -->
+<section>
+	+ rc.local edit screenshot
+</section>
+
+<!-- reboot -->
+<section>
+<h3 align="left">Reboot!</h3>
+<p style="font-family:monospace; font-size:.66em;" align="left">
+$ sudo reboot now</p>
+</section>
+
 
 <!-- set up for your network at home -->
 <section>
-	cd /etc
-	cd wpa_supplicant
-	sudo nano wpa_supplicant
+	<h3 align="left">Once more thing - your home network:</h3>
+	<div align="left"><span style="font-family:monospace; font-size:.85em;">$ cd /etc</span></div>
+	<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">cd wpa_supplicant</span></div>
+	<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">sudo nano wpa_supplicant</span></div>
 </section>
 
-<!-- The end! -->
+<!-- configuiration screenshot -->
+<section>
+	+ wpa_supplicant screenshot
+</section>
 
 <!-- sources and resources -->
+<section>
+	+ sources and resources
+</section>
+
+<!-- End Title -->
+<section><h1>The End!</h1></section>
 
 <!-- END PRESENTATION -->
-
-
-
 </div>
 </div>
-
 <script src="../dist/reveal.js"></script>
 <script src="../plugin/notes/notes.js"></script>
 <script src="../plugin/markdown/markdown.js"></script>
