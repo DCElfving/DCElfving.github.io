@@ -1,3 +1,4 @@
+<!-- This presentation was created with the wonderful revealjs Javascript library -->
 
 <!doctype html>
 <html>
@@ -31,14 +32,14 @@
 <section>
 <table class ="r-stretch">
 <tr>
-<td align="center"><img src="images/portrait.png"/></td>
 <td align="center"><img src="images/iss.png"/></td>
 <td align="center"><img src="images/steph.png"/></td>
+<td align="center"><img src="images/portrait.png"/></td>
 </tr>
 <tr>
-<td align="center">Gallery</td>
 <td align="center">Live Streams</td>
 <td align="center">Video</td>
+<td align="center">Gallery</td>
 </tr>
 </table>
 </section>
@@ -63,7 +64,7 @@
 
 <!-- SECTION 1: What is a Raspberry Pi? -->
 <section data-background-image="images/question.gif">
-<h2 style="color:#000">Part 1: What is a Pi?</h2>
+<h1 style="color:#000">Part 1: What is a Raspberry Pi?</h2>
 </section>
 
 <!-- What is Pi YouTube video -->
@@ -97,7 +98,7 @@
 
 <!-- High Prices, long shipping -->
 <section>
-<h3 align="left">The retail price is $45</h3>
+<h3 align="left">The retail price is $35</h3>
 <img src="images/prices_screen.png" align="left">
 </section>
 
@@ -117,6 +118,7 @@
 <tr><td width=50%><h3>Raspberry Pi 3A+</h3>
 <p>The heart of it all. Smaller than the Pi 4, it has a 64-bit processor, wi-fi and Bluetooth.<p>
 <p>And, of course, HDMI out.</p>
+<p>Check out the <a href="https://www.raspberrypi.com/products/raspberry-pi-3-model-a-plus/" target="blank">product page</a>.</a>
 </td>
 <td width=50%><img src="images/pi.png"/></td></tr>
 </table>
@@ -156,13 +158,33 @@
 
 <!-- optional battery -->
 <section>
- + optional battery
+<table class="r-stretch"/>
+<tr><td width=50%><h3>Optional: Battery</h3>
+<p>A usb battery pack works great for powering the frame.<p>
+<p>It usually lasts between 6 and 8 hours on a charge.<p>
+</td>
+<td width=50%><img src="images/battery.jpg"/></td></tr>
+</table>
 </section>
 
 <!-- optional frame -->
 <section>
- + optional frame and mat dimentions
+<table class="r-stretch"/>
+<tr><td width=50%><h3>Optional: Frame & Mat</h3>
+<p>The whole assembly is small enough to fit into a deep frame.<p>
+<p><strong>Mat dimensions:</strong><br/>
+  8&#8542; in (225mm) x 5&#8539; in (130mm)
+</td>
+<td width=50%><img src="images/frame.jpg"/></td></tr>
+</table>
 </section>
+
+<!-- Terminal screenshot -->
+<section>
+<h3 align="left">It doesn't have to be pretty:</h3>
+<img src="images/frame_back.jpeg" width="800"/>
+</section>
+
 
 <!-- SECTION 3: OS Installation -->
 <section data-background-image="images/install.gif">
@@ -257,9 +279,9 @@ Raspberry Pi OS Lite (Legacy)</p>
 <section>
 <h3 align="left">In the terminal:</h3>
 <div align="left"><span style="font-family:monospace; font-size:.85em;">
-% ssh frame@frame.lan</span>
+% ssh frame@frame.local</span>
 <div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ sudo raspi-config</span></div>
-<p><br/><em>Note! Replace "frame@frame.lan" with your username and hostname.</em></p>
+<p><br/><em>Note! Replace "frame@frame.local" with your username and hostname.</em></p>
 </section>
 
 <!-- Config screenshot -->
@@ -284,11 +306,11 @@ Raspberry Pi OS Lite (Legacy)</p>
 <section>
 <h3 align="left">Back to the terminal!</h3>
 <div align="left"><span style="font-family:monospace; font-size:.85em;">
-% ssh frame@frame.lan</span>
+% ssh frame@frame.local</span>
 <div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ sudo apt update</span></div>
 <div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ sudo apt-get full-upgrade</span></div>
 <div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ sudo shutdown now</span></div>
-<p><br/><em>Note! Replace "frame@frame.lan" with your username and hostname.</em></p>
+<p><br/><em>Note! Replace "frame@frame.local" with your username and hostname.</em></p>
 </section>
 </section>
 
@@ -357,8 +379,8 @@ Raspberry Pi OS Lite (Legacy)</p>
 <tr><td width=50%><h3 align="center">9: Adapter</h3>
 <img src="images/adapter.jpg"/>
 </td>
-<td width=50%><h3 align="center">10: Power In</h3>
-<img src="images/power_in.jpg"/></td></tr>
+<td width=50%><h3 align="center">10: Attach Legs</h3>
+<img src="images/legs.jpg"/></td></tr>
 </table>
 </section>
 
@@ -376,10 +398,10 @@ Raspberry Pi OS Lite (Legacy)</p>
 <section>
 <h3 align="left">Again to the terminal:</h3>
 <div align="left"><span style="font-family:monospace; font-size:.85em;">
-% ssh frame@frame.lan</span>
+% ssh frame@frame.local</span>
 <div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ sudo apt-get install omxplayer</span></div>
 <div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ sudo apt-get install streamlink</span></div>
-<p><br/><em>Note! Replace "frame@frame.lan" with your username and hostname.</em></p>
+<p><br/><em>Note! Replace "frame@frame.local" with your username and hostname.</em></p>
 </section>
 </section>
 
@@ -424,7 +446,8 @@ $ sudo raspi-config</span>
 
 <!-- resolution setiings screenshot -->
 <section>
-	+ resolution settings screen
+<h3 align="left">Resolution Settings</h3>
+<img src="images/config3.jpg" width="800"/>
 </section>
 
 <!-- Launching Streamling & OMXPLayer -->
@@ -474,7 +497,8 @@ $ sudo nano iss-stream</span>
 
 <!-- iss-stream script screenshot -->
 <section>
- + screensnot of script in terminal
+<h3 align="left">Save and exit nano:</h3>
+<img src="images/iss_script.jpg" width="800"/>
 </section>
 
 <!-- Make script executable -->
@@ -492,13 +516,14 @@ $ ./iss-stream</span>
 <section>
 <h3 align="left">Let's upload a video to the Pi:</h3>
 <div align="left"><span style="font-family:monospace; font-size:.85em;">
-% scp "path to file.mp4" frame@frame.lan:</span>
+% scp &lt;path to file.mp4&gt; frame@frame.local:</span>
 <p><br/><em>Note! Run this command on your computer, not the Pi. Drag and drop files to the terminal.</em></p>
 </section>
 
 <!-- scp screenshot -->
 <section>
-	+ scp terminal screenshot
+<h3 align="left">scp in the terminal:</h3>
+<img src="images/scp.jpg" width="800"/>
 </section>
 
 <!-- loop video -->
@@ -517,23 +542,24 @@ $ ./iss-stream</span>
 	while true<br/>
 	do<br/><br/>
 
-	omxplayer --loop ~/file.mp4<br/><br/>
+	omxplayer --loop /home/frame/file.mp4<br/><br/>
 
 	done</p>
-	<p align="left"><br/><em>Note! You'll need to create the script file with "touch".</em></p>
+	<p align="left"><br/><em>Note! You'll need to create a file for the script file with "touch" <strong>and</strong> replace "frame" with your username.</em></p>
 </section>
 
 <!-- upload a folder with scp -r -->
 <section>
 <h3 align="left">Let's upload a Pictures directory:</h3>
 <div align="left"><span style="font-family:monospace; font-size:.85em;">
-% scp -r "path to Pictures" frame@frame.lan:</span>
-<p><br/><em>Note! Run this command on your computer. We're sending files from your laptop to the pi.</em></p>
+% scp -r &lt;path to Pictures&gt; frame@frame.local:</span>
+<p><br/><em>Note! Run this command on your computer. We're sending files from your laptop to the pi. <br/></br/>Replace "frame@frame.local" with your username and hostname.</em></p>
 </section>
 
 <!-- scp -r screenshot -->
 <section>
-	+ scp -r terminal screenshot
+<h3 align="left">scp -r in the terminal:</h3>
+<img src="images/scpr.jpg" width="800"/>
 </section>
 
 <!-- installing dependancies and picframe -->
@@ -553,10 +579,6 @@ $ sudo apt-get install python3-pip</span></div>
 <div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ picframe</span></div>
 </section>
 
-<!-- image of picframe working -->
-<section>
-	+ picframe success image
-</section>
 
 <!-- tweaking Picframe configuration.yaml -->
 <section>
@@ -569,12 +591,8 @@ $ sudo nano configuration.yaml</span></div>
 
 <!-- configuiration screenshot -->
 <section>
-	+ configuration.yaml screenshot
-</section>
-
-<!-- image of picframe working -->
-<section>
-	+ picframe configuration success image
+<h3 align="left">configuration.yaml:</h3>
+<img src="images/yaml.jpg" width="800"/>
 </section>
 
 <!-- launching on startup -->
@@ -588,26 +606,23 @@ $ sudo nano configuration.yaml</span></div>
 
 <!-- image of picframe working -->
 <section>
-	+ rc.local screenshot
+<h3 align="left">/etc/rc.local</h3>
+<img src="images/rclocal.jpg" width="800"/>
 </section>
 
 <!-- rc.local edits -->
 <section>
 <h3 align="left">At the bottom of the rc.local add:</h3>
 <p style="font-family:monospace; font-size:.66em;" align="left">
-	# start the ISS video stream<br/>
-	# sudo -u frame /home/frame/iss/iss-stream &<br/><br/>
+	#start the ISS video stream<br/>
+	#sudo -u frame /home/frame/iss-stream &<br/><br/>
 
 	#start picframe<br/>
 	#sudo -u frame picframe &<br/><br/>
 
 	#loop a video<br/>
-	#sudo -u frame /home/frame/iss/loop &
-</section>
-
-<!-- image of picframe working -->
-<section>
-	+ rc.local edit screenshot
+	#sudo -u frame /home/frame/loop &</p>
+  <p align="left"><em>Note: use your username and hostname rather than "frame", and uncomment (delete the "#") the script you'd like to run.</em></p>
 </section>
 
 <!-- reboot -->
@@ -617,24 +632,29 @@ $ sudo nano configuration.yaml</span></div>
 $ sudo reboot now</p>
 </section>
 
-
 <!-- set up for your network at home -->
 <section>
 	<h3 align="left">Once more thing - your home network:</h3>
 	<div align="left"><span style="font-family:monospace; font-size:.85em;">$ cd /etc</span></div>
 	<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">cd wpa_supplicant</span></div>
-	<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">sudo nano wpa_supplicant</span></div>
+	<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">sudo nano wpa_supplicant.conf</span></div>
 </section>
 
 <!-- configuiration screenshot -->
 <section>
-	+ wpa_supplicant screenshot
+<h3 align="left">wpa_supplicant.conf</h3>
+<img src="images/rclocal.jpg" width="800"/>
 </section>
 
-<!-- sources and resources -->
+<!-- Add your local network -->
 <section>
-	+ sources and resources
+	<h3 align="left">Add your wifi login and password:</h3>
+	<p style="font-family:monospace; font-size:.66em;" align="left">
+    ssid="Your Network"<br/>
+    psk="Your Password"</p>
+  <p align="left"><em>Save the file and shut down.</em></p>
 </section>
+
 
 <!-- End Title -->
 <section><h1>The End!</h1></section>
