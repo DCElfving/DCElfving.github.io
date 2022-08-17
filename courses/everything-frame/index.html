@@ -229,7 +229,7 @@ Raspberry Pi OS Lite (Legacy)</p>
 <section>
 <table class="r-stretch"/>
 <tr><td width=33%><h3>Name your Pi & create a user</h3>
-<p>Click on the gear icon. Create a hostname, a username, and add WiFi and locale information.</p>
+<p>Click on the gear icon.<br/><br/> Create a hostname, a username, password, and add WiFi and locale information.</p>
 </td>
 <td width=66%><img src="images/imager6.jpg"/></td></tr>
 </table>
@@ -271,17 +271,48 @@ Raspberry Pi OS Lite (Legacy)</p>
 
 <!-- Terminal screenshot -->
 <section>
-<h3 align="left">It will look somewhat like this:</h3>
+<h3 align="left">Your terminal will look <em>somewhat</em> like this:</h3>
 <img src="images/terminal.jpg" width="800"/>
+</section>
+
+<!-- Notes on the command line -->
+<section>
+  <h3 align="left">Notes on the Terminal and command line:</h3>
+  <div align="left"><p>If you're new to working with computers this way, the terminal and command line can be intimidating.</p>
+  <p>Rather than pointing and clicking on folders and files, we use text based commands to navigate through the system, create files and launch applications.</p>
+  <p>We'll use the terminal to navigate both our local computers, <em>and</em> the Raspberry Pi. You may find it useful to open two terminal windows or tabs.</p>
+</div>
+</section>
+
+<!-- Notes on prompts -->
+<section>
+  <h3 align="left">Notes on prompts:</h3>
+  <p align="left">In this guide, we'll use different colors and prompts to distinguish between commands for your computer, and those for the connected Pi.</p>
+
+  <div align="left"><p><span style="font-family:monospace; font-size: 1.2em; color:green;">%</span> This prompt indicates a command entered on your computer.</p>
+
+  <p><span style="font-family:monospace; font-size: 1.2em; color: cyan;">$</span> This indicates a command entered on the Pi.</p>
+
+  <p>The colors in your terminal may be different, but the commands we'll use will be the same.</p>
+  </div>
 </section>
 
 <!-- First terminal commands -->
 <section>
-<h3 align="left">In the terminal:</h3>
+<h3 align="left">Let's get started:</h3>
 <div align="left"><span style="font-family:monospace; font-size:.85em;">
-% ssh frame@frame.local</span>
-<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ sudo raspi-config</span></div>
-<p><br/><em>Note! Replace "frame@frame.local" with your username and hostname.</em></p>
+<span style="color: green">%</span> ssh username@hostname.local</span>
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;"><span style="color: cyan">$</span> sudo raspi-config</span></div>
+<p><br/><em>Note: don't copy the prompt (% or $) when writing commands, and replace "username@hostname.local" with the names created while configuring the SD card. Log in with the password you created and accept the new connection.</em></p>
+</section>
+
+<!-- What just happened? -->
+<section>
+<h3 align="left">What just happened??</h3>
+<div align="left"><p>We used the <span style="font-family:monospace">ssh</span> command to open a connection to the raspberry pi.</p>
+  <p>After logging into the Pi (note the prompt change!) we used the <span style="font-family:monospace">sudo</span> command to launch the <span style="font-family:monospace">raspi-config</span> application.</p>
+  <p>Don't worry if this still feels a bit abstract.</p>
+</div>
 </section>
 
 <!-- Config screenshot -->
@@ -304,14 +335,21 @@ Raspberry Pi OS Lite (Legacy)</p>
 
 <!-- First terminal commands -->
 <section>
-<h3 align="left">Back to the terminal!</h3>
+<h3 align="left">After rebooting, we need reconnect to the Pi and update the software:</h3>
 <div align="left"><span style="font-family:monospace; font-size:.85em;">
-% ssh frame@frame.local</span>
-<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ sudo apt update</span></div>
-<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ sudo apt-get full-upgrade</span></div>
-<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ sudo shutdown now</span></div>
-<p><br/><em>Note! Replace "frame@frame.local" with your username and hostname.</em></p>
+<span style="color: green">%</span> ssh username@hostname.local</span>
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;"><span style="color: cyan">$</span> sudo apt update</span></div>
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;"><span style="color: cyan">$</span> sudo apt-get full-upgrade</span></div>
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;"><span style="color: cyan">$</span> sudo shutdown now</span></div>
+<p><br/><em>Note: always replace "username@hostname.local" with your username and hostname.</em></p>
 </section>
+</section>
+
+<!-- End Section 3 -->
+<section>
+  <h3 align="left">Congratulations! You've just configured and connected to a Raspberry Pi.</h3>
+  <div align="left">
+    <p>We'll return to the terminal and command line to install software after assembling the frame.</p></div>
 </section>
 
 <!-- SECTION 4: Assembly -->
@@ -394,22 +432,22 @@ Raspberry Pi OS Lite (Legacy)</p>
 <iframe class="r-stretch" src="https://www.youtube.com/embed/rrB13utjYV4"></iframe>
 </section>
 
+
 <!-- Install OMXPlayer and Streamlink -->
 <section>
-<h3 align="left">Again to the terminal:</h3>
+<h3 align="left">Back to the terminal:</h3>
 <div align="left"><span style="font-family:monospace; font-size:.85em;">
-% ssh frame@frame.local</span>
-<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ sudo apt-get install omxplayer</span></div>
-<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ sudo apt-get install streamlink</span></div>
-<p><br/><em>Note! Replace "frame@frame.local" with your username and hostname.</em></p>
+<span style="color:green">%</span> ssh username@hostname.local</span>
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;"><span style="color:cyan">$</span> sudo apt-get install omxplayer</span></div>
+<p><br/><em>Note: As ever, remember to replace "username@hostname.local" with your username and hostname.</em></p>
 </section>
-</section>
+
 
 <!-- Vertical Frame? -->
 <section>
-<h3 align="left">Are you creating a vertical frame?</h3>
+<h3 align="left">Are you creating a vertical frame? You'll need to tweak a setting:</h3>
 <div align="left"><span style="font-family:monospace; font-size:.85em;">
-$ sudo nano /boot/config.txt</span>
+<span style="color: cyan">$</span> sudo nano /boot/config.txt</span>
 </section>
 
 <!-- config.txt screenshot -->
@@ -418,18 +456,27 @@ $ sudo nano /boot/config.txt</span>
 <img src="images/nano_config.jpg" width="800"/>
 </section>
 
+<!-- What just happened? -->
+<section>
+<h3 align="left">What just happened??</h3>
+<div align="left"><p>We used the <span style="font-family:monospace">sudo</span> command to launch the application <span style="font-family:monospace">nano</span>, a text editor installed with Raspberry Pi OS.</p>
+<p> We're using nano to open and edit the <span style="font-family:monospace">config.txt</span> file located in the <span style="font-family:monospace">etc</span> directory.</p>
+</div>
+</section>
+
 <!-- Vertical Frame? -->
 <section>
-<h3 align="left">At the end of the file, add this:</h3>
+<h3 align="left">Use the arrow keys to navigate to the bottom of the file and add this:</h3>
 <div align="left"><span style="font-family:monospace; font-size:.85em;">
-display_hdmi_rotate=3</span>
+display_hdmi_rotate=3</span><br/><br/>
+<p>Press "control O" to "write Out" and save your changes, then press "control X" to "eXit" nano.
 </section>
 
 <!-- One more config -->
 <section>
 <h3 align="left">Once more, into raspi config</h3>
 <div align="left"><span style="font-family:monospace; font-size:.85em;">
-$ sudo raspi-config</span>
+<span style="color: cyan">$</span> sudo raspi-config</span>
 </section>
 
 <!-- Display Settings -->
@@ -451,38 +498,38 @@ $ sudo raspi-config</span>
 </section>
 
 <!-- Launching Streamling & OMXPLayer -->
-<section>
+<section data-visibility="hidden">
 <h3 align="left">Let's try it!</h3>
-<p style="font-family:monospace; font-size:.66em;" align="left">streamlink --player-continuous-http --player omxplayer --fifo --player-args "--live --win \"0 0 1280 720\" {filename}" http://www.ustream.tv/channel/17074538 480p</p>
+<p style="font-family:monospace; font-size:.66em;" align="left"><span style="color: cyan">$</span> streamlink --player-continuous-http --player omxplayer --fifo --player-args "--live --win \"0 0 1280 720\" {filename}" http://www.ustream.tv/channel/17074538 480p</p>
 <br/>
 <h3 align="left">Let's try it (vertical)!</h3>
-<p style="font-family:monospace; font-size:.66em;" align="left">streamlink --player-continuous-http --player omxplayer --fifo --player-args "--live --orientation 90 --win \"0 0 720 1280\" {filename}" http://www.ustream.tv/channel/17074538 480p</p>
+<p style="font-family:monospace; font-size:.66em;" align="left"><span style="color: cyan">$</span> streamlink --player-continuous-http --player omxplayer --fifo --player-args "--live --orientation 90 --win \"0 0 720 1280\" {filename}" http://www.ustream.tv/channel/17074538 480p</p>
 </section>
 
 <!-- Demo video of iss-stream -->
-<section data-background-video="images/iss-stream.mp4"></section>
+<section data-visibility="hidden" data-background-video="images/iss-stream.mp4"></section>
 
 <!-- Let's make a script -->
-<section>
+<section data-visibility="hidden">
 <h3 align="left">Let's make a script for this:</h3>
 <div align="left"><span style="font-family:monospace; font-size:.85em;">
-$ ls</span>
+<span style="color: cyan">$</span> ls</span>
 <div class="fragment"align="left"><span style="font-family:monospace; font-size:.85em;">
-$ touch iss-stream</span>
+<span style="color: cyan">$</span> touch iss-stream</span>
 <div class="fragment"align="left"><span style="font-family:monospace; font-size:.85em;">
-$ ls</span>
+<span style="color: cyan">$</span> ls</span>
 <div class="fragment"align="left"><span style="font-family:monospace; font-size:.85em;">
-$ sudo nano iss-stream</span>
+<span style="color: cyan">$</span> sudo nano iss-stream</span>
 </section>
 
 <!-- empty nano file -->
-<section>
+<section data-visibility="hidden">
 <h3 align="left">Empty...for now</h3>
 <img src="images/empty-iss.jpg" width="800"/>
 </section>
 
 <!-- copy this script -->
-<section>
+<section data-visibility="hidden">
 <h3 align="left">Copy this:</h3>
 <p style="font-family:monospace; font-size:.66em;" align="left">
 	#!/bin/bash<br/>
@@ -496,28 +543,28 @@ $ sudo nano iss-stream</span>
 </section>
 
 <!-- iss-stream script screenshot -->
-<section>
+<section data-visibility="hidden">
 <h3 align="left">Save and exit nano:</h3>
 <img src="images/iss_script.jpg" width="800"/>
 </section>
 
 <!-- Make script executable -->
-<section>
+<section data-visibility="hidden">
 <h3 align="left">Make it executable:</h3>
 <div align="left"><span style="font-family:monospace; font-size:.85em;">
-$ sudo chmod u+x iss-stream</span>
+<span style="color: cyan">$</span> sudo chmod u+x iss-stream</span>
 <div class="fragment"align="left"><span style="font-family:monospace; font-size:.85em;">
-$ ls</span>
+<span style="color: cyan">$</span> ls</span>
 <div class="fragment"align="left"><span style="font-family:monospace; font-size:.85em;">
-$ ./iss-stream</span>
+<span style="color: cyan">$</span> ./iss-stream</span>
 </section>
 
 <!-- upload content with scp -->
 <section>
 <h3 align="left">Let's upload a video to the Pi:</h3>
 <div align="left"><span style="font-family:monospace; font-size:.85em;">
-% scp &lt;path to file.mp4&gt; frame@frame.local:</span>
-<p><br/><em>Note! Run this command on your computer, not the Pi. Drag and drop files to the terminal.</em></p>
+<span style="color: green">%</span> scp &lt;path to .mp4&gt; username@hostname.local:</span>
+<p><br/><em>Note: run this command on your computer, not the Pi. <br/><br/>If you drag and drop your file onto the terminal, it will fill in the file path for you. Be sure to include the : at the end of the command.</em></p>
 </section>
 
 <!-- scp screenshot -->
@@ -528,32 +575,74 @@ $ ./iss-stream</span>
 
 <!-- loop video -->
 <section>
-<h3 align="left">Play & Loop video with Omxplayer:</h3>
-<div align="left"><span style="font-family:monospace; font-size:.85em;">$ omxplayer file.mp4</span></div>
-<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ omxplayer --loop file.mp4</span></div>
+<h3 align="left">Open your video with Omxplayer:</h3>
+<div align="left"><span style="font-family:monospace; font-size:.85em;"><span style="color: cyan">$</span> ls</span></div>
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;"><span style="color: cyan">$</span> omxplayer --loop file.mp4</span></div>
+<p align="left"><br/><em>Note: After uploading the video to your Pi, type "ls" to see it listed in the home directory of the Pi. Replace "file.mp4" with the name of your file to loop it. Press "<b>control C</b>" to stop the video.</em></p>
 </section>
 
 
+<!-- Let's make a script -->
+<section>
+<h3 align="left">Let's make a script for looping video:</h3>
+<div align="left"><span style="font-family:monospace; font-size:.85em;">
+<span style="color: cyan">$</span> touch video-loop</span>
+<div class="fragment"align="left"><span style="font-family:monospace; font-size:.85em;">
+<span style="color: cyan">$</span> sudo nano video-loop</span>
+</section>
+
+<!-- empty nano file -->
+<section>
+<h3 align="left">Empty...for now</h3>
+<img src="images/empty-iss.jpg" width="800"/>
+</section>
+
+<!-- What just happened? -->
+<section>
+<h3 align="left">What just happened??</h3>
+<div align="left"><p>We used the <span style="font-family:monospace">touch</span> command to create a new, empty fille named video-loop.</p>
+  <p>Then we used the <span style="font-family:monospace">sudo</span> command to open that file with the <span style="font-family:monospace">nano</span> editor.</p>
+</div>
+</section>
+
 <!-- copy this script -->
 <section>
-<h3 align="left">We can script this too!</h3>
+<h3 align="left">Copy this into the file.</h3>
 <p style="font-family:monospace; font-size:.66em;" align="left">
 	#!/bin/bash<br/>
 	while true<br/>
 	do<br/><br/>
 
-	omxplayer --loop /home/frame/file.mp4<br/><br/>
+	omxplayer --loop /home/username/file.mp4<br/><br/>
 
 	done</p>
-	<p align="left"><br/><em>Note! You'll need to create a file for the script file with "touch" <strong>and</strong> replace "frame" with your username.</em></p>
+	<p align="left"><br/><em>Replce "username" with your username. Press "control O" to save the file, and "control X" to exit nano.</em></p>
+</section>
+
+<!-- Make script executable -->
+<section>
+<h3 align="left">Make the script executable:</h3>
+<div align="left"><span style="font-family:monospace; font-size:.85em;">
+<span style="color: cyan">$</span> sudo chmod u+x video-loop</span>
+<div class="fragment"align="left"><span style="font-family:monospace; font-size:.85em;">
+<span style="color: cyan">$</span> ./video-loop</span></div>
+<p><br/><em>Note: press "<b>control C</b>" to stop the video loop.</em></p>
+</section>
+
+<!-- What just happened? -->
+<section>
+<h3 align="left">What just happened??</h3>
+<div align="left"><p>We used the <span style="font-family:monospace">chmod</span> command to modify the permissions of the video-loop file.</p>
+<p>The <span style="font-family:monospace">u + x</span> modifier makes the script executable by the logged in user (you!).</p>
+</div>
 </section>
 
 <!-- upload a folder with scp -r -->
 <section>
 <h3 align="left">Let's upload a Pictures directory:</h3>
 <div align="left"><span style="font-family:monospace; font-size:.85em;">
-% scp -r &lt;path to Pictures&gt; frame@frame.local:</span>
-<p><br/><em>Note! Run this command on your computer. We're sending files from your laptop to the pi. <br/></br/>Replace "frame@frame.local" with your username and hostname.</em></p>
+<span style="color: green">%</span> scp -r &lt;Pictures&gt; username@hostname.local:</span>
+<p><br/><em>Note: Run this command on your computer. Be sure to name your directory of images "Pictures".<br/><br/>Drag the Pictures folder onto the terminal, and replace "username@hostname.local" with your username and hostname. Don't forget the : at the end.</em></p>
 </section>
 
 <!-- scp -r screenshot -->
@@ -566,27 +655,28 @@ $ ./iss-stream</span>
 <section>
 <h3 align="left">Installing Picframe</h3>
 <div align="left"><span style="font-family:monospace; font-size:.85em;">
-$ sudo apt-get install python3-pip</span></div>
+<span style="color: cyan">$</span> sudo apt-get install python3-pip</span></div>
 
-<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ sudo apt-get install python3-numpy</span></div>
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;"><span style="color: cyan">$</span> sudo apt-get install python3-numpy</span></div>
 
-<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ sudo apt-get install libjpeg-dev zlib1g-dev</span></div>
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;"><span style="color: cyan">$</span> sudo apt-get install libjpeg-dev zlib1g-dev</span></div>
 
-<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ sudo pip3 install picframe</span></div>
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;"><span style="color: cyan">$</span> sudo pip3 install picframe</span></div>
 
-<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ picframe -i .</span></div>
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;"><span style="color: cyan">$</span> picframe -i .</span></div>
 
-<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">$ picframe</span></div>
+<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;"><span style="color: cyan">$</span> picframe</span></div>
+<p align="left"><br/><em>Note: after uploading your Pictures directory from your computer, remember to run these commands on the Raspberry Pi.</em></p>
 </section>
 
 
 <!-- tweaking Picframe configuration.yaml -->
 <section>
-<h3 align="left">What's with the mats? Picframe configuration:</h3>
+<h3 align="left">What's with the mats? Let's change the Picframe configuration:</h3>
 <div align="left"><span style="font-family:monospace; font-size:.85em;">
-$ cd picframe-data/config</span></div>
+<span style="color: cyan">$</span> cd picframe-data/config</span></div>
 <div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">
-$ sudo nano configuration.yaml</span></div>
+<span style="color: cyan">$</span> sudo nano configuration.yaml</span></div>
 </section>
 
 <!-- configuiration screenshot -->
@@ -595,13 +685,73 @@ $ sudo nano configuration.yaml</span></div>
 <img src="images/yaml.jpg" width="800"/>
 </section>
 
+<!-- What just happened? -->
+<section>
+<h3 align="left">What just happened??</h3>
+<div align="left"><p>We navigated to the <span style="font-family:monospace">picframe-data</span> directory, then to the <span style="font-family:monospace">config</span> directory within it.</p>
+<p>Then we used <span style="font-family:monospace">sudo nano</span> to open and edit the <span style="font-family:monospace">configuration.yaml</span> file.</p>
+</div>
+</section>
+
+
+<!-- things to adjust -->
+<section>
+<h3 align="left">Suggested Configuration:</h3>
+<div align="left">
+<span style="font-family:monospace; font-size:.85em;">show_text_fm: ""</span>
+<p>Remove the default values so no date is displayed.</p>
+<span style="font-family:monospace; font-size:.85em;">show_text: ""</span>
+<p>Remove the default values so no text is displayed.</p>
+<span style="font-family:monospace; font-size:.85em;">mat_images: False</span>
+<p>Change the default value to False to remove the automatic mat.</p>
+<span style="font-family:monospace; font-size:.85em;">use_http: True</span>
+<p>This is near the bottom of the file. Change the default to True.</p>
+<cd picframe-data/config</span></div>
+</section>
+
+<!-- reboot -->
+<section>
+<h3 align="left">Save your changes and reboot.</h3>
+<div align="left"><p>As before, press "control O" to save your changes and "control X" to exit nano. Reboot and log in to your Pi, then launch picframe again.</p>
+  <div align="left"><span style="font-family:monospace; font-size:.85em;">
+  <span style="color: cyan">$</span> sudo reboot</span></div>
+</div>
+</section>
+
+<!-- IP address -->
+<section>
+  <h3 align="left">Take note of your IP address.</h3>
+  <div align="left"><p>Look at the screen of your frame when it boots. You should see an IP address listed. Make a note of it!</p>
+  </div>
+</section>
+
+<!-- launch picframe with new config -->
+<section>
+<h3 align="left">Restart picframe. You should see your config changes!</h3>
+<div align="left"><span style="font-family:monospace; font-size:.85em;"><span style="color: cyan">$</span> picframe</span></div>
+</section>
+
+<!-- IP address -->
+<section>
+  <h3 align="left">Open a web browser</h3>
+  <div align="left"><p>Enter the IP address of your Pi followed by :9000</p>
+  </div>
+</section>
+
+<!-- scp -r screenshot -->
+<section>
+<h3 align="left">Picframe Remote:</h3>
+<img src="images/picframe_control.jpg" width="800"/>
+</section>
+
+
 <!-- launching on startup -->
 <section>
-	<h3 align="left">Launch on Startup</h3>
+	<h3 align="left">Let's launch picframe at startup:</h3>
 	<div align="left"><span style="font-family:monospace; font-size:.85em;">
-	$ cd /etc</span></div>
+	<span style="color: cyan">$</span> cd /etc</span></div>
 	<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">
-	$ sudo nano rc.local</span></div>
+	<span style="color: cyan">$</span> sudo nano rc.local</span></div>
 </section>
 
 <!-- image of picframe working -->
@@ -612,49 +762,100 @@ $ sudo nano configuration.yaml</span></div>
 
 <!-- rc.local edits -->
 <section>
-<h3 align="left">At the bottom of the rc.local add:</h3>
+<h3 align="left">Add this to rc.local, just above the "exit 0" line at the bottom of the file.</h3>
+
 <p style="font-family:monospace; font-size:.66em;" align="left">
-	#start the ISS video stream<br/>
-	#sudo -u frame /home/frame/iss-stream &<br/><br/>
-
 	#start picframe<br/>
-	#sudo -u frame picframe &<br/><br/>
+	sudo -u username picframe &<br/><br/>
 
-	#loop a video<br/>
-	#sudo -u frame /home/frame/loop &</p>
-  <p align="left"><em>Note: use your username and hostname rather than "frame", and uncomment (delete the "#") the script you'd like to run.</em></p>
+  <p align="left"><em>Note: use your username rather than "username". Again, "contol O" to save, "control X" to exit nano.</em></p>
 </section>
 
 <!-- reboot -->
 <section>
 <h3 align="left">Reboot!</h3>
 <p style="font-family:monospace; font-size:.66em;" align="left">
-$ sudo reboot now</p>
+<span style="color: cyan">$</span> sudo reboot</p>
+<p align=left>Picframe should start automatically.</p>
 </section>
 
 <!-- set up for your network at home -->
 <section>
 	<h3 align="left">Once more thing - your home network:</h3>
-	<div align="left"><span style="font-family:monospace; font-size:.85em;">$ cd /etc</span></div>
-	<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">cd wpa_supplicant</span></div>
-	<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;">sudo nano wpa_supplicant.conf</span></div>
+	<div align="left"><span style="font-family:monospace; font-size:.85em;"><span style="color: cyan">$</span> cd /etc</span></div>
+	<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;"><span style="color: cyan">$</span> cd wpa_supplicant</span></div>
+	<div class="fragment" align="left"><span style="font-family:monospace; font-size:.85em;"><span style="color: cyan">$</span> sudo nano wpa_supplicant.conf</span></div>
+  <p align="left"><br/>If your frame is configured for the class wifi network, we'll need to edit this file so it works for you at home.</p>
 </section>
 
 <!-- configuiration screenshot -->
 <section>
 <h3 align="left">wpa_supplicant.conf</h3>
-<img src="images/rclocal.jpg" width="800"/>
+<img src="images/wpa.jpg" width="800"/>
 </section>
 
 <!-- Add your local network -->
 <section>
-	<h3 align="left">Add your wifi login and password:</h3>
+	<h3 align="left">Replace the existing values with your home wifi login and password:</h3>
 	<p style="font-family:monospace; font-size:.66em;" align="left">
     ssid="Your Network"<br/>
     psk="Your Password"</p>
   <p align="left"><em>Save the file and shut down.</em></p>
 </section>
 
+<!-- What if not connected -->
+<section>
+	<h3 align="left">What if I'm not already connected to the Pi?</h3>
+  <div align="left">
+  <p>To change the network and password, we need to manually add a wpa_supplicant.conf file to the SD card.</p>
+  <p>Get started by powering down your Pi, removing the SD card and opening it on your computer – it will appear as "boot".</p>
+</div>
+</section>
+
+<!-- Boot directory image -->
+<section>
+<h3 align="left">The contents of your "boot" SD card: </h3>
+<img src="images/boot.jpg" width="750"/>
+</section>
+
+<!-- Create wpa_supplicant.conf -->
+<section>
+	<h3 align="left">Create a new plain text document.</h3>
+  <div align="left">
+  <p>With TextEdit on a Mac or Notepad on Windows, open a new <em>plain text</em> file. <br/><br/>If the document has any text styling, it won't work with your Raspberry Pi.</p>
+</div>
+</section>
+
+<!-- wpa_supplicant template -->
+<section>
+<h3 align="left">Copy this into the plain text file.</h3>
+<p style="font-family:monospace; font-size:.66em;" align="left">
+country=us<br/>
+update_config=1<br/>
+ctrl_interface=/var/run/wpa_supplicant<br/><br/>
+
+network={<br/>
+ scan_ssid=1<br/>
+ ssid="Network_Name"<br/>
+ psk="Network_Password"<br/>
+}</p>
+	<p align="left"><em>Replace Network_Name and Network_Password with your wifi network info. Save the file to your SD card as wpa_supplicant.conf (make sure there's .txt or other extension.)</em></p>
+</section
+
+<!-- Boot directory image -->
+<section>
+<h3 align="left">Your file should look something like this: </h3>
+<img src="images/wpa_file.jpg" width="750"/>
+</section>
+
+
+<!-- That's it! -->
+<section>
+	<h3 align="left">That's it!</h3>
+  <div align="left">
+  <p>Insert the SD card back into the Pi and restart. Your frame should automatically connect to your network and launch picframe.</p>
+</div>
+</section>
 
 <!-- End Title -->
 <section><h1>The End!</h1></section>
