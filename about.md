@@ -11,12 +11,9 @@ subtitle: A portfolio site
 
   <p><b>This is the portfolio site of Dave Elfving.</b> I'm a teacher, artist and Experience Designer living in San Francisco.</p>
 
-  <p>My work explores the relationship between human perception and that of Machine Learning and AI systems. In short: I love mashing up data and traditional darkroom photography.</p>
+  <p>My work explores the relationship between human perception, Machine Learning and AI systems. I particurlary enjoy mashing up data, traditional darkroom photography and <a href ="https://en.wikipedia.org/wiki/Creative_coding">creative coding</a>.</p>
 
-  <p>I'm also a volunteer and mentor, actively seeking teaching opportunities to empower others with tools for creativity.</p>
+  <p>I teach in the Interaction Design program at <a href = "https://www.cca.edu/design/ixd/">California College of the Arts</a>, and I serve on the advisory board at <a href="http://www.firstexposures.org">First Exposures</a>, and the board of <a href = "http://www.sfcamerawork.org">SF Camerawork</a>. I often work on projects at <a href = "http://www.humanmade.org">Humanmade</a>, and occasionally teach workshops and volunteer as a Teaching Assistant at <a href = "http://www.grayarea.org">Gray Area</a>. For a long time, I worked with Apple's interactive marketing team.</p>
 
-  <p>I'm on the advisory board at <a href="http://www.firstexposures.org">First Exposures</a>, a youth photography program based in SF. I also serve on the board of <a href = "http://www.sfcamerawork.org">SF Camerawork</a> and filled in as its Interim Executive Director in 2020. I often work on projects at <a href = "http://www.humanmade.org">Humanmade</a>, and occasionally volunteer as a Teaching Assistant at <a href = "http://www.grayarea.org">Gray Area</a>.</p>
-
-	<p>If you like, you can learn more about me at <a href ="https://www.linkedin.com/in/delfving/">LinkedIn</a>, and follow me on Instagram at <a href="https://www.instagram.com/dcelfving">@dcelfving</a>.</p>
-
+  <p>You can learn more about me at <a href ="https://www.linkedin.com/in/delfving/">LinkedIn</a>, or follow my infrequently updated Instagram at <a href="https://www.instagram.com/dcelfving">@dcelfving</a>.</p>
 </div>
