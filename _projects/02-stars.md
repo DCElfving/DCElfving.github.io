@@ -1,6 +1,6 @@
 ---
 title: 'Stars'
-subtitle: 'Portraits, Constellations, and Augmented Reality'
+subtitle: 'Portraits realized in Augmented Reality'
 #date: 2020-03-07 00:00:00
 #description:
 featured_image: '/images/stars/stars_hero.png'

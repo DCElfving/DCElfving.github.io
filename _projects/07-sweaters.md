@@ -1,6 +1,6 @@
 ---
 title: 'All the Sweaters'
-subtitle: 'Mulit-Panel Video and Thrift Store Sweaters'
+subtitle: 'Multi-Panel Video of Goodwill Sweaters'
 #date: 2021-05-11
 #description: Composite images created with image stacking software.
 featured_image: '/images/sweaters/sweaters_hero.jpg'

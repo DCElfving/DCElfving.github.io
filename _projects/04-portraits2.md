@@ -1,6 +1,6 @@
 ---
 title: 'Portraits (Again)'
-subtitle: 'Found negatives, Machine Learning and lots of Servos'
+subtitle: 'Found negatives and Lots of Servos'
 #date: 2023-08-07
 description: 'A moving video installation created with found negatives, face detection data gathered by Machine Learning, and a unique, moving sculpture.'
 featured_image: '/images/portraits2/portraits2_hero.png'

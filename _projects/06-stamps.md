@@ -1,6 +1,6 @@
 ---
 title: 'All the Stamps'
-subtitle: 'Latent Walks on Tiny Screens, Made With Stamps'
+subtitle: 'Latent Image Walks on Tiny Screens'
 #date: 2021-05-11
 #description: Early Machine Learning experiments, created with RunwayML.
 featured_image: '/images/stamps/stamps_hero.jpg'

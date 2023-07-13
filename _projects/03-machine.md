@@ -1,6 +1,6 @@
 ---
 title: 'Machine Drawings'
-subtitle: 'Generative Drawing, Photographs and a Pen Plotter'
+subtitle: 'Generative Drawing with Photographs'
 #date: 2021-05-10
 #description: Exploring the relationship between generative art and images.
 featured_image: '/images/machine/machine_hero.png'
