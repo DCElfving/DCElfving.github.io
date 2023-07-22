@@ -13,7 +13,7 @@ subtitle: A portfolio site
 
   <p>My work explores the relationship between human perception, Machine Learning and AI systems. I particurlary enjoy mashing up data, traditional darkroom photography and <a href ="https://en.wikipedia.org/wiki/Creative_coding">creative coding</a>.</p>
 
-  <p>I teach in the Interaction Design program at <a href = "https://www.cca.edu/design/ixd/">California College of the Arts</a>, and I serve on the advisory board at <a href="http://www.firstexposures.org">First Exposures</a>, and the board of <a href = "http://www.sfcamerawork.org">SF Camerawork</a>. I often work on projects at <a href = "http://www.humanmade.org">Humanmade</a>, and occasionally teach workshops and volunteer as a Teaching Assistant at <a href = "http://www.grayarea.org">Gray Area</a>. For a long time, I worked on Apple's interactive marketing team.</p>
+  <p>I teach in the Interaction Design program at <a href = "https://www.cca.edu/design/ixd/">California College of the Arts</a>, and I serve on the advisory board at <a href="http://www.firstexposures.org">First Exposures</a>, and the board of <a href = "http://www.sfcamerawork.org">SF Camerawork</a>. I often work on projects at <a href = "http://www.humanmade.org">Humanmade</a>, and occasionally teach workshops and volunteer as a Teaching Assistant at <a href = "http://www.grayarea.org">Gray Area</a>. For a long time, I worked at Apple on their interactive marketing team.</p>
 
   <p>You can learn more about me at <a href ="https://www.linkedin.com/in/delfving/">LinkedIn</a>, or follow my infrequently updated Instagram at <a href="https://www.instagram.com/dcelfving">@dcelfving</a>.</p>
 </div>
