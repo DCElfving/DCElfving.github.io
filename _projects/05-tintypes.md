@@ -6,6 +6,10 @@ subtitle: 'Wet Plates From a Long Time Ago'
 featured_image: '/images/tintypes/tintypes_hero.png'
 ---
 
+I've long been fascinated by analong photography. Watching an image emerge from a bath of chemicals fills me with wonder every time. 
+
+For more than a decade, I've tinkered with the <a href="https://en.wikipedia.org/wiki/Collodion_process">Wet Plate Collodion process</a> (better known as Tintypes). These are a few examples from over the years. 
+
 <img src ="/images/tintypes/Adrienne3.jpg"/>
 
 <img src ="/images/tintypes/austin.png"/>

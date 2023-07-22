@@ -8,7 +8,7 @@ featured_image: '/images/averaged/averaged_hero.png'
 
 Usually the purview of astronomers, these images were created by "stacking" a number of photos. An application designed to stitch landscapes into a panorama was tricked into to layering multiple images of the same subject.
 
-Mostly as a learning experience, I've made several of these available as inexpensive NFC works on <a href ="https://www.hicetnunc.xyz/DCE/creations">Hic et Nunc</a>.
+Mostly as a learning experience, I made several of these available as inexpensive NFC works on the short lived Hic et Nunc platform.
 
 <img src ="/images/averaged/yellow_car.png"/>
 

@@ -6,7 +6,7 @@ subtitle: 'Portraits realized in Augmented Reality'
 featured_image: '/images/stars/stars_hero.png'
 ---
 
-These are three dimensional portraits captured with the depth sensor of an iPhone. As visitors investigate a mantlepiece crowded with star charts, the portraits are revealed in augmented reality.
+These are three dimensional portraits captured with the depth sensor of an iPhone. As visitors investigate a mantlepiece crowded with star charts, the portraits are revealed in augmented reality. Created and displayed in Fall of 2019 at Gray Area, San Francisco.
 
 <iframe src="https://player.vimeo.com/video/377403981" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
