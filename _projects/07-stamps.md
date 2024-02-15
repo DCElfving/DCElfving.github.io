@@ -12,12 +12,12 @@ So it's Spring of 2022, and <a href="https://blog.metaphysic.ai/what-is-the-late
 
 The results were, as expected, creepy. But strangely compelling as they merged together and melted apart. Philatelic amoebas...
 
-<img src ="/images/stamps/stamps1.jpeg"/>
+<img src ="/images/stamps/stamps1.jpg"/>
 
-<img src ="/images/stamps/stamps2.jpeg"/>
+<img src ="/images/stamps/stamps2.jpg"/>
 
 I wanted to realize the images as <em>actual</em> stamps, so I printed some up and placed them in a plastic "Stamps of the World" album.
 
-<img src ="/images/stamps/stamps3.jpeg"/>
+<img src ="/images/stamps/stamps3.jpg"/>
 
-<img src ="/images/stamps/stamps4.jpeg"/>
+<img src ="/images/stamps/stamps4.jpg"/>

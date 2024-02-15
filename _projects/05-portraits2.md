@@ -3,7 +3,7 @@ title: 'Portraits (Again)'
 subtitle: 'Found negatives and Lots of Servos'
 #date: 2023-08-07
 description: 'A moving video installation created with found negatives, face detection data gathered by Machine Learning, and a unique, moving sculpture.'
-featured_image: '/images/portraits2/portraits2_hero.png'
+featured_image: '/images/portraits2/portraits2_hero.jpg'
 header-img: 'images/portraits/portraits_head.jpg'
 ---
 
@@ -15,23 +15,23 @@ One of the more compelling aspects of the piece was accidental. Visitors were in
 
 <iframe src="https://player.vimeo.com/video/843579055" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-<img src ="/images/portraits2/portraits2_1.jpeg"/>
+<img src ="/images/portraits2/portraits2_1.jpg"/>
 
-<img src ="/images/portraits2/portraits2_2.jpeg"/>
+<img src ="/images/portraits2/portraits2_2.jpg"/>
 
 <iframe src="https://player.vimeo.com/video/843578835" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 <div class="gallery" data-columns="3">
-	<img src ="/images/portraits2/portraits2_detail1.png"/>
-	<img src ="/images/portraits2/portraits2_detail2.png"/>
-	<img src ="/images/portraits2/portraits2_detail3.png"/>
+	<img src ="/images/portraits2/portraits2_detail1.jpg"/>
+	<img src ="/images/portraits2/portraits2_detail2.jpg"/>
+	<img src ="/images/portraits2/portraits2_detail3.jpg"/>
 </div>
 
-<img src ="/images/portraits2/portraits2_3.jpeg"/>
+<img src ="/images/portraits2/portraits2_3.jpg"/>
 
 A closer look at the mechanism behind the array. Each servo is mounted in a 3D printed actuator, and each "tile" requires 13 discrete parts. Having managed 16 tiles (with a lot of trouble shooting) I'd like to try this at a larger scale and with multiple pieces.
 
 <div class="gallery" data-columns="2">
-	<img src ="/images/portraits2/portraits2_5.png"/>
-	<img src ="/images/portraits2/portraits2_6.png"/>
+	<img src ="/images/portraits2/portraits2_5.jpg"/>
+	<img src ="/images/portraits2/portraits2_6.jpg"/>
 </div>

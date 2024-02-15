@@ -3,7 +3,7 @@ title: 'Stars'
 subtitle: 'Portraits realized in Augmented Reality'
 #date: 2020-03-07 00:00:00
 #description:
-featured_image: '/images/stars/stars_hero.png'
+featured_image: '/images/stars/stars_hero.jpg'
 ---
 
 These are three dimensional portraits captured with the depth sensor of an iPhone. As visitors investigate a mantlepiece crowded with star charts, the portraits are revealed in augmented reality. Created and displayed in Fall of 2019 at Gray Area, San Francisco.
@@ -11,8 +11,8 @@ These are three dimensional portraits captured with the depth sensor of an iPhon
 <iframe src="https://player.vimeo.com/video/377403981" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 <div class="gallery" data-columns="2">
-	<img src ="/images/stars/stars_1.png"/>
-	<img src ="/images/stars/stars_2.png"/>
+	<img src ="/images/stars/stars_1.jpg"/>
+	<img src ="/images/stars/stars_2.jpg"/>
 </div>
 
 <em>Give me my Romeo; and, when he shall die,<br>
@@ -33,7 +33,7 @@ Our devices are capable of far more than photos and video; they can capture the 
 
 Products like the iPhone X and Microsoft Kinect are able to model the environment by projecting and analyzing infrared light. The resulting data can be saved as a set of coordinates called a point cloud – the raw material for a 3D model. Visualized, they look to us like delicate constellations; to our devices they're just a big list of numbers.
 
-<img src ="/images/stars/stars_3.png"/>
+<img src ="/images/stars/stars_3.jpg"/>
 
 There are several apps and third party sensors that make it easy to scan things this way (I used Capture for iPhone). 
 
@@ -46,15 +46,15 @@ While exploring ways to render these AR portraits as constellations (point cloud
 
 Merged this way, the act of scanning is integrated into the experience. It becomes more like peering through a magic window, a bit less like checking out at the grocery store. But there’s a catch: not every image makes for a good anchor.
 
-<img src ="/images/stars/stars_5.png"/>
+<img src ="/images/stars/stars_5.jpg"/>
 
 Apple’s development tools use a machine learning algorithm that issues a warning when an image isn’t suitable for tracking. But as the color and texture of the charts would determine the aesthetic of the piece, these warnings felt like creative criticism from an unwelcome collaborator. Heedless of its protests, I tried all the charts.
 
-<img src ="/images/stars/stars_6.png"/>
+<img src ="/images/stars/stars_6.jpg"/>
 
 I was lucky. The chart most acceptable to my machine learning partner was also what I liked best.
 
-<img src ="/images/stars/stars_7.png"/>
+<img src ="/images/stars/stars_7.jpg"/>
 
 They worked, even in the dim lighting of my apartment.
 
