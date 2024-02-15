@@ -23,14 +23,8 @@ The images below document the entire process. Designing with wood is humbling â€
     <img src ="/images/table/table4.jpg"/>
     <img src ="/images/table/table5.jpg"/>
 	<img src ="/images/table/table6.jpg"/>
-    <img src ="/images/table/table7.jpg"/>
     <img src ="/images/table/table8.jpg"/>
     <img src ="/images/table/table9.jpg"/>
     <img src ="/images/table/table10.jpg"/>
+    <img src ="/images/table/table11.jpg"/>
 </div>
-
-<div class="gallery" data-columns="2">
-	<img src ="/images/table/table11.jpg"/>
-    <img src ="/images/table/table12.jpg"/>
-</div>
-
