@@ -6,17 +6,17 @@ description: 'A video installation created with century old glass-plate negative
 featured_image: '/images/portraits/portraits_hero.jpg'
 header-img: 'images/portraits/portraits_head.jpg'
 ---
-I created this installation with century old glass-plate negatives, face detection data gathered by Machine Learning, and unique sculptures.
+I created this installation with century old glass-plate negatives, face detection data gathered by Machine Learning, and handbuilt, unique sculptures.
 
 <iframe src="https://player.vimeo.com/video/591266418" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-I'm interested in the discrepancy between how we apprehend each other as humans, and how Machine Learning algorithms allow computers to "see" and recognize us.
+I like exploring the discrepancy between how we apprehend each other as humans, and how Machine Learning algorithms allow computers to "see" and recognize us.
 
 <img src ="/images/portraits/portraits_head.jpg"/>
 
 As found portraits come in and out of focus, a face detection visualization increases and decreases in accuracy. These video loops were created with <a href ="https://processing.org/">Processing</a> and face landmark data was captured with <a href = "https://runwayml.com/">Runway ML</a>.
 
-<img src ="/images/portraits/portraits_ga.jpg"/>
+<img src ="/images/portraits/portraits_ga.jpg"/> 
 
 <div class="gallery" data-columns="3">
 	<img src ="/images/portraits/portraits_1.jpg"/>
