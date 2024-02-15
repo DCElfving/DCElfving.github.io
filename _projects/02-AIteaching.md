@@ -1,6 +1,6 @@
 ---
 title: 'My AI Co-Teacher'
-subtitle: 'Teaching code and creativity with chatGPT'
+subtitle: 'Teaching creative coding with chatGPT'
 description: 'A brief account of what happens when chatGPT 4 is released in the middle of your Interaction Design class.'
 featured_image: '/images/AIteaching/AIteaching_hero.png'
 ---
