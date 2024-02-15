@@ -5,7 +5,7 @@ description: 'Designing furniture is not the same as woodworking...'
 featured_image: '/images/table/table_hero.png'
 header-img: 'images/portraits/portraits_head.jpg'
 ---
-I'd been tinkering with woodworking for a few years, but never quite mustered the courage to design a piece of furniture. That all changed under the tutelage of Adrien Segal and the CCA Furniture Design team. 
+I'd been tinkering with woodworking for a few years, but never quite mustered the courage to design a piece of furniture. That all changed under the tutelage of <a href="https://www.adriensegal.com">Adrien Segal</a> and the <a href="https://www.cca.edu/design/furniture/">CCA Furniture Design</a> team. 
 
 The images below document the entire process. Designing with wood is humbling – gotta respect the tree!
 

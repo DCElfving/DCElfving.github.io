@@ -1,10 +1,10 @@
 ---
-title: 'My AI Co-Teacher'
-subtitle: 'Teaching creative coding with chatGPT'
+title: 'Teaching & AI'
+subtitle: 'Creative coding with chatGPT'
 description: 'A brief account of what happens when chatGPT 4 is released in the middle of your Interaction Design class.'
 featured_image: '/images/AIteaching/AIteaching_hero.png'
 ---
-ChatGPT launched amid the Ides of March, 2023. Right in the middle of my Spring semester teaching at the California College of the Arts. I was eager to share it with my class – could I help Interaction Design students realize a gesture based interface?
+ChatGPT launched during the Ides of March, 2023. Right in the middle of my Spring semester at the California College of the Arts. I was eager to share it with my class – could I help Interaction Design students realize a gesture based interface?
 
 I was honored to sum up the whole experience in 5 minutes at the Long Now Ignite talks:
 
