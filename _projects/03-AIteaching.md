@@ -1,6 +1,6 @@
 ---
 title: 'Teaching & AI'
-subtitle: 'Creative coding enhanced with chatGPT'
+subtitle: 'Creative coding with chatGPT'
 description: 'A brief account of what happens when chatGPT 4 is released in the middle of your Interaction Design class.'
 featured_image: '/images/AIteaching/AIteaching_hero.jpg'
 ---

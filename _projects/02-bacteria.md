@@ -1,5 +1,5 @@
 ---
-title: 'Artificial Bacteria'
+title: 'Bacteria'
 subtitle: 'A simulation for Anicka Yi.'
 description: 'A conversation with chatGPT 4.'
 featured_image: '/images/bacteria/bacteria_hero.jpg'
