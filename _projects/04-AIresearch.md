@@ -54,5 +54,4 @@ Emerging AI tools like these shift the work of design thinking rather than repla
 <hr>
 
 <p class="footnotes"><sup><strong>1</strong></sup> Credit for the Design Thinking illustration goes to Bharghavi Kirubasankar and his 2020 article critical of the process. I agree with his overall assessment of how design thinking is marketed to clients. Still, the framework is especially useful for students and I believe AI tools can bring greater depth and thoughtfulness to our craft.</p>
-
-<p class="footnotes"><sup><strong>2</strong></sup> After seeing their presentation I immeadiately sought out Listenlabs founder Alfred Wahlforss to talk further. I asked if my class could try their platform and offered to write about our experience. Beyond this, Listenlabs had no imput on this post and didn't sponsor or compensate me in any way.</p>
+<p class="footnotes"><sup><strong>2</strong></sup> After seeing their presentation I immediately sought out Listenlabs founder Alfred Wahlforss to talk further. I asked if my class could try their platform and offered to write about our experience. Beyond this, Listenlabs had no imput on this post and didn't sponsor or compensate me in any way.</p>
