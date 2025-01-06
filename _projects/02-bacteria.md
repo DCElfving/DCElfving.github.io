@@ -1,17 +1,15 @@
 ---
-title: 'Bacteria for Anicka Yi'
-subtitle: 'Artifical life created with AI.'
+title: 'Artificial Bacteria'
+subtitle: 'A simulation for Anicka Yi.'
 description: 'A conversation with chatGPT 4.'
 featured_image: '/images/bacteria/bacteria_hero.jpg'
 ---
 
-This piece was created in conversation with chatGPT-4 for the <a href="http://www.wattis.org">Wattsis Institute for Contemporary Arts</a> at CCA.
+This piece was created in conversation with chatGPT-4 for the <a href="http://www.wattis.org">Wattis Institute for Contemporary Arts</a> at CCA.
 
 The simulation in <a href="https://editor.p5js.org/DCElfving/sketches/f-jMViIfha">p5.js</a> models four distinct "strains" of bacteria on a virtual petri dish. The bacteria replicate and form colonies of 1,000,000 individual bacterium, then the simulation resets. The resulting generative patterns are inspired by bacterial cultures created by <a href="https://www.artforum.com/features/portfolio-4-223119/">Anicka Yi</a>.<br/><br/>
 
-<div align="center">
-<iframe width="600" height="600" src="https://editor.p5js.org/DCElfving/full/f-jMViIfha"></iframe>
-</div>
+<img src ="/images/bacteria/image7.jpg"/>
 
 <hr>
 
@@ -218,6 +216,12 @@ emphasizes that AI is a tool that complements human
 creativity rather than replacing it. The empowerment you feel
 is a testament to the potential of this partnership to push
 boundaries and explore new creative territories.</code>
+
+<hr>
+
+<div align="center">
+<iframe width="600" height="600" src="https://editor.p5js.org/DCElfving/full/f-jMViIfha"></iframe>
+</div>
 
 
 
