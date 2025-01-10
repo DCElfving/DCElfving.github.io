@@ -34,7 +34,7 @@ Listenalabs uses AI to help designers and researchers gather qualitative feedbac
 	<img src ="/images/research/output2.jpg"/> 
 </div>
 
-Students quickly received detailed insights on the very first iteration of their prototypes. One student realized that people using her design didn't grasp a horizontally scrolling menu. *Seeing* this was far more impactful than simply considering a suggestion in class.  
+Students quickly received detailed insights on the very first iteration of their prototypes. One student realized people using her design didn't grasp a horizontally scrolling menu. *Seeing* this was far more impactful than simply considering a suggestion in class.  
 
 <div class="gallery" data-columns="1">
 	<p><center><small>The Listen AI team visiting class.</small></center></p>
@@ -43,11 +43,11 @@ Students quickly received detailed insights on the very first iteration of their
 	<img src ="/images/research/visit3.jpg"/> 
 </div>
 
-Empowering designers (especially design *students*) with meaningful user testing on early prototypes is profound. Design thinking is iterative; AI platforms like Listen AI allow us to infuse testing throughout the process. Often it's left until the very end of a project, and applied only to near final designs. 
+Empowering designers (especially design students) with meaningful user testing on early prototypes is profound. Design thinking is iterative; AI platforms like Listen AI allow us to infuse testing throughout the process. Often it's left until the very end of a project, and applied only to near final designs. 
 
-Of course, students deliberately pushed the limits of AI "thinking". When unleashed to create dozens of follow up questions or generate a needlessly long report, they achieved predictably laughable results. AI can't replace the expertise and intuition of dedicated user researchers or make informed design decisions. But it *can* help us gather qualitative insights about our work. 
+Of course, students deliberately pushed the limits of AI "thinking". When unleashed to create dozens of follow up questions or generate a needlessly long report, they achieved predictably laughable results. AI can't replace the expertise and intuition of dedicated user researchers or make informed design decisions. But it can help us gather qualitative insights about our work. 
 
-As we wrapped up the project and shared our solutions, I reminded students of the Design Research class they'll soon take as Interaction Design majors. Whatever AI tools they use, the skills and processes they'll learn are still *vitally* important. As user research becomes more accessible, hands-on and in-person testing can be more focused, informative and validating.
+As we wrapped up the project and shared our solutions, I reminded students of the Design Research class they'll soon take as Interaction Design majors. Whatever AI tools they use, the skills and processes they'll learn are still vitally important. As user research becomes more accessible, hands-on and in-person testing can be more focused, informative and validating.
 
 Emerging AI tools like these shift the work of design thinking rather than replacing it. Designers will need to be better informed and confident in the design decisions they make. As AI empowers our discipline, *more* is demanded of us, not less.
 
