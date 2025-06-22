@@ -15,5 +15,5 @@ subtitle: A personal site
 
   <p>I teach in the Interaction Design program at the <a href = "https://www.cca.edu/design/ixd/">California College of the Arts</a>, and I've served on the board of directors at <a href="http://www.firstexposures.org">First Exposures</a>, <a href = "http://www.grayarea.org">Gray Area</a>, and <a href = "http://www.sfcamerawork.org">SF Camerawork</a>. For a long time, I worked at Apple on their interactive marketing team. If you like, you can learn more about me at <a href ="https://www.linkedin.com/in/delfving/">LinkedIn</a></p>
 
-  <p>Also, I'm proud to be<a href = "https://www.heliocentricAF.org">Heliocentric AF</a>!</p>
+  <p>Also, I'm proud to be <a href = "https://www.heliocentricAF.org">Heliocentric AF</a>!</p>
 </div>
