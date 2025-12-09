@@ -7,15 +7,15 @@ featured_image: '/images/analog_station/analog_hero.jpg'
 header-img: 'images/analog_station/analog_hero.jpg'
 ---
 
-A workshop for beginners, <em>The Analog Station</em> provides an introduction to micro-controllers, sensors, programming and hands-on soldering skills. All with a warm, analog glow!
+A workshop for beginners, <em>The Analog Station</em> introduces micro-controllers, sensors, programming and hands-on soldering skills. Students will go home with fun device <em>they built themselves!</em>
 
-<iframe src="https://player.vimeo.com/video/1144734945" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/1144734945?background=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## Register 
 Get tickets for the debut session on <strong>12/20/25</strong> with <a href="https://www.tiat.place">TIAT</a>.
 
 ## Overview
-A hands-on workshop in a kit, <em>The Analog Station</em> merges the tactile vibe of analog meters with modern sensor technologies and creative code.
+A hands-on workshop in a kit, <em>The Analog Station</em> merges the tactile vibe of analog meters with modern sensor technologies and creative code. All with a warm analog glow!
 
 <img src="/images/analog_station/IMG_4114.jpeg"/>
 
