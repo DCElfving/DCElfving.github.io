@@ -12,7 +12,7 @@ A workshop for beginners, <em>The Analog Station</em> introduces micro-controlle
 <iframe src="https://player.vimeo.com/video/1144734945?background=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## Register 
-Get tickets for the first workshop at <A href="https://www.tiat.place">TIAT</a> here in SF!
+Get tickets for the first workshop on <strong>12/20/25</strong> at <A href="https://www.tiat.place">TIAT</a> here in SF!
 
 <a href="https://luma.com/event/evt-AcbSktYcNzKXFFq"
   class="luma-checkout--button"
