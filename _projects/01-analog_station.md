@@ -7,7 +7,7 @@ featured_image: '/images/analog_station/analog_hero.jpg'
 header-img: 'images/analog_station/analog_hero.jpg'
 ---
 
-A workshop for beginners, The Analog Station provides and introduction to micro-controllers, sensors, programming and hands-on soldering skills. All with a warm, analog glow!
+A workshop for beginners, <em>The Analog Station</em> provides an introduction to micro-controllers, sensors, programming and hands-on soldering skills. All with a warm, analog glow!
 
 <iframe src="https://player.vimeo.com/video/1144734945" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
@@ -24,7 +24,7 @@ A hands-on workshop in a kit, <em>The Analog Station</em> merges the tactile vib
 	<img src="/images/analog_station/IMG_4116.jpeg"/>
 </div>
 
-Participants work with their instructor and each other to assemble and program their own devices. All materials tools and support are provided. Upon completion, students will have a working knowledge of techniques for creative coding, and a fun device <em>they built themselves</em> to take home. 
+Participants work with their instructor and each other to assemble and program their own devices. All materials, tools and support are provided. Upon completion, students will have a working knowledge of techniques for creative coding, and a fun device <em>they built themselves</em> to take home. 
 
 <div class="gallery" data-columns="2">
 	<img src="/images/analog_station/IMG_4130.jpeg"/>
@@ -32,14 +32,14 @@ Participants work with their instructor and each other to assemble and program t
 </div>
 
 ## What does it do? Two things!
-**Audio Mode**: Bass, mids, and treble each get their own meter. Bring an analog visualizer to your desk our sound system. It responds to music, ambient noise, or voice.
+**Audio Mode**: Bass, mids, and treble each get their own meter. Bring an analog visualizer to your desk or sound system. It responds to music, ambient noise, or voice.
 
 **Climate Mode**: With the flick of a switch, <em>The Analog Station</em> displays temperature, humidity, and barometric pressure.
 
 <img src="/images/analog_station/meters.gif"/>
 
 ## Open Source!
-This project is open for educational use and modification. If you build your own Analog Station or create improvements:
+This project is open for educational use and modification. If you build your own Analog Station, create improvements, or use it for teaching:
 
 - Share your modifications and extensions
 - Document your build process with photos
