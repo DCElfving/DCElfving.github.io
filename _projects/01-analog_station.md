@@ -12,7 +12,15 @@ A workshop for beginners, <em>The Analog Station</em> introduces micro-controlle
 <iframe src="https://player.vimeo.com/video/1144734945?background=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## Register 
-Get tickets for the debut session on <strong>12/20/25</strong> with <a href="https://www.tiat.place">TIAT</a>.
+Get tickets for the first workshop at <A href="https://www.tiat.place">TIAT</a> here in SF!
+
+<a href="https://luma.com/event/evt-AcbSktYcNzKXFFq"
+  class="luma-checkout--button"
+  data-luma-action="checkout"
+  data-luma-event-id="evt-AcbSktYcNzKXFFq">
+  Register for Event</a>
+
+<script id="luma-checkout" src="https://embed.lu.ma/checkout-button.js"></script>
 
 ## Overview
 A hands-on workshop in a kit, <em>The Analog Station</em> merges the tactile vibe of analog meters with modern sensor technologies and creative code. All with a warm analog glow!
