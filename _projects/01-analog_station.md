@@ -7,7 +7,7 @@ featured_image: '/images/analog_station/analog_hero.jpg'
 header-img: 'images/analog_station/analog_hero.jpg'
 ---
 
-A workshop for beginners, <em>The Analog Station</em> introduces micro-controllers, sensors, programming and hands-on soldering skills. Students will go home with fun device <em>they built themselves!</em>
+A workshop for beginners, <em>The Analog Station</em> introduces micro-controllers, sensors, programming and hands-on soldering skills. Students will go home with fun device <strong>they built themselves!</strong>
 
 <iframe src="https://player.vimeo.com/video/1144734945?background=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
