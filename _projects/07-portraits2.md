@@ -1,5 +1,5 @@
 ---
-title: 'Portraits Version Two'
+title: 'Portraits Two'
 subtitle: 'Found negatives and Lots of Servos'
 #date: 2023-08-07
 description: 'A moving video installation created with found negatives, face detection data gathered by Machine Learning, and a unique, moving sculpture.'
