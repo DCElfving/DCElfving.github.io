@@ -9,7 +9,9 @@ This piece was created in conversation with chatGPT-4 for the <a href="http://ww
 
 The simulation in <a href="https://editor.p5js.org/DCElfving/sketches/f-jMViIfha">p5.js</a> models four distinct "strains" of bacteria on a virtual petri dish. The bacteria replicate and form colonies of 1,000,000 individual bacterium, then the simulation resets. The resulting generative patterns are inspired by bacterial cultures created by <a href="https://www.artforum.com/features/portfolio-4-223119/">Anicka Yi</a>.<br/><br/>
 
-<img src ="/images/bacteria/image7.jpg"/>
+<div align="center">
+<iframe width="600" height="600" src="https://editor.p5js.org/DCElfving/full/f-jMViIfha"></iframe>
+</div>
 
 <hr>
 
