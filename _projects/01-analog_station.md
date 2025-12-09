@@ -1,5 +1,5 @@
 ---
-title: 'The Analog Station'
+title: 'Analog Station'
 subtitle: 'A Creative Coding Workshop'
 #date: 2025-12-08
 description: 'A workshop for beginners, The Analog Station provides and introduction to micro-controllers, sensors, programming and hands-on soldering skills. All with a warm, analog glow!'
