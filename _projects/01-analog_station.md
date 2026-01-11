@@ -7,23 +7,12 @@ featured_image: '/images/analog_station/analog_hero.jpg'
 header-img: 'images/analog_station/analog_hero.jpg'
 ---
 
-A workshop for beginners, <em>The Analog Station</em> introduces micro-controllers, sensors, programming and hands-on soldering skills. Students will go home with fun device <strong>they built themselves!</strong>
+A workshop for beginners, <em>The Analog Station</em> introduces micro-controllers, sensors, programming and hands-on soldering skills. Students will go home with fun internet-of-things device <strong>they built themselves!</strong>
 
 <iframe src="https://player.vimeo.com/video/1144734945?background=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-## Register 
-Get tickets for the first workshop on <strong>12/20/25</strong> at <A href="https://www.tiat.place">TIAT</a> here in SF!
-
-<a href="https://luma.com/event/evt-AcbSktYcNzKXFFq"
-  class="luma-checkout--button"
-  data-luma-action="checkout"
-  data-luma-event-id="evt-AcbSktYcNzKXFFq">
-  Register for Event</a>
-
-<script id="luma-checkout" src="https://embed.lu.ma/checkout-button.js"></script>
-
 ## Overview
-A hands-on workshop in a kit, <em>The Analog Station</em> merges the tactile vibe of analog meters with modern sensor technologies and creative code. All with a warm analog glow!
+A hands-on workshop in a kit, <em>The Analog Station</em> merges the tactile vibe of analog meters with modern sensor technologies, web connectivity and creative code. All with a warm analog glow!
 
 <img src="/images/analog_station/IMG_4114.jpeg"/>
 
@@ -32,11 +21,22 @@ A hands-on workshop in a kit, <em>The Analog Station</em> merges the tactile vib
 	<img src="/images/analog_station/IMG_4116.jpeg"/>
 </div>
 
-Participants work with their instructor and each other to assemble and program their own devices. All materials, tools and support are provided. Upon completion, students will have a working knowledge of techniques for creative coding, and a fun device <em>they built themselves</em> to take home. 
+Participants work with their instructor and each other to assemble and configure their own devices. All materials, tools and support are provided. Upon completion, students will have a working knowledge of techniques for creative coding, and a fun device <em>they built themselves</em> to take home. 
 
 <div class="gallery" data-columns="2">
 	<img src="/images/analog_station/IMG_4130.jpeg"/>
 	<img src="/images/analog_station/IMG_4131.jpeg"/>
+</div>
+
+The first workshop was offered at <a href="http://TIAT.place">TIAT</a> here in San Francisco. Check out images from the workshop below:
+
+<img src="/images/analog_station/analog1.JPG"/>
+
+<div class="gallery" data-columns="2">
+  <img src="/images/analog_station/analog2.JPG"/>
+  <img src="/images/analog_station/analog3.JPG"/>
+  <img src="/images/analog_station/analog4.JPG"/>
+  <img src="/images/analog_station/analog5.JPG"/>
 </div>
 
 ## What does it do? Two things!
