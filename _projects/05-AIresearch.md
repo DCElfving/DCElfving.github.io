@@ -1,5 +1,5 @@
 ---
-title: 'Research with AI'
+title: 'Research & AI'
 subtitle: 'UI research with Listenlabs.ai'
 description: 'How students used an AI platform to empower their first experience with UX research.'
 featured_image: '/images/research/research_hero.jpg'

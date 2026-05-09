@@ -9,8 +9,6 @@ header-img: 'images/analog_station/analog_hero.jpg'
 
 A workshop for beginners, <em>The Analog Station</em> introduces micro-controllers, sensors, hands-on soldering skills, and an intro to hardware coding with AI. Students will go home with fun internet-of-things device <strong>they built themselves!</strong>
 
-<a href="https://grayarea.org/course/the-analog-station-a-diy-creative-coding-iot-project/"> Sign up for the next session at Gray Area!</a> Saturday, March 21st.
-
 <iframe src="https://player.vimeo.com/video/1144734945?background=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## Overview

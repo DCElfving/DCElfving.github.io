@@ -1,5 +1,5 @@
 ---
-title: 'All the Sweaters'
+title: 'Sweaters'
 subtitle: 'Multi-Panel Video of Goodwill Sweaters'
 #date: 2021-05-11
 description: Multi-Panel Video of Goodwill SweatersAt the 

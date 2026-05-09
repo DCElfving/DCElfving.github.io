@@ -173,14 +173,20 @@
 
 .menu__list {
 	list-style: none;
-	padding-top: 40px;
+	padding-top: 72px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	text-align: left;
 
 	@include mq(tabletp) {
-		padding: 40px 0 0;
+		padding: 72px 0 0;
 		max-width: 70%;
 	}
 
 	@include mq(tabletl) {
+		display: block;
+		gap: 0;
 		max-width: none;
 		margin: 0;
 		padding: 0;
@@ -188,7 +194,7 @@
 }
 
 .menu__list__item {
-	padding-bottom: 20px;
+	padding-bottom: 0;
 
 	@include mq(tabletl) {
 		display: inline-block;
@@ -201,6 +207,8 @@
 }
 
 .menu__list__item__link {
+	display: block;
+	text-align: left;
 	font-size: $menu-small;
 	font-weight: $menu-weight;
 	color: $overlay-text-color;

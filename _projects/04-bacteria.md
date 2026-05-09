@@ -9,8 +9,10 @@ This piece was created in conversation with chatGPT-4 for the <a href="http://ww
 
 The simulation in <a href="https://editor.p5js.org/DCElfving/sketches/f-jMViIfha">p5.js</a> models four distinct "strains" of bacteria on a virtual petri dish. The bacteria replicate and form colonies of 1,000,000 individual bacterium, then the simulation resets. The resulting generative patterns are inspired by bacterial cultures created by <a href="https://www.artforum.com/features/portfolio-4-223119/">Anicka Yi</a>.<br/><br/>
 
-<div align="center">
-<iframe width="600" height="600" src="https://editor.p5js.org/DCElfving/full/f-jMViIfha"></iframe>
+<div style="max-width: 600px; width: 100%; margin: 0 auto;">
+<div style="position: relative; width: 100%; padding-top: 100%;">
+<iframe src="https://editor.p5js.org/DCElfving/full/f-jMViIfha" title="Bacteria p5.js simulation" style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;"></iframe>
+</div>
 </div>
 
 <hr>
@@ -221,8 +223,10 @@ boundaries and explore new creative territories.</code>
 
 <hr>
 
-<div align="center">
-<iframe width="600" height="600" src="https://editor.p5js.org/DCElfving/full/f-jMViIfha"></iframe>
+<div style="max-width: 600px; width: 100%; margin: 0 auto;">
+<div style="position: relative; width: 100%; padding-top: 100%;">
+<iframe src="https://editor.p5js.org/DCElfving/full/f-jMViIfha" title="Bacteria p5.js simulation" style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;"></iframe>
+</div>
 </div>
 
 
