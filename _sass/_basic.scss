@@ -205,13 +205,8 @@ blockquote {
 
 a {
 	text-decoration: none;
-	color: $text-dark-color;
+	color: $accent-color;
 	font-weight: $bold-weight;
-	@include transition(all 0.15s ease-in-out);
-
-	&:hover {
-		color: $accent-color;
-	}
 }
 
 .button {
@@ -400,6 +395,10 @@ section {
 
 	@include mq(laptop) {
 		max-width: 900px;
+	}
+
+	p a {
+		border-bottom: 2px solid $accent-color;
 	}
 }
 
