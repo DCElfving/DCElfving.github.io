@@ -17,9 +17,9 @@ subtitle: A personal site
 
   <div style="padding: 10px; margin-bottom: 1.5em;">
     <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <div class="yt-facade" data-id="GKAw0rtZAbU" data-start="1592" role="button" tabindex="0" aria-label="Play: My AI Co-Teacher — Long Now Ignite Talks 2023" style="position:absolute; top:0; left:0; width:100%; height:100%; cursor:pointer; background:#000 center/cover no-repeat; background-image:url('/images/Ignite.png');">
+      <a class="yt-facade" href="https://www.youtube.com/watch?v=GKAw0rtZAbU&amp;t=1592s" aria-label="Play: My AI Co-Teacher — Long Now Ignite Talks 2023" onclick="var f=document.createElement('iframe');f.src='https://www.youtube.com/embed/GKAw0rtZAbU?start=1592&amp;autoplay=1&amp;playsinline=1';f.setAttribute('allow','accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');f.setAttribute('allowfullscreen','');f.setAttribute('style','position:absolute;top:0;left:0;width:100%;height:100%;border:0;');this.replaceWith(f);return false;" style="position:absolute; top:0; left:0; width:100%; height:100%; cursor:pointer; display:block; background:#000 center/cover no-repeat; background-image:url('/images/Ignite.png');">
         <svg viewBox="0 0 68 48" width="68" height="48" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24 27 14v20z" fill="#fff"/></svg>
-      </div>
+      </a>
     </div>
   </div>
 
@@ -27,9 +27,9 @@ subtitle: A personal site
 
   <div style="padding: 10px; margin-bottom: 1.5em;">
     <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <div class="yt-facade" data-id="NjXteSVrBRA" data-start="2266" role="button" tabindex="0" aria-label="Play: Teaching Design with AI — AI For Designers #26" style="position:absolute; top:0; left:0; width:100%; height:100%; cursor:pointer; background:#000 center/cover no-repeat; background-image:url('/images/ai26.png');">
+      <a class="yt-facade" href="https://www.youtube.com/watch?v=NjXteSVrBRA&amp;t=2266s" aria-label="Play: Teaching Design with AI — AI For Designers #26" onclick="var f=document.createElement('iframe');f.src='https://www.youtube.com/embed/NjXteSVrBRA?start=2266&amp;autoplay=1&amp;playsinline=1';f.setAttribute('allow','accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');f.setAttribute('allowfullscreen','');f.setAttribute('style','position:absolute;top:0;left:0;width:100%;height:100%;border:0;');this.replaceWith(f);return false;" style="position:absolute; top:0; left:0; width:100%; height:100%; cursor:pointer; display:block; background:#000 center/cover no-repeat; background-image:url('/images/ai26.png');">
         <svg viewBox="0 0 68 48" width="68" height="48" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24 27 14v20z" fill="#fff"/></svg>
-      </div>
+      </a>
     </div>
   </div>
 
@@ -37,9 +37,9 @@ subtitle: A personal site
 
   <div style="padding: 10px; margin-bottom: 1.5em;">
     <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <div class="yt-facade" data-id="Uo8-JQcwfVE" data-start="4054" role="button" tabindex="0" aria-label="Play: My AI Teaching Assistant — AI For Designers #16" style="position:absolute; top:0; left:0; width:100%; height:100%; cursor:pointer; background:#000 center/cover no-repeat; background-image:url('/images/ai16.png');">
+      <a class="yt-facade" href="https://www.youtube.com/watch?v=Uo8-JQcwfVE&amp;t=4054s" aria-label="Play: My AI Teaching Assistant — AI For Designers #16" onclick="var f=document.createElement('iframe');f.src='https://www.youtube.com/embed/Uo8-JQcwfVE?start=4054&amp;autoplay=1&amp;playsinline=1';f.setAttribute('allow','accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');f.setAttribute('allowfullscreen','');f.setAttribute('style','position:absolute;top:0;left:0;width:100%;height:100%;border:0;');this.replaceWith(f);return false;" style="position:absolute; top:0; left:0; width:100%; height:100%; cursor:pointer; display:block; background:#000 center/cover no-repeat; background-image:url('/images/ai16.png');">
         <svg viewBox="0 0 68 48" width="68" height="48" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24 27 14v20z" fill="#fff"/></svg>
-      </div>
+      </a>
     </div>
   </div>
 
@@ -68,20 +68,4 @@ subtitle: A personal site
 
   <p><small>See also: <a href = "https://www.heliocentricAF.org">Heliocentric AF</a>.</small></p>
 
-  <script>
-  document.querySelectorAll('.yt-facade').forEach(function(el){
-    function play(){
-      var id = el.getAttribute('data-id');
-      var start = el.getAttribute('data-start') || 0;
-      var frame = document.createElement('iframe');
-      frame.setAttribute('style', 'position:absolute; top:0; left:0; width:100%; height:100%; border:0;');
-      frame.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
-      frame.setAttribute('allowfullscreen', '');
-      frame.src = 'https://www.youtube.com/embed/' + id + '?start=' + start + '&autoplay=1';
-      el.replaceWith(frame);
-    }
-    el.addEventListener('click', play);
-    el.addEventListener('keydown', function(e){ if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); play(); } });
-  });
-  </script>
 </div>
