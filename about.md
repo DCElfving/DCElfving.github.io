@@ -56,7 +56,7 @@ subtitle: A personal site
   Considers how design is informed by human behavior. We discuss the ethics of design, understand how design can deceive and consider the responsible use of AI design tools. Projects include the development of an app for better sleep, and a final project using apps and connected devices to change habits.</p>
 
   <p><b>Gray Area</b> — 2020 - Present<br/>
-  I offer workshops pairing physical computing with "vibe coding". The classes offer the tangible, shared experience of building and an introduction to software and code.</p>
+  I offer workshops that pair physical computing with "vibe coding". The classes provide a shared experience of building, and an introduction to working with software and code.</p>
 
   <p style="margin-left: 1.5em;"><b><a href="https://grayarea.org/course/the-analog-station-a-diy-creative-coding-iot-project/">The Analog Station</a></b><br/>
   This a workshop-in-a-kit introduces soldering, AI coding and Arduino. Students build and take home a working audio meter / climate monitor.</p>
