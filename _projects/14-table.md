@@ -1,22 +1,32 @@
 ---
 order: 12
 title: 'Stretcher Table'
-subtitle: 'My first foray into fine furniture'
+subtitle: 'A first foray into fine furniture'
 #date: 2021-05-11
-#description: Unique, one of a kind portraits. Old school.
+#description: Furniture design with walnut and stone.
 featured_image: '/images/table/table_hero.jpg'
 ---
 
-I've long been fascinated by analong photography. Watching an image emerge from a bath of chemicals fills me with wonder every time. 
+<p>Teaching at CCA allowed me to enroll in their unique furniture design program. After decades working in the digital and abstract, I was eager to learn new design and woodworking skills.</p>
 
-For more than a decade, I've tinkered with the <a href="https://en.wikipedia.org/wiki/Collodion_process">Wet Plate Collodion process</a> (better known as Tintypes). These are a few examples from over the years. 
+<img src ="/images/table/table1.jpg"/>
 
-<img src ="/images/tintypes/Adrienne3.jpg"/>
+<img src ="/images/table/table2.jpg"/>
 
-<img src ="/images/tintypes/austin.jpg"/>
+<img src ="/images/table/table3.jpg"/>
 
-<img src ="/images/tintypes/sarah.jpg"/>
+<img src ="/images/table/table4.jpg"/>
 
-<img src ="/images/tintypes/raven.jpg"/>
+<img src ="/images/table/table5.jpg"/>
 
-<img src ="/images/tintypes/miguel.jpg"/>
+<img src ="/images/table/table8.jpg"/>
+
+<img src ="/images/table/table9.jpg"/>
+
+<img src ="/images/table/table10.jpg"/>
+
+<img src ="/images/table/table11.jpg"/>
+
+<img src ="/images/table/table13.jpg"/>
+
+<img src ="/images/table/table15.jpg"/>
