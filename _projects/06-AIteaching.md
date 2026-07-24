@@ -1,7 +1,7 @@
 ---
 order: 1
 title: 'Teaching & AI'
-subtitle: 'Creative coding with chatGPT'
+subtitle: 'Design education in the era of AI.'
 description: 'An ongoing account of what happens when chatGPT 4 is released in the middle of your Interaction Design class.'
 featured_image: '/images/AIteaching/AIteaching_hero.jpg'
 ---
