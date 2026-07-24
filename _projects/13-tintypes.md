@@ -1,4 +1,5 @@
 ---
+order: 13
 title: 'Some Tintypes'
 subtitle: 'Wet Plates From a Long Time Ago'
 #date: 2021-05-11

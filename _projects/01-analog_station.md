@@ -1,4 +1,5 @@
 ---
+order: 5
 title: 'Analog Station'
 subtitle: 'A Creative Coding Workshop'
 #date: 2025-12-08

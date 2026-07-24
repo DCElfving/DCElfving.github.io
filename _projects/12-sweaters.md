@@ -1,4 +1,5 @@
 ---
+order: 10
 title: 'Sweaters'
 subtitle: 'Multi-Panel Video of Goodwill Sweaters'
 #date: 2021-05-11

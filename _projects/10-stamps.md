@@ -1,4 +1,5 @@
 ---
+order: 9
 title: 'All the Stamps'
 subtitle: 'Latent Image Walks on Tiny Screens'
 #date: 2021-05-11

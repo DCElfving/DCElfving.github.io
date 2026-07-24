@@ -8,7 +8,8 @@ description: Works by Dave Elfving, 2022
 
 	<div class="content-wrap portfolio-wrap">
 
-		{% for project in site.projects %}
+		{% assign sorted_projects = site.projects | sort: 'order' %}
+		{% for project in sorted_projects %}
 
 		<div class="portfolio-item">
 			<a class="portfolio-item__link" href="{{ project.url | relative_url }}">

@@ -1,4 +1,5 @@
 ---
+order: 3
 title: 'Bacteria'
 subtitle: 'A simulation for Anicka Yi.'
 description: 'A conversation with chatGPT 4.'

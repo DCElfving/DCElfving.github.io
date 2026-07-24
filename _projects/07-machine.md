@@ -1,4 +1,5 @@
 ---
+order: 6
 title: 'Machine Plots'
 subtitle: 'Generative Drawing with Photographs'
 #date: 2021-05-10
