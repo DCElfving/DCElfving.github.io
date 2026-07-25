@@ -21,6 +21,8 @@
 	<title>{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}</title>
 	<meta name="description" content="{{ page.description }}">
 
+	{% if page.noindex %}<meta name="robots" content="noindex, nofollow">{% endif %}
+
 
 	{% if site.data.settings.font_settings.font_embed %}
 	<!-- Font Embed Code -->

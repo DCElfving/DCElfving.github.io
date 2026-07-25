@@ -8,7 +8,7 @@ description: Works by Dave Elfving, 2022
 
 	<div class="content-wrap portfolio-wrap">
 
-		{% assign sorted_projects = site.projects | sort: 'order' %}
+		{% assign sorted_projects = site.projects | where_exp: "p", "p.hidden != true" | sort: 'order' %}
 		{% for project in sorted_projects %}
 
 		<div class="portfolio-item">
