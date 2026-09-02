@@ -9,37 +9,67 @@ subtitle: A personal site
 
   <img src = "images/self.jpg" style = "float:left; width: 45%; margin-top: 25px; margin-right: 20px; margin-bottom: 40px;"/>
 
-  <p><b>I'm Dave Elfving, and this is where I share projects and ideas.</b> I'm a teacher, artist and Experience Designer living in San Francisco. I teach in the Interaction Design program at the <a href = "https://www.cca.edu/design/ixd/">California College of the Arts</a>, and I've served on the board of directors at <a href="http://www.firstexposures.org">First Exposures</a>, <a href = "http://www.grayarea.org">Gray Area</a>, and <a href = "http://www.sfcamerawork.org">SF Camerawork</a>. For a long time, I worked at Apple on their interactive marketing team. If you like, you can learn more about me at <a href ="https://www.linkedin.com/in/delfving/">LinkedIn</a>.</p>
+  <p><b>I'm Dave Elfving, and this is where I share projects and ideas.</b> I'm a teacher, artist and Experience Designer living in San Francisco. I taught in the Interaction Design program at the <a href = "https://www.cca.edu/design/ixd/">California College of the Arts</a>, and I've served on the board of directors at <a href="http://www.firstexposures.org">First Exposures</a> and <a href = "http://www.grayarea.org">Gray Area</a>. Currently, I'm serving on the board at<a href = "http://www.sfcamerawork.org">SF Camerawork</a>. For a long time, I worked at Apple on their interactive marketing team. If you like, you can learn more about me at <a href ="https://www.linkedin.com/in/delfving/">LinkedIn</a>.</p>
 
   <h2 style="clear: both;">Speaking</h2>
 
-  <p><b>My AI Co-Teacher</b> — Long Now Foundation, Ignite Talks 2023</p>
+  <p>In March of 2023, ChatGPT was announced. With an excitement I'd not felt since the early days of the internet, I immediately began exploring and teaching with it:
 
-  <div style="padding: 10px; margin-bottom: 1.5em;">
-    <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <a class="yt-facade" href="https://www.youtube.com/watch?v=GKAw0rtZAbU&amp;t=1592s" aria-label="Play: My AI Co-Teacher — Long Now Ignite Talks 2023" onclick="event.preventDefault();event.stopPropagation();if(window.matchMedia&&window.matchMedia('(pointer:coarse)').matches){window.open(this.href,'_blank','noopener');return false;}var f=document.createElement('iframe');f.src='https://www.youtube.com/embed/GKAw0rtZAbU?start=1592&amp;autoplay=1&amp;playsinline=1';f.setAttribute('allow','accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');f.setAttribute('allowfullscreen','');f.setAttribute('style','position:absolute;top:0;left:0;width:100%;height:100%;border:0;');this.replaceWith(f);return false;" style="position:absolute; top:0; left:0; width:100%; height:100%; cursor:pointer; display:block; background:#000 center/cover no-repeat; background-image:url('/images/Ignite.png');">
-        <svg viewBox="0 0 68 48" width="68" height="48" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24 27 14v20z" fill="#fff"/></svg>
-      </a>
+  <style>
+    .speaking { margin-top: 1.5em; margin-bottom: 1.5em; }
+    .speaking-item { display: flex; flex-direction: row; gap: 1em; align-items: flex-start; margin-bottom: 1.25em; }
+    .speaking-thumb { flex: 0 0 21%; }
+    .speaking-ratio { position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 4px; }
+    .speaking-desc { flex: 1 1 auto; min-width: 0; }
+    .speaking-desc p { margin: 0; }
+    .speaking .yt-facade svg { width: 28px; height: auto; }
+
+    @media only screen and (min-width: 768px) {
+      .speaking { display: flex; flex-direction: row; gap: 1.5em; }
+      .speaking-item { flex: 1 1 0; flex-direction: column; gap: 0.6em; margin-bottom: 0; }
+      .speaking-thumb { flex: none; width: 100%; }
+      .speaking .yt-facade svg { width: 44px; }
+    }
+  </style>
+
+  <div class="speaking">
+    <div class="speaking-item">
+      <div class="speaking-thumb">
+        <div class="speaking-ratio">
+          <a class="yt-facade" href="https://www.youtube.com/watch?v=GKAw0rtZAbU&amp;t=1592s" aria-label="Play: My AI Co-Teacher — Long Now Ignite Talks 2023" onclick="event.preventDefault();event.stopPropagation();if(window.matchMedia&&window.matchMedia('(pointer:coarse)').matches){window.open(this.href,'_blank','noopener');return false;}var f=document.createElement('iframe');f.src='https://www.youtube.com/embed/GKAw0rtZAbU?start=1592&amp;autoplay=1&amp;playsinline=1';f.setAttribute('allow','accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');f.setAttribute('allowfullscreen','');f.setAttribute('style','position:absolute;top:0;left:0;width:100%;height:100%;border:0;');this.replaceWith(f);return false;" style="position:absolute; top:0; left:0; width:100%; height:100%; cursor:pointer; display:block; background:#000 center/cover no-repeat; background-image:url('/images/Ignite.png');">
+            <svg viewBox="0 0 68 48" width="68" height="48" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24 27 14v20z" fill="#fff"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="speaking-desc">
+        <p><b>My AI Co-Teacher</b><br/>Long Now Foundation, Ignite Talks 2023</p>
+      </div>
     </div>
-  </div>
 
-  <p><b>Teaching Design with AI</b> — AI User Group, AI For Designers #26</p>
-
-  <div style="padding: 10px; margin-bottom: 1.5em;">
-    <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <a class="yt-facade" href="https://www.youtube.com/watch?v=NjXteSVrBRA&amp;t=2266s" aria-label="Play: Teaching Design with AI — AI For Designers #26" onclick="event.preventDefault();event.stopPropagation();if(window.matchMedia&&window.matchMedia('(pointer:coarse)').matches){window.open(this.href,'_blank','noopener');return false;}var f=document.createElement('iframe');f.src='https://www.youtube.com/embed/NjXteSVrBRA?start=2266&amp;autoplay=1&amp;playsinline=1';f.setAttribute('allow','accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');f.setAttribute('allowfullscreen','');f.setAttribute('style','position:absolute;top:0;left:0;width:100%;height:100%;border:0;');this.replaceWith(f);return false;" style="position:absolute; top:0; left:0; width:100%; height:100%; cursor:pointer; display:block; background:#000 center/cover no-repeat; background-image:url('/images/ai26.png');">
-        <svg viewBox="0 0 68 48" width="68" height="48" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24 27 14v20z" fill="#fff"/></svg>
-      </a>
+    <div class="speaking-item">
+      <div class="speaking-thumb">
+        <div class="speaking-ratio">
+          <a class="yt-facade" href="https://www.youtube.com/watch?v=NjXteSVrBRA&amp;t=2266s" aria-label="Play: Teaching Design with AI — AI For Designers #26" onclick="event.preventDefault();event.stopPropagation();if(window.matchMedia&&window.matchMedia('(pointer:coarse)').matches){window.open(this.href,'_blank','noopener');return false;}var f=document.createElement('iframe');f.src='https://www.youtube.com/embed/NjXteSVrBRA?start=2266&amp;autoplay=1&amp;playsinline=1';f.setAttribute('allow','accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');f.setAttribute('allowfullscreen','');f.setAttribute('style','position:absolute;top:0;left:0;width:100%;height:100%;border:0;');this.replaceWith(f);return false;" style="position:absolute; top:0; left:0; width:100%; height:100%; cursor:pointer; display:block; background:#000 center/cover no-repeat; background-image:url('/images/ai26.png');">
+            <svg viewBox="0 0 68 48" width="68" height="48" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24 27 14v20z" fill="#fff"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="speaking-desc">
+        <p><b>Teaching Design with AI</b><br/>The AI User Group, AI For Designers #26</p>
+      </div>
     </div>
-  </div>
 
-  <p><b>My AI Teaching Assistant</b> — AI User Group, AI For Designers #16</p>
-
-  <div style="padding: 10px; margin-bottom: 1.5em;">
-    <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <a class="yt-facade" href="https://www.youtube.com/watch?v=Uo8-JQcwfVE&amp;t=4054s" aria-label="Play: My AI Teaching Assistant — AI For Designers #16" onclick="event.preventDefault();event.stopPropagation();if(window.matchMedia&&window.matchMedia('(pointer:coarse)').matches){window.open(this.href,'_blank','noopener');return false;}var f=document.createElement('iframe');f.src='https://www.youtube.com/embed/Uo8-JQcwfVE?start=4054&amp;autoplay=1&amp;playsinline=1';f.setAttribute('allow','accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');f.setAttribute('allowfullscreen','');f.setAttribute('style','position:absolute;top:0;left:0;width:100%;height:100%;border:0;');this.replaceWith(f);return false;" style="position:absolute; top:0; left:0; width:100%; height:100%; cursor:pointer; display:block; background:#000 center/cover no-repeat; background-image:url('/images/ai16.png');">
-        <svg viewBox="0 0 68 48" width="68" height="48" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24 27 14v20z" fill="#fff"/></svg>
-      </a>
+    <div class="speaking-item">
+      <div class="speaking-thumb">
+        <div class="speaking-ratio">
+          <a class="yt-facade" href="https://www.youtube.com/watch?v=Uo8-JQcwfVE&amp;t=4054s" aria-label="Play: My AI Teaching Assistant — AI For Designers #16" onclick="event.preventDefault();event.stopPropagation();if(window.matchMedia&&window.matchMedia('(pointer:coarse)').matches){window.open(this.href,'_blank','noopener');return false;}var f=document.createElement('iframe');f.src='https://www.youtube.com/embed/Uo8-JQcwfVE?start=4054&amp;autoplay=1&amp;playsinline=1';f.setAttribute('allow','accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');f.setAttribute('allowfullscreen','');f.setAttribute('style','position:absolute;top:0;left:0;width:100%;height:100%;border:0;');this.replaceWith(f);return false;" style="position:absolute; top:0; left:0; width:100%; height:100%; cursor:pointer; display:block; background:#000 center/cover no-repeat; background-image:url('/images/ai16.png');">
+            <svg viewBox="0 0 68 48" width="68" height="48" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24 27 14v20z" fill="#fff"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="speaking-desc">
+        <p><b>My AI Teaching Assistant</b><br/>The AI User Group, AI For Designers #16</p>
+      </div>
     </div>
   </div>
 
@@ -50,16 +80,16 @@ subtitle: A personal site
   I introduced new design majors to Interaction Design through two required courses. After this work, students were prepared for future projects.</p>
 
   <p style="margin-left: 1.5em;"><b>Core IXD: Foundations</b><br/>
-  Introduces the fundamental concepts of interaction design: research, ideation and testing. Projects include redesigning the SF Muni ticket kiosk, and crafting an interactive physical space with augmented reality.</p>
+  Introduces the fundamental concepts of interaction design: research, ideation and testing. Projects included redesigning the SF Muni ticket kiosk and analyzing qualitative user research with AI.</p>
 
   <p style="margin-left: 1.5em;"><b>Core IXD: Behavior</b><br/>
-  Considers how design is informed by human behavior. We discuss the ethics of design, understand how design can deceive and consider the responsible use of AI design tools. Projects include the development of an app for better sleep, and a final project using apps and connected devices to change habits.</p>
+  Considers how design is informed by human behavior. We discuss the ethics of design, understand how design can deceive and consider the responsible use of AI design tools. Projects included the development of an app for better sleep, and a final project using apps and connected devices to change habits.</p>
 
   <p><b>Gray Area</b> — 2020 - Present<br/>
-  I offer workshops that pair physical computing with "vibe coding". The classes provide a shared experience of building, and an introduction to working with software and code.</p>
+  I offer workshops pairing physical computing with "vibe coding". The classes provide a shared experience of building, and a foundation for working with software and code.</p>
 
   <p style="margin-left: 1.5em;"><b><a href="https://grayarea.org/course/the-analog-station-a-diy-creative-coding-iot-project/">The Analog Station</a></b><br/>
-  This a workshop-in-a-kit introduces soldering, AI coding and Arduino. Students build and take home a working audio meter / climate monitor.</p>
+  This a workshop-in-a-kit introduces soldering, AI coding and microcontrollers. Students build and take home a working audio meter / climate monitor.</p>
 
   <p style="margin-left: 1.5em;"><b><a href ="https://grayarea.org/course/the-everything-frame/">The Everything Frame</a></b><br/>
   An introduction to Raspberry Pi and the Linux command line; students build a fully configured wireless digital frame.</p>
@@ -73,5 +103,3 @@ subtitle: A personal site
   <hr>
 
   <p><small>See also: <a href = "https://www.heliocentricAF.org">Heliocentric AF</a>.</small></p>
-
-</div>
