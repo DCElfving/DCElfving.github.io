@@ -13,7 +13,7 @@ subtitle: A personal site
 
   <h2 style="clear: both;">Speaking</h2>
 
-  <p>In March of 2023, ChatGPT was announced. With an excitement I'd not felt since the early days of the internet, I immediately began exploring and teaching with it:
+  <p>In March of 2023, ChatGPT was announced. With excitement I'd not felt since the early days of the internet, I began exploring and teaching with it:
 
   <style>
     .speaking { margin-top: 1.5em; margin-bottom: 1.5em; }
@@ -77,13 +77,13 @@ subtitle: A personal site
 
   <p><b>California College of the Arts</b> — 2021 - 2026<br/>
   <b>Adjunct Professor II</b><br/>
-  I introduced new design majors to Interaction Design through two required courses. After this work, students were prepared for future projects.</p>
+  I introduced new design majors to Interaction Design through two core, required courses. After this work, students were prepared for future projects and classes.</p>
 
   <p style="margin-left: 1.5em;"><b>Core IXD: Foundations</b><br/>
   Introduces the fundamental concepts of interaction design: research, ideation and testing. Projects included redesigning the SF Muni ticket kiosk and analyzing qualitative user research with AI.</p>
 
   <p style="margin-left: 1.5em;"><b>Core IXD: Behavior</b><br/>
-  Considers how design is informed by human behavior. We discuss the ethics of design, understand how design can deceive and consider the responsible use of AI design tools. Projects included the development of an app for better sleep, and a final project using apps and connected devices to change habits.</p>
+  Considers how design is informed by human behavior. We discuss the ethics of design and consider the responsible use of AI design tools. Projects included developing an app for better sleep, and a final project using apps and connected devices to change habits.</p>
 
   <p><b>Gray Area</b> — 2020 - Present<br/>
   I offer workshops pairing physical computing with "vibe coding". The classes provide a shared experience of building, and a foundation for working with software and code.</p>
