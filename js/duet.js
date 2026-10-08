@@ -226,6 +226,7 @@
 						mouseDrag: false,
 						touchDrag: true,
 						pullDrag: false,
+						nav: true,
 						dots: true,
 						autoplay: false,
 						autoplayTimeout: 6000,
@@ -334,9 +335,114 @@
 				// Wrap in video container
 				$(this).wrapAll('<div class="video-wrap"><div class="video" style="padding-bottom:' + ratio + '%;"></div></div>');
 
+				// Flag portrait videos and pass their aspect ratio to the CSS
+				if ( ratio > 100 ) {
+					$(this).closest('.video-wrap').addClass('video-wrap--portrait')[0].style.setProperty('--video-ratio', width/height);
+				}
+
+				// Vimeo: background videos get a poster while loading; the rest a click-to-play cover
+				if ( $(this).attr('src').indexOf('vimeo') >= 0 ) {
+					if ( /[?&]background=1/.test( $(this).attr('src') ) ) {
+						vimeoPoster( $(this) );
+					}
+					else if ( !/[?&]autoplay=1/.test( $(this).attr('src') ) ) {
+						vimeoCover( $(this) );
+					}
+				}
+
 			}
 
 		});
+
+	}
+
+	// Get a Vimeo video's cover image: a local data-poster if set, otherwise Vimeo's thumbnail
+	function vimeoThumbnail( $iframe, done, fail ) {
+
+		var src = $iframe.attr('src');
+		var id = src.match(/video\/(\d+)/);
+		var hash = src.match(/[?&]h=([0-9a-f]+)/);
+
+		if ( $iframe.attr('data-poster') ) {
+			done( $iframe.attr('data-poster') );
+			return;
+		}
+
+		if ( !id ) {
+			if ( fail ) { fail(); }
+			return;
+		}
+
+		var pageUrl = 'https://vimeo.com/' + id[1] + ( hash ? '/' + hash[1] : '' );
+
+		$.getJSON('https://vimeo.com/api/oembed.json?width=1280&url=' + encodeURIComponent(pageUrl))
+			.done( function(data) {
+				if ( data.thumbnail_url ) {
+					done( data.thumbnail_url );
+				}
+			})
+			.fail( function() {
+				if ( fail ) { fail(); }
+			});
+
+	}
+
+	// Swap a Vimeo player for its thumbnail and a play button; load the player on click
+	function vimeoCover( $iframe ) {
+
+		var src = $iframe.attr('src');
+		var $cover = $('<button type="button" class="video__cover"></button>');
+		$cover.attr('aria-label', 'Play ' + ( $iframe.attr('title') || 'video' ));
+
+		// Detach the player so it stops loading, and show the cover in its place
+		$iframe.after($cover).detach();
+
+		// On click, put the player back and start it
+		$cover.on('click', function() {
+			$iframe.attr('src', src + ( src.indexOf('?') >= 0 ? '&' : '?' ) + 'autoplay=1');
+			$iframe.attr('allow', 'autoplay; ' + ( $iframe.attr('allow') || '' ));
+			$cover.replaceWith($iframe);
+		});
+
+		// Show the thumbnail; if there isn't one, fall back to the normal player
+		vimeoThumbnail( $iframe, function(url) {
+			$cover.css('background-image', 'url("' + url + '")');
+		}, function() {
+			$cover.replaceWith($iframe);
+		});
+
+	}
+
+	// Background videos: show the cover image behind a hidden player, and fade the
+	// player in once the video is actually playing
+	var vimeoApi;
+
+	function vimeoPoster( $iframe ) {
+
+		var $video = $iframe.parent().addClass('video--background video--loading');
+		var reveal = function() {
+			$video.removeClass('video--loading');
+		};
+
+		vimeoThumbnail( $iframe, function(url) {
+			$video.css('background-image', 'url("' + url + '")');
+		});
+
+		// Never leave the player hidden for long, whatever happens
+		setTimeout(reveal, 8000);
+
+		// Load Vimeo's player API once, then wait for the first frames
+		vimeoApi = vimeoApi || $.ajax({ url: 'https://player.vimeo.com/api/player.js', dataType: 'script', cache: true });
+
+		vimeoApi.done( function() {
+			var player = new window.Vimeo.Player( $iframe[0] );
+			player.on('timeupdate', function(data) {
+				if ( data.seconds > 0 ) {
+					reveal();
+					player.off('timeupdate');
+				}
+			});
+		}).fail(reveal);
 
 	}
 

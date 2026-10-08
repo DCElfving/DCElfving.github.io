@@ -41,8 +41,12 @@
 
 .gallery--carousel {
 
-	.gallery__wrap {
+	@include mq(tabletp) {
+		max-width: 70%;
+	}
 
+	.gallery__wrap {
+		position: relative;
 	}
 	
 	.gallery__item {
@@ -59,7 +63,64 @@
 	}
 
 	.owl-nav {
-		display: none;
+
+		.owl-prev,
+		.owl-next {
+			position: absolute;
+			// Centre on the image, not the image + dots below it
+			top: calc(50% - 16px);
+			transform: translateY(-50%);
+			z-index: 1;
+			width: 44px;
+			height: 44px;
+			border: 0;
+			border-radius: 100%;
+			background: rgba(255, 255, 255, 0.8);
+			padding: 0;
+			color: $text-dark-color;
+			// Hide Owl's ‹ › text glyphs; the chevron is drawn below so it centres exactly
+			font-size: 0;
+			@include transition(all 0.2s ease-in-out);
+			cursor: pointer;
+			outline: none;
+
+			&:before {
+				content: '';
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				width: 12px;
+				height: 12px;
+				border-top: 2px solid currentColor;
+				border-right: 2px solid currentColor;
+			}
+
+			&:hover {
+				background: $accent-color;
+				color: #fff;
+			}
+		}
+
+		.owl-prev {
+			left: 10px;
+
+			// Nudge right so the chevron's visual weight sits in the middle
+			&:before {
+				transform: translate(-30%, -50%) rotate(-135deg);
+			}
+		}
+
+		.owl-next {
+			right: 10px;
+
+			&:before {
+				transform: translate(-70%, -50%) rotate(45deg);
+			}
+		}
+
+		&.disabled {
+			display: none;
+		}
 	}
 
 	.owl-dots {

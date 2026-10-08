@@ -1,5 +1,5 @@
 ---
-order: 2
+order: 3
 title: 'Portraits'
 subtitle: 'Old Negatives and Machine Learning'
 #date: 2021-05-10
@@ -9,7 +9,7 @@ header-img: 'images/portraits/portraits_head.jpg'
 ---
 I created this installation with century old glass-plate negatives, face detection data gathered by Machine Learning, and handbuilt, unique sculptures.
 
-<iframe src="https://player.vimeo.com/video/591266418" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/591266418?background=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 I enjoy exploring the discrepancy between how we apprehend each other as humans, and how Machine Learning algorithms allow computers to "see" and recognize us.
 
