@@ -97,9 +97,14 @@
 		padding: 0;
 	}
 
+	// Underline every text link in content (paragraphs, headings, lists…),
+	// but not buttons, gallery image links or footnote markers
+	a:not(.button):not(.gallery__item__link):not(.footnote):not(.reversefootnote) {
+		border-bottom: 2px solid $accent-color;
+	}
+
 	p a {
 		font-weight: $bold-weight;
-		border-bottom: 2px solid $accent-color;
 	}
 
 	p .button {

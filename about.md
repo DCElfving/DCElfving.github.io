@@ -88,8 +88,8 @@ subtitle: A personal site
   <p><b>Workshops</b> — 2020 - Present<br/>
   At arts nonprofits like Gray Area and TIAT, I offer workshops pairing physical computing with "vibe coding". The classes provide a shared experience of building, and a foundation for working with software and code.</p>
 
-  <p style="margin-left: 1.5em;"><b><a href="https://www.aught.io/02-LED_panel">The LED Art Panel</a></b><br/>
-  With a 32x32 LED Matrix this workshop empowers students with three key skills: soldering, working with wireless microcontrollers, and setting up an AI coding environment. After building the default kit, strudents are encouraged to use it as a sandbox for their own experiments and learning.</p>
+  <p style="margin-left: 1.5em;"><b><a href="https://www.aught.io/project/02-LED_panel">The LED Art Panel</a></b><br/>
+  With a 32x32 LED Matrix this workshop empowers students with three key skills: soldering, working with wireless microcontrollers, and setting up an AI coding environment. After building the default kit, students are encouraged to use the platform as a sandbox for their own projects and learning.</p>
 
   <p style="margin-left: 1.5em;"><b><a href="https://grayarea.org/course/the-analog-station-a-diy-creative-coding-iot-project/">The Analog Station</a></b><br/>
   This a workshop-in-a-kit introduces soldering, AI coding and microcontrollers. Students build and take home a working audio meter / climate monitor.</p>

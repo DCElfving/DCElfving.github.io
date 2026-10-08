@@ -39,6 +39,10 @@ Sign up now!</a><br/><br/>
   <img src ="/images/LED/LED_gallery4.jpg"/>
 </div>
 
+<h3>Connect wirelessly with any device:</h3>
+<p>With a direct WiFi connnection to the frame, you can easily add images, adjust brightness, etc. Adventurous students might redesign the interface and add functionality...</p>
+<img src="/images/LED/LED_app.jpeg"/>
+
 <h3>All materials and tools provided!</h3>
 <p>Everything you need, from soldering irons to screwdrivers.
 <div class="gallery" data-columns="3">
