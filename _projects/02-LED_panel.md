@@ -16,11 +16,9 @@ header-img: ''
 <div style="text-align: center;">
 <h3>Saturday, 10/24 at <a href="https://www.tiat.place">TIAT</a></h3><br/><br/>
 <a href="https://luma.com/event/evt-KyuAnTRBFMD8HqI"
-class="luma-checkout--button"
-data-luma-action="checkout"
-data-luma-event-id="evt-KyuAnTRBFMD8HqI">
+class="button button--large"
+target="_blank" rel="noopener">
 Sign up now!</a><br/><br/>
-<script id="luma-checkout" src="https://embed.lu.ma/checkout-button.js"></script>
 </div>
 
 <h3>In this hands-on workshop (no experience needed!) you will:</h3>

@@ -85,8 +85,11 @@ subtitle: A personal site
   <p style="margin-left: 1.5em;"><b>Core IXD: Behavior</b><br/>
   Considers how design is informed by human behavior. We discuss the ethics of design and consider the responsible use of AI design tools. Projects included developing an app for better sleep, and a final project using apps and connected devices to change habits.</p>
 
-  <p><b>Gray Area</b> — 2020 - Present<br/>
-  I offer workshops pairing physical computing with "vibe coding". The classes provide a shared experience of building, and a foundation for working with software and code.</p>
+  <p><b>Workshops</b> — 2020 - Present<br/>
+  At arts nonprofits like Gray Area and TIAT, I offer workshops pairing physical computing with "vibe coding". The classes provide a shared experience of building, and a foundation for working with software and code.</p>
+
+  <p style="margin-left: 1.5em;"><b><a href="https://www.aught.io/02-LED_panel">The LED Art Panel</a></b><br/>
+  With a 32x32 LED Matrix this workshop empowers students with three key skills: soldering, working with wireless microcontrollers, and setting up an AI coding environment. After building the default kit, strudents are encouraged to use it as a sandbox for their own experiments and learning.</p>
 
   <p style="margin-left: 1.5em;"><b><a href="https://grayarea.org/course/the-analog-station-a-diy-creative-coding-iot-project/">The Analog Station</a></b><br/>
   This a workshop-in-a-kit introduces soldering, AI coding and microcontrollers. Students build and take home a working audio meter / climate monitor.</p>

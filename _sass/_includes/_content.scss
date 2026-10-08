@@ -30,6 +30,11 @@
 
 	margin-top: 0;
 
+	// Headings within content use the same line height as paragraphs
+	h1, h2, h3, h4, h5, h6 {
+		line-height: $p-lineheight;
+	}
+
 	h1, h2, h3, h4, h5, h6, p, ul, ol, .video-embed, .video-pair {
 		margin-left: auto;
 		margin-right: auto;
