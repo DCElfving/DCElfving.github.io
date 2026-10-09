@@ -3,7 +3,7 @@ order: 2
 title: 'LED Art Panel'
 subtitle: 'A luminous coding workshop.'
 #date: 2026-10-08
-description: ''
+description: 'Inspired by the work of Jim Campbell, this workshop teaches soldering, connecting a microcontroller to an LED matrix, and setup of hardware "vibe" coding environment. Saturday 10/24.'
 featured_image: '/images/LED/LED_hero.jpg'
 header-img: ''
 ---
@@ -11,9 +11,9 @@ header-img: ''
 <iframe src="https://player.vimeo.com/video/1233856140?background=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 <h2>You can build this LED Art Panel!</h2>
-<p>Inspired by the artwork of San Francisco's own <a href="https://www.jimcampbell.tv">Jim Campbell</a> (the prolific artist behind Salesforce Tower), this workshop will walk you through connecting a microcontroller to a 32x32 LED matrix and diffuser. Then, you'll learn how to wirelessly upload your own images, GIFs and custom light patterns. It's like having your own personal Salesforce Tower!</p>
+<p>Inspired by the work of <a href="https://www.jimcampbell.tv">Jim Campbell</a>, this workshop will teach you how to solder, connect a microcontroller to a 32x32 LED matrix, and setup a hardware "vibe" coding environment. It's like having your own Salesforce Tower!</p>
 
-<div style="text-align: center; margin-top: 60px;">
+<div style="text-align: center; margin-top: 30px;">
 <h3 style="margin-bottom: 15px;">Saturday, 10/24 at <a href="https://www.tiat.place">TIAT</a></h3>
 <a href="https://luma.com/event/evt-KyuAnTRBFMD8HqI"
 class="button button--large"
@@ -30,8 +30,8 @@ Sign up now!</a>
 <li>Enjoy learning and building with the TIAT community!</li>
 </ul>
 
-<h3>Display your own photos and animated GIFs:</h3>
-<p>Wirelessly upload your own content and projects from any browser.</p>
+<h3>Display your photos and animated GIFs:</h3>
+<p>Images are autimatically compressed to 32x32 pixels when sent to the panel.</p>
 <div class="gallery" data-columns="1">
   <img src ="/images/LED/LED_gallery1.jpg"/>
   <img src ="/images/LED/LED_gallery2.jpg"/>
@@ -40,7 +40,7 @@ Sign up now!</a>
 </div>
 
 <h3>Connect wirelessly with any device:</h3>
-<p>With a direct WiFi connnection to the panel, you can easily add images, adjust brightness and change timing. Adventurous students might redesign the interface entirely and new add functionality...</p>
+<p>With a direct WiFi connnection you can easily add images, adjust brightness and change timing. Adventurous tinkerers might redesign the interface entirely or add new functionality...</p>
 
 <div class="gallery gallery--small" data-columns="2">
 <img src="/images/LED/LED_ui.jpeg"/>	
@@ -58,7 +58,7 @@ Sign up now!</a>
   <img src="/images/LED/LED_6.jpeg"/>
 </div>
 
-<p>You'll take home the panel you build, along with a platform for learning and experimenting with hardware and AI. You can enjoy the LED art panel as it is, or use it as a sandbox for your own art projects, design explorations and AI experiments. Suitable for absolute beginners and seasoned tinkerers.</p>
+<p>You can enjoy the LED art panel as it is, but it's meant to be a sandbox for your own art projects, design explorations and AI experiments. It's a platform for absolute beginners and seasoned makers to explore working with hardware and creative code.</p>
 
 <h3>Digital effects and patterns:</h3>
 
@@ -75,9 +75,9 @@ Sign up now!</a>
     title="Second video title"></iframe>
 </div>
 
-<p>The workshop is available at two price points. ALL proceeds will go to TIAT to support its ongoing workshops and the teachers who make them possible. Those who enroll at the higher price will receive an exclusive black printed circuit board as a token of thanks.</p>
+<p>The workshop is available at two price points. All proceeds benefit TIAT to support its ongoing workshops and the teachers who make them possible. Those who enroll at the higher price will receive an exclusive black printed circuit board as a token of thanks.</p>
 
-<div style="text-align: center; margin-top: 60px;">
+<div style="text-align: center; margin-top: 30px;">
 <h3 style="margin-bottom: 15px;">Saturday, 10/24 at <a href="https://www.tiat.place">TIAT</a></h3>
 <a href="https://luma.com/event/evt-KyuAnTRBFMD8HqI"
 class="button button--large"
