@@ -27,6 +27,14 @@
 	visibility: visible;
 }
 
+// Smaller gallery (30% narrower) on tablet and up; full width on phones
+.gallery--small {
+
+	@include mq(tabletp) {
+		max-width: 63%;
+	}
+}
+
 .gallery__item {
 	position: relative;
 

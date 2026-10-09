@@ -2,7 +2,7 @@
 order: 2
 title: 'LED Art Panel'
 subtitle: 'A luminous coding workshop.'
-#date: 2021-05-10
+#date: 2026-10-08
 description: ''
 featured_image: '/images/LED/LED_hero.jpg'
 header-img: ''
@@ -11,14 +11,14 @@ header-img: ''
 <iframe src="https://player.vimeo.com/video/1233856140?background=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 <h2>You can build this LED Art Panel!</h2>
-<p>Inspired by the artwork of San Francisco's own <a href="https://www.jimcampbell.tv">Jim Campbell</a> (the prolific artist behind Salesforce Tower), this workshop will walk you through connecting a microcontroller to a 32x32 LED matrix and diffuser. Then, you'll learn how to wirelessly upload your own images, GIFs and custom light patterns. It's like having your own personal Salesforce Tower!<br/><br/></p>
+<p>Inspired by the artwork of San Francisco's own <a href="https://www.jimcampbell.tv">Jim Campbell</a> (the prolific artist behind Salesforce Tower), this workshop will walk you through connecting a microcontroller to a 32x32 LED matrix and diffuser. Then, you'll learn how to wirelessly upload your own images, GIFs and custom light patterns. It's like having your own personal Salesforce Tower!</p>
 
-<div style="text-align: center;">
-<h3>Saturday, 10/24 at <a href="https://www.tiat.place">TIAT</a></h3><br/><br/>
+<div style="text-align: center; margin-top: 60px;">
+<h3 style="margin-bottom: 15px;">Saturday, 10/24 at <a href="https://www.tiat.place">TIAT</a></h3>
 <a href="https://luma.com/event/evt-KyuAnTRBFMD8HqI"
 class="button button--large"
 target="_blank" rel="noopener">
-Sign up now!</a><br/><br/>
+Sign up now!</a>
 </div>
 
 <h3>In this hands-on workshop (no experience needed!) you will:</h3>
@@ -40,8 +40,12 @@ Sign up now!</a><br/><br/>
 </div>
 
 <h3>Connect wirelessly with any device:</h3>
-<p>With a direct WiFi connnection to the frame, you can easily add images, adjust brightness, etc. Adventurous students might redesign the interface and add functionality...</p>
+<p>With a direct WiFi connnection to the panel, you can easily add images, adjust brightness and change timing. Adventurous students might redesign the interface entirely and new add functionality...</p>
+
+<div class="gallery gallery--small" data-columns="2">
+<img src="/images/LED/LED_ui.jpeg"/>	
 <img src="/images/LED/LED_app.jpeg"/>
+</div>
 
 <h3>All materials and tools provided!</h3>
 <p>Everything you need, from soldering irons to screwdrivers.
@@ -72,3 +76,11 @@ Sign up now!</a><br/><br/>
 </div>
 
 <p>The workshop is available at two price points. ALL proceeds will go to TIAT to support its ongoing workshops and the teachers who make them possible. Those who enroll at the higher price will receive an exclusive black printed circuit board as a token of thanks.</p>
+
+<div style="text-align: center; margin-top: 60px;">
+<h3 style="margin-bottom: 15px;">Saturday, 10/24 at <a href="https://www.tiat.place">TIAT</a></h3>
+<a href="https://luma.com/event/evt-KyuAnTRBFMD8HqI"
+class="button button--large"
+target="_blank" rel="noopener">
+Sign up now!</a>
+</div>
