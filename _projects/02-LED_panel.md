@@ -1,7 +1,7 @@
 ---
 order: 2
 title: 'LED Art Panel'
-subtitle: 'A luminous coding workshop.'
+subtitle: 'A luminous coding workshop'
 #date: 2026-10-08
 description: 'Inspired by the work of Jim Campbell, this workshop teaches soldering, connecting a microcontroller to an LED matrix, and setup of hardware "vibe" coding environment. Saturday 10/24.'
 featured_image: '/images/LED/LED_hero.jpg'

@@ -10,10 +10,17 @@
 	<!-- Sharing previews (iMessage, Slack, social): header-img if set, otherwise the hero image -->
 	{% assign share_image = page.header-img | default: page.featured_image %}
 	{% assign share_description = page.subtitle | default: page.description %}
+	{% comment %} Apple Messages only shows the title, so fold the subtitle into it {% endcomment %}
+	{% if page.subtitle != blank %}
+		{% assign share_title = page.title | append: ': ' | append: page.subtitle %}
+	{% else %}
+		{% assign share_title = page.title %}
+	{% endif %}
 	<meta property='og:type' content='website' />
 	<meta property='og:site_name' content='{{ site.data.settings.basic_settings.site_title }}' />
-	<meta property='og:title' content='{{ page.title | escape }}' />
-	{% if share_description %}<meta property='og:description' content='{{ share_description | strip_html | escape }}' />{% endif %}
+	<meta property='og:title' content='{{ share_title | strip_html | escape }}' />
+	{% comment %} Only a separate description, so apps that show it don't repeat the subtitle {% endcomment %}
+	{% if page.description != blank %}<meta property='og:description' content='{{ page.description | strip_html | escape }}' />{% endif %}
 	<meta property='og:url' content='{{ page.url | absolute_url }}' />
 	{% if share_image %}
 	<meta property='og:image' content='{{ share_image | absolute_url }}' />
