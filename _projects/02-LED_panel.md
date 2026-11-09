@@ -3,7 +3,7 @@ order: 2
 title: 'LED Art Panel'
 subtitle: 'A luminous coding workshop'
 #date: 2026-10-08
-description: 'Inspired by the work of Jim Campbell, this workshop teaches soldering, connecting a microcontroller to an LED matrix, and setup of hardware "vibe" coding environment. Saturday 10/24.'
+description: 'Inspired by the work of Jim Campbell, this workshop teaches soldering, connecting a microcontroller to an LED matrix, and setup of hardware "vibe" coding environment.'
 featured_image: '/images/LED/LED_hero.jpg'
 header-img: ''
 ---
@@ -13,14 +13,6 @@ header-img: ''
 <h2>You can build this LED Art Panel!</h2>
 <p>Inspired by the work of <a href="https://www.jimcampbell.tv">Jim Campbell</a>, this workshop will teach you how to solder, connect a microcontroller to a 32x32 LED matrix, and setup a hardware "vibe" coding environment. It's like having your own Salesforce Tower!</p>
 
-<div style="text-align: center; margin-top: 30px;">
-<h3 style="margin-bottom: 15px;">Saturday, 10/24 at <a href="https://www.tiat.place">TIAT</a></h3>
-<a href="https://luma.com/event/evt-KyuAnTRBFMD8HqI"
-class="button button--large"
-target="_blank" rel="noopener">
-Sign up now!</a>
-</div>
-
 <h3>In this hands-on workshop (no experience needed!) you will:</h3>
 <ul>
 <li>Learn how to solder!</li>
@@ -29,6 +21,20 @@ Sign up now!</a>
 <li>Get an introduction to vibe-coding hardware with AI</li>
 <li>Enjoy learning and building with the TIAT community!</li>
 </ul>
+
+<h3>From the workshop:</h3>
+<p>Soldering, assembling, and coding at TIAT.</p>
+<div class="gallery" data-columns="3">
+  <img src="/images/LED/LED_workshop_classroom.jpg" alt="Participants coding with their glowing panels while the project's GitHub page is projected"/>
+  <img src="/images/LED/LED_workshop_talk.jpg" alt="Introducing the project to the group"/>
+  <img src="/images/LED/LED_workshop_frame_demo.jpg" alt="Showing the backplate with an LED panel mounted in it"/>
+  <img src="/images/LED/LED_workshop_soldering.jpg" alt="Soldering demonstration on the LED Art Panel PCB"/>
+  <img src="/images/LED/LED_workshop_frames.jpg" alt="Walking through the laser-cut frame with the group"/>
+  <img src="/images/LED/LED_workshop_assembly_help.jpg" alt="Helping a participant fit the LED panel into the backplate"/>
+  <img src="/images/LED/LED_workshop_assembling.jpg" alt="Two participants mounting LED panels into their backplates"/>
+  <img src="/images/LED/LED_workshop_power_cable.jpg" alt="Connecting the power cable to the back of the LED panel"/>
+  <img src="/images/LED/LED_workshop_finished_panel.jpg" alt="A participant with a finished panel running a generative effect"/>
+</div>
 
 <h3>Display your photos and animated GIFs:</h3>
 <p>Images are autimatically compressed to 32x32 pixels when sent to the panel.</p>
@@ -58,6 +64,9 @@ Sign up now!</a>
   <img src="/images/LED/LED_6.jpeg"/>
 </div>
 
+<h3>The hardware:</h3>
+<p>A USB-C ESP32 plugs into a custom PCB that connects to a P6 32x32 LED panel. The panel sits in a ¼" acrylic backplate behind a ⅛" frosted acrylic diffuser, held by spring-loaded thumb nuts, with an optional wooden stand. See the full <a href="https://github.com/DCElfving/LED_Art_Panel/blob/main/BOM.md">bill of materials</a>.</p>
+
 <p>You can enjoy the LED art panel as it is, but it's meant to be a sandbox for your own art projects, design explorations and AI experiments. It's a platform for absolute beginners and seasoned makers to explore working with hardware and creative code.</p>
 
 <h3>Digital effects and patterns:</h3>
@@ -75,12 +84,11 @@ Sign up now!</a>
     title="Second video title"></iframe>
 </div>
 
-<p>The workshop is available at two price points. All proceeds benefit TIAT to support its ongoing workshops and the teachers who make them possible. Those who enroll at the higher price will receive an exclusive black printed circuit board as a token of thanks.</p>
-
-<div style="text-align: center; margin-top: 30px;">
-<h3 style="margin-bottom: 15px;">Saturday, 10/24 at <a href="https://www.tiat.place">TIAT</a></h3>
-<a href="https://luma.com/event/evt-KyuAnTRBFMD8HqI"
-class="button button--large"
-target="_blank" rel="noopener">
-Sign up now!</a>
-</div>
+<h3>Free and open source:</h3>
+<p>Everything is free on <a href="https://github.com/DCElfving/LED_Art_Panel">GitHub</a>: the code, PCB design, laser-cut templates, bill of materials and step-by-step instructions. It's released into the public domain (<a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>), so no permission is needed. You're encouraged to:</p>
+<ul>
+<li>Build your own panel</li>
+<li>Offer your own workshop</li>
+<li>Share it with others</li>
+<li>Remix it into projects of your own</li>
+</ul>
