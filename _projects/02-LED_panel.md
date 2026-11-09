@@ -65,7 +65,7 @@ header-img: ''
 </div>
 
 <h3>The hardware:</h3>
-<p>A USB-C ESP32 plugs into a custom PCB that connects to a P6 32x32 LED panel. The panel sits in a ¼" acrylic backplate behind a ⅛" frosted acrylic diffuser, held by spring-loaded thumb nuts, with an optional wooden stand. See the full <a href="https://github.com/DCElfving/LED_Art_Panel/blob/main/BOM.md">bill of materials</a>.</p>
+<p>A USB-C ESP32 plugs into a custom PCB that mounts directly onto the HUB75 socket of a P6 32x32 LED panel. The panel sits in a ¼" acrylic backplate behind a ⅛" frosted acrylic diffuser, held by spring-loaded thumb nuts, with an optional wooden stand. See the full <a href="https://github.com/DCElfving/LED_Art_Panel/blob/main/BOM.md">bill of materials</a>.</p>
 
 <p>You can enjoy the LED art panel as it is, but it's meant to be a sandbox for your own art projects, design explorations and AI experiments. It's a platform for absolute beginners and seasoned makers to explore working with hardware and creative code.</p>
 
@@ -84,8 +84,8 @@ header-img: ''
     title="Second video title"></iframe>
 </div>
 
-<h3>Free and open source:</h3>
-<p>Everything is free on <a href="https://github.com/DCElfving/LED_Art_Panel">GitHub</a>: the code, PCB design, laser-cut templates, bill of materials and step-by-step instructions. It's released into the public domain (<a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>), so no permission is needed. You're encouraged to:</p>
+<h3>Open source:</h3>
+<p>Everything is open source and available to anyone on <a href="https://github.com/DCElfving/LED_Art_Panel">GitHub</a>: the code, PCB design, laser-cut templates, bill of materials and step-by-step instructions. It's released into the public domain (<a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>), so no permission is needed. You're encouraged to:</p>
 <ul>
 <li>Build your own panel</li>
 <li>Offer your own workshop</li>
