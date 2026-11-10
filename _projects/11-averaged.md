@@ -1,5 +1,5 @@
 ---
-order: 11
+order: 12
 title: 'Averaged'
 subtitle: 'Stacked Images of Everyday Things'
 #date: 2021-05-11

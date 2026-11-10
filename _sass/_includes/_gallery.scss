@@ -156,6 +156,16 @@
 
 
 
+// Several images per slide (data-per-slide): use the full gallery width
+.gallery--carousel.gallery--carousel-multi {
+
+	@include mq(tabletp) {
+		max-width: 90%;
+	}
+}
+
+
+
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Grid
 
 .gallery--grid {

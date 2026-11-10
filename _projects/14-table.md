@@ -1,5 +1,5 @@
 ---
-order: 12
+order: 13
 title: 'Stretcher Table'
 subtitle: 'A first foray into fine furniture'
 #date: 2021-05-11

@@ -4,27 +4,31 @@ title: 'LED Art Panel'
 subtitle: 'A luminous coding workshop'
 #date: 2026-10-08
 description: 'Inspired by the work of Jim Campbell, this workshop teaches soldering, connecting a microcontroller to an LED matrix, and setup of hardware "vibe" coding environment.'
-featured_image: '/images/LED/LED_hero.jpg'
+featured_image: '/images/LED/LED_hero_teaching.jpg'
 header-img: ''
 ---
 
 <iframe src="https://player.vimeo.com/video/1233856140?background=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 <h2>You can build this LED Art Panel!</h2>
-<p>Inspired by the work of <a href="https://www.jimcampbell.tv">Jim Campbell</a>, this workshop will teach you how to solder, connect a microcontroller to a 32x32 LED matrix, and setup a hardware "vibe" coding environment. It's like having your own Salesforce Tower!</p>
+<p>Inspired by the work of <a href="https://www.jimcampbell.tv">Jim Campbell</a>, this workshop teaches participants how to solder, connect a microcontroller to a 32x32 LED matrix, and set up a hardware "vibe" coding environment. It's like having your own Salesforce Tower!</p>
 
-<h3>In this hands-on workshop (no experience needed!) you will:</h3>
+<p>The overall goal of the project is to serve as an onramp to creating with hardware, code and AI. It addresses the hurdles of soldering, setting up an AI/Arduino coding environment, and finding methods for getting the most out of AI collaboration.</p>
+
+<h3>In this hands-on workshop (no experience needed!) participants:</h3>
 <ul>
 <li>Learn how to solder!</li>
 <li>Get to know microcontrollers like the ESP32</li>
-<li>Build a unique lo-res display for your photos and GIFs</li>
+<li>Build a unique lo-res display for their photos and GIFs</li>
 <li>Get an introduction to vibe-coding hardware with AI</li>
-<li>Enjoy learning and building with the TIAT community!</li>
+<li>Learn and build alongside the TIAT community!</li>
 </ul>
+
+<p>More importantly, participants take home the panel they build, along with a platform for learning and experimenting with hardware and AI. They can enjoy the LED art panel as it is, or use it as a sandbox for their own art projects, design explorations and AI experiments. It's a platform for absolute beginners and seasoned makers alike.</p>
 
 <h3>From the workshop:</h3>
 <p>Soldering, assembling, and coding at TIAT.</p>
-<div class="gallery" data-columns="3">
+<div class="gallery" data-columns="1" data-per-slide="3">
   <img src="/images/LED/LED_workshop_classroom.jpg" alt="Participants coding with their glowing panels while the project's GitHub page is projected"/>
   <img src="/images/LED/LED_workshop_talk.jpg" alt="Introducing the project to the group"/>
   <img src="/images/LED/LED_workshop_frame_demo.jpg" alt="Showing the backplate with an LED panel mounted in it"/>
@@ -37,7 +41,7 @@ header-img: ''
 </div>
 
 <h3>Display your photos and animated GIFs:</h3>
-<p>Images are autimatically compressed to 32x32 pixels when sent to the panel.</p>
+<p>Images are automatically compressed to 32x32 pixels when sent to the panel.</p>
 <div class="gallery" data-columns="1">
   <img src ="/images/LED/LED_gallery1.jpg"/>
   <img src ="/images/LED/LED_gallery2.jpg"/>
@@ -46,15 +50,15 @@ header-img: ''
 </div>
 
 <h3>Connect wirelessly with any device:</h3>
-<p>With a direct WiFi connnection you can easily add images, adjust brightness and change timing. Adventurous tinkerers might redesign the interface entirely or add new functionality...</p>
+<p>With a direct WiFi connection you can easily add images, adjust brightness and change timing. Adventurous tinkerers might redesign the interface entirely or add new functionality...</p>
 
 <div class="gallery gallery--small" data-columns="2">
 <img src="/images/LED/LED_ui.jpeg"/>	
 <img src="/images/LED/LED_app.jpeg"/>
 </div>
 
-<h3>All materials and tools provided!</h3>
-<p>Everything you need, from soldering irons to screwdrivers.
+<h3>All materials and tools provided:</h3>
+<p>Everything participants need, from soldering irons to screwdrivers.</p>
 <div class="gallery" data-columns="3">
   <img src="/images/LED/LED_1.jpeg"/>
   <img src="/images/LED/LED_2.jpeg"/>
@@ -67,11 +71,9 @@ header-img: ''
 <h3>The hardware:</h3>
 <p>A USB-C ESP32 plugs into a custom PCB that mounts directly onto the HUB75 socket of a P6 32x32 LED panel. The panel sits in a ¼" acrylic backplate behind a ⅛" frosted acrylic diffuser, held by spring-loaded thumb nuts, with an optional wooden stand. See the full <a href="https://github.com/DCElfving/LED_Art_Panel/blob/main/BOM.md">bill of materials</a>.</p>
 
-<p>You can enjoy the LED art panel as it is, but it's meant to be a sandbox for your own art projects, design explorations and AI experiments. It's a platform for absolute beginners and seasoned makers to explore working with hardware and creative code.</p>
-
 <h3>Digital effects and patterns:</h3>
 
-<p>Learn how to create your own patterns like these with an introduction to coding with AI.</p>
+<p>The workshop introduces coding with AI, so participants can create their own patterns like these.</p>
 
 <div class="video-pair">
   <iframe src="https://player.vimeo.com/video/1233863216?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;vimeo_logo=0&amp;play_button_position=center&amp;progress_bar=0&amp;speed=0&amp;pip=0&amp;airplay=0&amp;chromecast=0&amp;quality_selector=0&amp;transcript=0&amp;cc=0&amp;dnt=1"

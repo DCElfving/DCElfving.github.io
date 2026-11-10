@@ -219,8 +219,8 @@
 					// Add owl styles to gallery wrap
 					$this.children('.gallery__wrap').addClass('owl-carousel');
 
-					// Use carousel
-					$this.children('.gallery__wrap').owlCarousel({
+					// Carousel options
+					var owlOptions = {
 						items: 1,
 						loop: true,
 						mouseDrag: false,
@@ -232,7 +232,26 @@
 						autoplayTimeout: 6000,
 						autoHeight: true,
 						animateOut: 'fadeOut'
-					});
+					};
+
+					// data-per-slide="3": show several images per slide (2 on phones),
+					// paging a full set at a time. Keep js/duet-min.js in step with this.
+					var perSlide = parseInt($this.attr('data-per-slide'), 10) || 1;
+					if ( perSlide > 1 ) {
+						$this.addClass('gallery--carousel-multi');
+						owlOptions.items = perSlide;
+						owlOptions.margin = 12;
+						owlOptions.slideBy = 'page';
+						owlOptions.autoHeight = false;
+						owlOptions.responsive = {
+							0: { items: Math.min(2, perSlide) },
+							768: { items: perSlide }
+						};
+						delete owlOptions.animateOut;   // fade only works one image at a time
+					}
+
+					// Use carousel
+					$this.children('.gallery__wrap').owlCarousel(owlOptions);
 
 					// When scrolling over the bottom
 					var waypoint1 = new Waypoint({

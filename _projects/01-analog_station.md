@@ -1,11 +1,11 @@
 ---
-order: 4
+order: 3
 title: 'Analog Station'
 subtitle: 'A Creative Coding Workshop'
 #date: 2025-12-08
 description: 'A workshop for beginners, The Analog Station provides and introduction to micro-controllers, sensors, programming and hands-on soldering skills. All with a warm, analog glow!'
-featured_image: '/images/analog_station/analog_hero.jpg'
-header-img: 'images/analog_station/analog_hero.jpg'
+featured_image: '/images/analog_station/analog_hero_teaching.jpg'
+header-img: 'images/analog_station/analog_hero_teaching.jpg'
 ---
 
 A workshop for beginners, <em>The Analog Station</em> introduces micro-controllers, sensors, hands-on soldering skills, and an intro to hardware coding with AI. Students take away a fun internet-of-things device <strong>they built themselves!</strong>
